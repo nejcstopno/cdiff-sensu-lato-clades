@@ -1,0 +1,616 @@
+pfam,domain,category,clade,n_genomes,observed_mean,prevalence,rarefied_mean,rarefied_sd
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,Cds_C1-C4,236,1.004,1.0,1.017,0.051
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC11,2,1.0,1.0,,
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC12,2,1.0,1.0,,
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC13,1,1.0,1.0,,
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF08769,Spo0A_C (sporulation master regulator),Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,Cds_C1-C4,236,2.004,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,Cds_C5,19,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC1,50,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC10,6,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC11,2,2.0,1.0,,
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC12,2,2.0,1.0,,
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC13,1,2.0,1.0,,
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC2,49,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC3,29,2.034,1.0,2.033,0.067
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC4,17,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC5,12,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC6,12,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC7,10,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC8,8,2.0,1.0,2.0,0.0
+PF01740,STAS/SpoIIAA anti-sigma antagonist,Sporulation,DC9,7,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,Cds_C1-C4,236,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,Cds_C5,19,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC1,50,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC10,6,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC11,2,2.0,1.0,,
+PF07228,SpoIIE phosphatase,Sporulation,DC12,2,2.0,1.0,,
+PF07228,SpoIIE phosphatase,Sporulation,DC13,1,2.0,1.0,,
+PF07228,SpoIIE phosphatase,Sporulation,DC2,49,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC3,29,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC4,17,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC5,12,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC6,12,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC7,10,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC8,8,2.0,1.0,2.0,0.0
+PF07228,SpoIIE phosphatase,Sporulation,DC9,7,2.0,1.0,2.0,0.0
+PF08486,SpoIID engulfment,Sporulation,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC11,2,1.0,1.0,,
+PF08486,SpoIID engulfment,Sporulation,DC12,2,1.0,1.0,,
+PF08486,SpoIID engulfment,Sporulation,DC13,1,1.0,1.0,,
+PF08486,SpoIID engulfment,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF08486,SpoIID engulfment,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,Cds_C1-C4,236,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,Cds_C5,19,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC1,50,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC10,6,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC11,2,2.0,1.0,,
+PF06686,SpoIIIAC/AD,Sporulation,DC12,2,2.0,1.0,,
+PF06686,SpoIIIAC/AD,Sporulation,DC13,1,2.0,1.0,,
+PF06686,SpoIIIAC/AD,Sporulation,DC2,49,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC3,29,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC4,17,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC5,12,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC6,12,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC7,10,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC8,8,2.0,1.0,2.0,0.0
+PF06686,SpoIIIAC/AD,Sporulation,DC9,7,2.0,1.0,2.0,0.0
+PF12116,SpoIIID,Sporulation,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC11,2,1.0,1.0,,
+PF12116,SpoIIID,Sporulation,DC12,2,1.0,1.0,,
+PF12116,SpoIIID,Sporulation,DC13,1,1.0,1.0,,
+PF12116,SpoIIID,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF12116,SpoIIID,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC11,2,1.0,1.0,,
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC12,2,1.0,1.0,,
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC13,1,1.0,1.0,,
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC2,49,0.98,0.98,0.98,0.055
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF03419,SpoIIGA (pro-sigmaE protease),Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,Cds_C1-C4,236,2.004,1.0,2.01,0.071
+PF03862,SpoVAC/AEB,Sporulation,Cds_C5,19,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC1,50,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC10,6,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC11,2,2.0,1.0,,
+PF03862,SpoVAC/AEB,Sporulation,DC12,2,2.0,1.0,,
+PF03862,SpoVAC/AEB,Sporulation,DC13,1,2.0,1.0,,
+PF03862,SpoVAC/AEB,Sporulation,DC2,49,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC3,29,2.069,1.0,2.073,0.139
+PF03862,SpoVAC/AEB,Sporulation,DC4,17,2.059,1.0,2.067,0.082
+PF03862,SpoVAC/AEB,Sporulation,DC5,12,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC6,12,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC7,10,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC8,8,2.0,1.0,2.0,0.0
+PF03862,SpoVAC/AEB,Sporulation,DC9,7,2.0,1.0,2.0,0.0
+PF07451,SpoVAD,Sporulation,Cds_C1-C4,236,1.004,1.0,1.007,0.033
+PF07451,SpoVAD,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC11,2,1.0,1.0,,
+PF07451,SpoVAD,Sporulation,DC12,2,1.0,1.0,,
+PF07451,SpoVAD,Sporulation,DC13,1,1.0,1.0,,
+PF07451,SpoVAD,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC3,29,1.034,1.0,1.027,0.062
+PF07451,SpoVAD,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF07451,SpoVAD,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC11,2,1.0,1.0,,
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC12,2,1.0,1.0,,
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC13,1,1.0,1.0,,
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF16924,DpaA dipicolinate synthase A,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF00269,SASP alpha/beta,Sporulation,Cds_C1-C4,236,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,Cds_C5,19,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC1,50,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC10,6,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC11,2,3.0,1.0,,
+PF00269,SASP alpha/beta,Sporulation,DC12,2,3.0,1.0,,
+PF00269,SASP alpha/beta,Sporulation,DC13,1,3.0,1.0,,
+PF00269,SASP alpha/beta,Sporulation,DC2,49,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC3,29,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC4,17,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC5,12,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC6,12,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC7,10,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC8,8,3.0,1.0,3.0,0.0
+PF00269,SASP alpha/beta,Sporulation,DC9,7,3.0,1.0,3.0,0.0
+PF11007,CotJA,Sporulation,Cds_C1-C4,236,2.0,1.0,2.0,0.0
+PF11007,CotJA,Sporulation,Cds_C5,19,2.0,1.0,2.0,0.0
+PF11007,CotJA,Sporulation,DC1,50,1.98,1.0,1.983,0.051
+PF11007,CotJA,Sporulation,DC10,6,2.167,1.0,2.167,0.0
+PF11007,CotJA,Sporulation,DC11,2,1.0,1.0,,
+PF11007,CotJA,Sporulation,DC12,2,2.0,1.0,,
+PF11007,CotJA,Sporulation,DC13,1,2.0,1.0,,
+PF11007,CotJA,Sporulation,DC2,49,1.163,1.0,1.18,0.134
+PF11007,CotJA,Sporulation,DC3,29,2.0,1.0,2.0,0.0
+PF11007,CotJA,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF11007,CotJA,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF11007,CotJA,Sporulation,DC6,12,1.583,1.0,1.603,0.13
+PF11007,CotJA,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF11007,CotJA,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF11007,CotJA,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,Cds_C1-C4,236,1.0,0.996,1.007,0.033
+PF08757,CotH kinase,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC10,6,0.667,0.667,0.667,0.0
+PF08757,CotH kinase,Sporulation,DC11,2,1.0,1.0,,
+PF08757,CotH kinase,Sporulation,DC12,2,1.0,1.0,,
+PF08757,CotH kinase,Sporulation,DC13,1,1.0,1.0,,
+PF08757,CotH kinase,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF08757,CotH kinase,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC11,2,1.0,1.0,,
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC12,2,1.0,1.0,,
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC13,1,1.0,1.0,,
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF12655,Spore surface protein CDIF630_02480,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC11,2,1.0,1.0,,
+PF05582,YabG sporulation protease,Sporulation,DC12,2,1.0,1.0,,
+PF05582,YabG sporulation protease,Sporulation,DC13,1,1.0,1.0,,
+PF05582,YabG sporulation protease,Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF05582,YabG sporulation protease,Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,Cds_C1-C4,236,0.992,0.992,0.99,0.04
+PF10646,Germane (sporulation/germination),Sporulation,Cds_C5,19,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC1,50,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC10,6,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC11,2,1.0,1.0,,
+PF10646,Germane (sporulation/germination),Sporulation,DC12,2,1.0,1.0,,
+PF10646,Germane (sporulation/germination),Sporulation,DC13,1,1.0,1.0,,
+PF10646,Germane (sporulation/germination),Sporulation,DC2,49,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC3,29,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC4,17,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC5,12,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC6,12,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC7,10,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC8,8,1.0,1.0,1.0,0.0
+PF10646,Germane (sporulation/germination),Sporulation,DC9,7,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,Cds_C5,19,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC1,50,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC10,6,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC11,2,1.0,1.0,,
+PF03418,Gpr germination protease,Germination,DC12,2,1.0,1.0,,
+PF03418,Gpr germination protease,Germination,DC13,1,1.0,1.0,,
+PF03418,Gpr germination protease,Germination,DC2,49,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC3,29,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC4,17,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC5,12,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC6,12,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC7,10,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC8,8,1.0,1.0,1.0,0.0
+PF03418,Gpr germination protease,Germination,DC9,7,1.0,1.0,1.0,0.0
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,Cds_C1-C4,236,4.869,1.0,4.917,0.257
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,Cds_C5,19,5.158,1.0,5.23,0.308
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC1,50,4.04,1.0,4.03,0.073
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC10,6,5.333,1.0,5.333,0.0
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC11,2,5.0,1.0,,
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC12,2,4.5,1.0,,
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC13,1,5.0,1.0,,
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC2,49,4.184,1.0,4.21,0.154
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC3,29,5.379,1.0,5.32,0.435
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC4,17,5.0,1.0,5.03,0.171
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC5,12,4.167,1.0,4.15,0.123
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC6,12,4.667,1.0,4.66,0.301
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC7,10,4.3,1.0,4.307,0.103
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC8,8,4.75,1.0,4.77,0.142
+PF00082,Peptidase S8 subtilase (CspBAC-type),Germination,DC9,7,4.143,1.0,4.143,0.058
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,Cds_C5,19,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC1,50,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC10,6,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC11,2,1.0,1.0,,
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC12,2,1.0,1.0,,
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC13,1,1.0,1.0,,
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC2,49,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC3,29,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC4,17,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC5,12,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC6,12,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC7,10,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC8,8,1.0,1.0,1.0,0.0
+PF07486,Hydrolase_2 cell-wall hydrolase (SleB/SleC-type),Germination,DC9,7,1.0,1.0,1.0,0.0
+PF01520,Amidase_3,Germination,Cds_C1-C4,236,10.449,1.0,10.42,0.463
+PF01520,Amidase_3,Germination,Cds_C5,19,11.368,1.0,11.34,0.583
+PF01520,Amidase_3,Germination,DC1,50,13.02,1.0,12.99,0.543
+PF01520,Amidase_3,Germination,DC10,6,11.0,1.0,11.0,0.0
+PF01520,Amidase_3,Germination,DC11,2,10.0,1.0,,
+PF01520,Amidase_3,Germination,DC12,2,10.5,1.0,,
+PF01520,Amidase_3,Germination,DC13,1,11.0,1.0,,
+PF01520,Amidase_3,Germination,DC2,49,13.265,1.0,13.247,0.649
+PF01520,Amidase_3,Germination,DC3,29,10.759,1.0,10.703,0.493
+PF01520,Amidase_3,Germination,DC4,17,14.706,1.0,14.713,0.54
+PF01520,Amidase_3,Germination,DC5,12,13.083,1.0,13.117,0.654
+PF01520,Amidase_3,Germination,DC6,12,13.25,1.0,13.29,0.43
+PF01520,Amidase_3,Germination,DC7,10,13.5,1.0,13.493,0.621
+PF01520,Amidase_3,Germination,DC8,8,12.375,1.0,12.4,0.385
+PF01520,Amidase_3,Germination,DC9,7,13.714,1.0,13.713,0.122
+PF00199,Catalase (haem),Oxidative stress,Cds_C1-C4,236,0.0,0.0,0.0,0.0
+PF00199,Catalase (haem),Oxidative stress,Cds_C5,19,0.0,0.0,0.0,0.0
+PF00199,Catalase (haem),Oxidative stress,DC1,50,0.02,0.02,0.023,0.058
+PF00199,Catalase (haem),Oxidative stress,DC10,6,0.0,0.0,0.0,0.0
+PF00199,Catalase (haem),Oxidative stress,DC11,2,1.0,1.0,,
+PF00199,Catalase (haem),Oxidative stress,DC12,2,0.0,0.0,,
+PF00199,Catalase (haem),Oxidative stress,DC13,1,0.0,0.0,,
+PF00199,Catalase (haem),Oxidative stress,DC2,49,0.0,0.0,0.0,0.0
+PF00199,Catalase (haem),Oxidative stress,DC3,29,0.0,0.0,0.0,0.0
+PF00199,Catalase (haem),Oxidative stress,DC4,17,0.0,0.0,0.0,0.0
+PF00199,Catalase (haem),Oxidative stress,DC5,12,0.833,0.833,0.83,0.109
+PF00199,Catalase (haem),Oxidative stress,DC6,12,0.25,0.25,0.26,0.122
+PF00199,Catalase (haem),Oxidative stress,DC7,10,0.5,0.5,0.467,0.161
+PF00199,Catalase (haem),Oxidative stress,DC8,8,0.5,0.5,0.497,0.092
+PF00199,Catalase (haem),Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF05067,Mn-catalase,Oxidative stress,Cds_C1-C4,236,3.992,1.0,3.993,0.075
+PF05067,Mn-catalase,Oxidative stress,Cds_C5,19,4.0,1.0,4.0,0.0
+PF05067,Mn-catalase,Oxidative stress,DC1,50,3.04,1.0,3.057,0.104
+PF05067,Mn-catalase,Oxidative stress,DC10,6,4.167,1.0,4.167,0.0
+PF05067,Mn-catalase,Oxidative stress,DC11,2,3.0,1.0,,
+PF05067,Mn-catalase,Oxidative stress,DC12,2,3.5,1.0,,
+PF05067,Mn-catalase,Oxidative stress,DC13,1,4.0,1.0,,
+PF05067,Mn-catalase,Oxidative stress,DC2,49,2.163,1.0,2.167,0.151
+PF05067,Mn-catalase,Oxidative stress,DC3,29,4.0,1.0,4.0,0.0
+PF05067,Mn-catalase,Oxidative stress,DC4,17,2.412,1.0,2.407,0.143
+PF05067,Mn-catalase,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF05067,Mn-catalase,Oxidative stress,DC6,12,3.333,1.0,3.277,0.271
+PF05067,Mn-catalase,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF05067,Mn-catalase,Oxidative stress,DC8,8,1.875,1.0,1.887,0.198
+PF05067,Mn-catalase,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC11,2,1.0,1.0,,
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC12,2,1.0,1.0,,
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC13,1,1.0,1.0,,
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC3,29,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF00081,Fe/Mn superoxide dismutase (N),Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC11,2,1.0,1.0,,
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC12,2,1.0,1.0,,
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC13,1,1.0,1.0,,
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC3,29,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF02777,Fe/Mn superoxide dismutase (C),Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,Cds_C1-C4,236,1.0,0.996,0.997,0.024
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC11,2,1.0,1.0,,
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC12,2,1.0,1.0,,
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC13,1,1.0,1.0,,
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC3,29,1.034,1.0,1.027,0.062
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF01880,Desulfoferrodoxin (superoxide reductase),Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,Cds_C1-C4,236,0.992,0.987,0.993,0.058
+PF06397,Desulfoferrodoxin N,Oxidative stress,Cds_C5,19,0.947,0.947,0.947,0.079
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC1,50,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC11,2,0.0,0.0,,
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC12,2,0.0,0.0,,
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC13,1,1.0,1.0,,
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC2,49,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC3,29,1.034,1.0,1.033,0.067
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC4,17,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC5,12,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC6,12,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC7,10,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC8,8,0.0,0.0,0.0,0.0
+PF06397,Desulfoferrodoxin N,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF02915,Rubrerythrin,Oxidative stress,Cds_C1-C4,236,3.877,1.0,3.913,0.14
+PF02915,Rubrerythrin,Oxidative stress,Cds_C5,19,4.0,1.0,4.0,0.0
+PF02915,Rubrerythrin,Oxidative stress,DC1,50,3.92,1.0,3.903,0.147
+PF02915,Rubrerythrin,Oxidative stress,DC10,6,4.0,1.0,4.0,0.0
+PF02915,Rubrerythrin,Oxidative stress,DC11,2,3.0,1.0,,
+PF02915,Rubrerythrin,Oxidative stress,DC12,2,4.0,1.0,,
+PF02915,Rubrerythrin,Oxidative stress,DC13,1,4.0,1.0,,
+PF02915,Rubrerythrin,Oxidative stress,DC2,49,4.98,1.0,4.99,0.04
+PF02915,Rubrerythrin,Oxidative stress,DC3,29,4.0,1.0,3.997,0.114
+PF02915,Rubrerythrin,Oxidative stress,DC4,17,4.824,1.0,4.84,0.126
+PF02915,Rubrerythrin,Oxidative stress,DC5,12,5.0,1.0,5.0,0.0
+PF02915,Rubrerythrin,Oxidative stress,DC6,12,4.167,1.0,4.167,0.168
+PF02915,Rubrerythrin,Oxidative stress,DC7,10,4.9,1.0,4.903,0.083
+PF02915,Rubrerythrin,Oxidative stress,DC8,8,4.0,1.0,4.0,0.0
+PF02915,Rubrerythrin,Oxidative stress,DC9,7,5.0,1.0,5.0,0.0
+PF00301,Rubredoxin,Oxidative stress,Cds_C1-C4,236,1.0,0.996,1.01,0.04
+PF00301,Rubredoxin,Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC11,2,1.0,1.0,,
+PF00301,Rubredoxin,Oxidative stress,DC12,2,1.0,1.0,,
+PF00301,Rubredoxin,Oxidative stress,DC13,1,1.0,1.0,,
+PF00301,Rubredoxin,Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC3,29,1.034,1.0,1.033,0.067
+PF00301,Rubredoxin,Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF00301,Rubredoxin,Oxidative stress,DC8,8,0.375,0.375,0.357,0.112
+PF00301,Rubredoxin,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,Cds_C1-C4,236,4.055,1.0,4.073,0.102
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,Cds_C5,19,4.053,1.0,4.063,0.082
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC1,50,3.04,1.0,3.04,0.079
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC10,6,4.0,1.0,4.0,0.0
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC11,2,3.0,1.0,,
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC12,2,4.0,1.0,,
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC13,1,4.0,1.0,,
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC2,49,4.0,1.0,4.0,0.0
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC3,29,4.0,1.0,4.0,0.0
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC4,17,4.176,1.0,4.17,0.141
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC5,12,3.083,1.0,3.077,0.084
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC6,12,3.0,1.0,3.0,0.0
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC7,10,3.9,1.0,3.897,0.082
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC8,8,4.0,1.0,4.0,0.0
+PF00578,AhpC/TSA peroxiredoxin,Oxidative stress,DC9,7,3.0,1.0,3.0,0.0
+PF00085,Thioredoxin,Oxidative stress,Cds_C1-C4,236,5.004,1.0,5.023,0.126
+PF00085,Thioredoxin,Oxidative stress,Cds_C5,19,4.947,1.0,4.933,0.082
+PF00085,Thioredoxin,Oxidative stress,DC1,50,4.04,1.0,4.03,0.065
+PF00085,Thioredoxin,Oxidative stress,DC10,6,5.0,1.0,5.0,0.0
+PF00085,Thioredoxin,Oxidative stress,DC11,2,4.0,1.0,,
+PF00085,Thioredoxin,Oxidative stress,DC12,2,5.0,1.0,,
+PF00085,Thioredoxin,Oxidative stress,DC13,1,6.0,1.0,,
+PF00085,Thioredoxin,Oxidative stress,DC2,49,5.02,1.0,5.02,0.055
+PF00085,Thioredoxin,Oxidative stress,DC3,29,5.172,1.0,5.203,0.185
+PF00085,Thioredoxin,Oxidative stress,DC4,17,5.0,1.0,5.0,0.0
+PF00085,Thioredoxin,Oxidative stress,DC5,12,4.333,1.0,4.34,0.247
+PF00085,Thioredoxin,Oxidative stress,DC6,12,4.0,1.0,4.0,0.0
+PF00085,Thioredoxin,Oxidative stress,DC7,10,4.9,1.0,4.887,0.079
+PF00085,Thioredoxin,Oxidative stress,DC8,8,5.0,1.0,5.0,0.0
+PF00085,Thioredoxin,Oxidative stress,DC9,7,4.0,1.0,4.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,Cds_C1-C4,236,0.97,0.949,0.973,0.128
+PF00462,Glutaredoxin,Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC1,50,0.0,0.0,0.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC10,6,0.0,0.0,0.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC11,2,0.0,0.0,,
+PF00462,Glutaredoxin,Oxidative stress,DC12,2,0.0,0.0,,
+PF00462,Glutaredoxin,Oxidative stress,DC13,1,1.0,1.0,,
+PF00462,Glutaredoxin,Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC3,29,0.0,0.0,0.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC4,17,0.0,0.0,0.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC6,12,0.0,0.0,0.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF00462,Glutaredoxin,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC11,2,1.0,1.0,,
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC12,2,1.0,1.0,,
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC13,1,1.0,1.0,,
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC3,29,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF01625,Peptide methionine sulfoxide reductase,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,Cds_C1-C4,236,2.983,1.0,2.967,0.082
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,Cds_C5,19,3.0,1.0,3.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC1,50,2.0,1.0,2.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC10,6,3.0,1.0,3.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC11,2,3.0,1.0,,
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC12,2,3.0,1.0,,
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC13,1,3.0,1.0,,
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC2,49,2.0,1.0,2.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC3,29,3.0,1.0,3.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC4,17,1.882,1.0,1.89,0.099
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC5,12,2.0,1.0,2.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC6,12,2.667,1.0,2.67,0.145
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC7,10,2.0,1.0,2.0,0.0
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC8,8,1.875,1.0,1.903,0.131
+PF00210,Ferritin-like (incl. Dps),Oxidative stress,DC9,7,2.0,1.0,2.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC11,2,1.0,1.0,,
+PF01458,SufBD FeS assembly core,Oxidative stress,DC12,2,1.0,1.0,,
+PF01458,SufBD FeS assembly core,Oxidative stress,DC13,1,1.0,1.0,,
+PF01458,SufBD FeS assembly core,Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC3,29,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF01458,SufBD FeS assembly core,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,Cds_C1-C4,236,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC11,2,1.0,1.0,,
+PF01592,NifU N-terminal,Oxidative stress,DC12,2,1.0,1.0,,
+PF01592,NifU N-terminal,Oxidative stress,DC13,1,1.0,1.0,,
+PF01592,NifU N-terminal,Oxidative stress,DC2,49,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC3,29,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF01592,NifU N-terminal,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,Cds_C1-C4,236,0.992,0.987,0.987,0.046
+PF01106,NifU-like,Oxidative stress,Cds_C5,19,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC1,50,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC10,6,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC11,2,1.0,1.0,,
+PF01106,NifU-like,Oxidative stress,DC12,2,1.0,1.0,,
+PF01106,NifU-like,Oxidative stress,DC13,1,1.0,1.0,,
+PF01106,NifU-like,Oxidative stress,DC2,49,0.98,0.98,0.977,0.058
+PF01106,NifU-like,Oxidative stress,DC3,29,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC4,17,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC5,12,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC6,12,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC7,10,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC8,8,1.0,1.0,1.0,0.0
+PF01106,NifU-like,Oxidative stress,DC9,7,1.0,1.0,1.0,0.0
+PF00313,Cold-shock domain (CSD),Osmotic/cold,Cds_C1-C4,236,3.992,1.0,3.953,0.147
+PF00313,Cold-shock domain (CSD),Osmotic/cold,Cds_C5,19,3.211,1.0,3.227,0.196
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC1,50,4.08,1.0,4.083,0.118
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC10,6,4.0,1.0,4.0,0.0
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC11,2,4.0,1.0,,
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC12,2,4.5,1.0,,
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC13,1,4.0,1.0,,
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC2,49,5.143,1.0,5.17,0.17
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC3,29,4.759,1.0,4.763,0.358
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC4,17,4.882,1.0,4.88,0.131
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC5,12,3.0,1.0,3.0,0.0
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC6,12,4.0,1.0,4.033,0.126
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC7,10,3.1,1.0,3.08,0.084
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC8,8,3.0,1.0,3.0,0.0
+PF00313,Cold-shock domain (CSD),Osmotic/cold,DC9,7,3.0,1.0,3.0,0.0
+PF00924,MscS channel,Osmotic/cold,Cds_C1-C4,236,1.996,1.0,1.993,0.033
+PF00924,MscS channel,Osmotic/cold,Cds_C5,19,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC1,50,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC10,6,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC11,2,2.0,1.0,,
+PF00924,MscS channel,Osmotic/cold,DC12,2,2.0,1.0,,
+PF00924,MscS channel,Osmotic/cold,DC13,1,2.0,1.0,,
+PF00924,MscS channel,Osmotic/cold,DC2,49,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC3,29,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC4,17,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC5,12,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC6,12,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC7,10,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC8,8,2.0,1.0,2.0,0.0
+PF00924,MscS channel,Osmotic/cold,DC9,7,2.0,1.0,2.0,0.0
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,Cds_C1-C4,236,4.983,1.0,4.99,0.062
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,Cds_C5,19,4.211,1.0,4.197,0.133
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC1,50,4.34,1.0,4.35,0.2
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC10,6,3.667,1.0,3.667,0.0
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC11,2,5.0,1.0,,
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC12,2,5.0,1.0,,
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC13,1,4.0,1.0,,
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC2,49,5.0,1.0,5.0,0.0
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC3,29,4.276,1.0,4.287,0.172
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC4,17,4.941,1.0,4.943,0.08
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC5,12,5.0,1.0,5.0,0.0
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC6,12,5.75,1.0,5.74,0.139
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC7,10,4.0,1.0,4.0,0.0
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC8,8,3.75,1.0,3.747,0.091
+PF04069,OpuAC glycine-betaine binding,Osmotic/cold,DC9,7,4.857,1.0,4.86,0.062
+PF00404,Dockerin type I,Cellulosome/S-layer,Cds_C1-C4,236,0.953,0.953,0.953,0.095
+PF00404,Dockerin type I,Cellulosome/S-layer,Cds_C5,19,0.053,0.053,0.047,0.076
+PF00404,Dockerin type I,Cellulosome/S-layer,DC1,50,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC10,6,0.0,0.0,0.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC11,2,1.0,1.0,,
+PF00404,Dockerin type I,Cellulosome/S-layer,DC12,2,1.0,1.0,,
+PF00404,Dockerin type I,Cellulosome/S-layer,DC13,1,1.0,1.0,,
+PF00404,Dockerin type I,Cellulosome/S-layer,DC2,49,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC3,29,0.379,0.379,0.393,0.164
+PF00404,Dockerin type I,Cellulosome/S-layer,DC4,17,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC5,12,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC6,12,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC7,10,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC8,8,1.0,1.0,1.0,0.0
+PF00404,Dockerin type I,Cellulosome/S-layer,DC9,7,1.0,1.0,1.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,Cds_C1-C4,236,0.017,0.017,0.017,0.051
+PF00963,Cohesin domain,Cellulosome/S-layer,Cds_C5,19,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC1,50,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC10,6,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC11,2,0.0,0.0,,
+PF00963,Cohesin domain,Cellulosome/S-layer,DC12,2,0.0,0.0,,
+PF00963,Cohesin domain,Cellulosome/S-layer,DC13,1,0.0,0.0,,
+PF00963,Cohesin domain,Cellulosome/S-layer,DC2,49,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC3,29,0.069,0.069,0.083,0.097
+PF00963,Cohesin domain,Cellulosome/S-layer,DC4,17,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC5,12,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC6,12,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC7,10,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC8,8,0.0,0.0,0.0,0.0
+PF00963,Cohesin domain,Cellulosome/S-layer,DC9,7,0.0,0.0,0.0,0.0

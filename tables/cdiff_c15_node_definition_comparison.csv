@@ -1,0 +1,5 @@
+node_definition,height_subs_per_site,ratio_vs_ingroup_root
+"C1-5 MRCA = Cds_C5/Cds_C1-C4 split (our full sampling, n=255)",0.018714,6.47
+"Cds_C1-C4 crown only, full sampling (C5 excluded, n=236)",0.010993,11.01
+Sparse C1-5 sample that misses Cds_C5 (median over replicates),0.009977,12.13
+Knight et al. 2021 published (47.61/3.89),,12.24

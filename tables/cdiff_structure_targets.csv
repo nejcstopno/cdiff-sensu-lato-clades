@@ -1,0 +1,9 @@
+model,clade,toxin_class,domain,genome,locus_tag,ref_residue_range,model_length_aa,reference_structure,justification,domain_pct_id_vs_ref,whole_protein_pct_id,full_protein_length_aa
+DC7_TcdB_GTD,DC7,TcdB,GTD,1841_TUM20227,1841_TUM20227_01483,1-543,544,5UQM,primary target: lowest toxin-domain identity in the whole dataset (GTD 69.80% vs TcdB630); below every sensu stricto value (min 79.19%),69.8,82.42,2367.0
+DC6_TcdB_GTD,DC6,TcdB,GTD,CLO_BA9681AA_AS,CLO_BA9681AA_AS_03947,1-543,544,5UQM,second most divergent GTD (78.27%); same identity band as the naturally R-Ras-specific TcdB in 7S0Z (79.3%),78.27,86.18,2367.0
+REF_TcdB_GTD,reference,TcdB,GTD,C. difficile 630,REF|TcdB_630,1-543,543,5UQM,"AF2-vs-crystal control: same pipeline on a sequence with a 2.03 A experimental structure, to separate prediction error from real divergence",,,
+DC7_TcdB_CROPSe,DC7,TcdB,CROPS 1834-2104,1841_TUM20227,1841_TUM20227_01483,1834-2104,271,4NP4,bezlotoxumab epitope fragment; exactly the TcdB span crystallised with the Fab,85.71,82.42,2367.0
+REF_TcdB_CROPSe,reference,TcdB,CROPS 1834-2104,C. difficile 630,REF|TcdB_630,1834-2104,271,4NP4,AF2-vs-crystal control for the epitope fragment,,,
+DC3_TcdA_CROPS,DC3,TcdA,CROPS,CLO_EA1206AA_AS,CLO_EA1206AA_AS_00803,1833-2710,806,7U1Z / 2G7C,most divergent divergent-clade TcdA CROPS (72.44%) and carries a 16-residue deletion inside the 2G7C carbohydrate site,72.44,81.25,2638.0
+DC10_TcdA_CROPS,DC10,TcdA,CROPS,CLO_FA2957AA_AS,CLO_FA2957AA_AS_03212,1833-2710,858,7U1Z / 2G7C,"second divergent TcdA CROPS (73.23%), full-length CROPS with 10 substitutions in the carbohydrate site",73.23,82.51,2690.0
+CdsC1C4_TcdA_CROPS,Cds_C1-C4,TcdA,CROPS,CLO_BA2871AA_AS,CLO_BA2871AA_AS_03269,1833-2710,742,7U1Z / 2G7C,"sensu stricto comparator: the LOWEST CROPS identity of all 63 homologues (62.98%), lower than any divergent clade",62.98,78.67,2574.0

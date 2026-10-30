@@ -1,0 +1,137 @@
+clade,pathway,n_genes
+Cds_C1-C4,Biosynthesis of secondary metabolites,2
+Cds_C1-C4,Metabolic pathways,2
+Cds_C1-C4,Starch and sucrose metabolism,2
+Cds_C1-C4,ABC transporters,1
+Cds_C1-C4,Amino sugar and nucleotide sugar metabolism,1
+Cds_C1-C4,Biosynthesis of nucleotide sugars,1
+Cds_C1-C4,Fructose and mannose metabolism,1
+Cds_C1-C4,Galactose metabolism,1
+Cds_C1-C4,beta-Lactam resistance,1
+Cds_C5,ABC transporters,1
+Cds_C5,Metabolic pathways,1
+Cds_C5,Phosphonate and phosphinate metabolism,1
+DC1,Metabolic pathways,7
+DC1,Biosynthesis of secondary metabolites,3
+DC1,Arginine and proline metabolism,2
+DC1,Biosynthesis of amino acids,2
+DC1,Microbial metabolism in diverse environments,2
+DC1,Starch and sucrose metabolism,2
+DC1,2-Oxocarboxylic acid metabolism,1
+DC1,ABC transporters,1
+DC1,"Alanine, aspartate and glutamate metabolism",1
+DC1,Arginine biosynthesis,1
+DC1,Biofilm formation - Escherichia coli,1
+DC1,Cationic antimicrobial peptide (CAMP) resistance,1
+DC1,Cysteine and methionine metabolism,1
+DC1,Exopolysaccharide biosynthesis,1
+DC1,"Glycine, serine and threonine metabolism",1
+DC1,Isoquinoline alkaloid biosynthesis,1
+DC1,Nitrogen metabolism,1
+DC1,Novobiocin biosynthesis,1
+DC1,Nucleotide metabolism,1
+DC1,Phenylalanine metabolism,1
+DC1,"Phenylalanine, tyrosine and tryptophan biosynthesis",1
+DC1,Phosphotransferase system (PTS),1
+DC1,Purine metabolism,1
+DC1,Pyrimidine metabolism,1
+DC1,Quorum sensing,1
+DC1,Sulfur cycle,1
+DC1,Sulfur metabolism,1
+DC1,"Tropane, piperidine and pyridine alkaloid biosynthesis",1
+DC1,Tyrosine metabolism,1
+DC1,beta-Lactam resistance,1
+DC10,Phosphotransferase system (PTS),5
+DC10,DNA replication,2
+DC10,Glucosinolate metabolism,2
+DC10,Homologous recombination,2
+DC10,Mismatch repair,2
+DC10,Benzoate degradation,1
+DC10,Degradation of aromatic compounds,1
+DC10,Flagellar assembly,1
+DC10,Glycolysis / Gluconeogenesis,1
+DC10,Metabolic pathways,1
+DC10,Microbial metabolism in diverse environments,1
+DC10,Starch and sucrose metabolism,1
+DC11,Metabolic pathways,4
+DC11,ABC transporters,2
+DC11,Biosynthesis of nucleotide sugars,2
+DC11,Biosynthesis of various nucleotide sugars,2
+DC11,Fructose and mannose metabolism,2
+DC11,Cationic antimicrobial peptide (CAMP) resistance,1
+DC11,Glycosphingolipid biosynthesis - globo and isoglobo series,1
+DC11,Glycosphingolipid biosynthesis - lacto and neolacto series,1
+DC11,Lipopolysaccharide biosynthesis,1
+DC11,Two-component system,1
+DC12,Starch and sucrose metabolism,2
+DC12,Glycolysis / Gluconeogenesis,1
+DC12,Phosphotransferase system (PTS),1
+DC13,DNA replication,3
+DC13,Homologous recombination,3
+DC13,Metabolic pathways,3
+DC13,Mismatch repair,3
+DC13,Glucosinolate metabolism,2
+DC13,Protein export,2
+DC13,beta-Lactam resistance,2
+DC13,"Alanine, aspartate and glutamate metabolism",1
+DC13,Bacterial secretion system,1
+DC13,Base excision repair,1
+DC13,Cell cycle - Caulobacter,1
+DC13,Cysteine and methionine metabolism,1
+DC13,Glycolysis / Gluconeogenesis,1
+DC13,MicroRNAs in cancer,1
+DC13,Peptidoglycan biosynthesis,1
+DC13,Phosphotransferase system (PTS),1
+DC13,Quorum sensing,1
+DC13,Starch and sucrose metabolism,1
+DC13,Taurine and hypotaurine metabolism,1
+DC13,Teichoic acid biosynthesis,1
+DC2,Base excision repair,1
+DC2,Metabolic pathways,1
+DC2,Microbial metabolism in diverse environments,1
+DC2,Sulfur metabolism,1
+DC3,Metabolic pathways,2
+DC3,2-Oxocarboxylic acid metabolism,1
+DC3,"Alanine, aspartate and glutamate metabolism",1
+DC3,Arginine and proline metabolism,1
+DC3,Arginine biosynthesis,1
+DC3,Biosynthesis of amino acids,1
+DC3,Biosynthesis of secondary metabolites,1
+DC3,Cysteine and methionine metabolism,1
+DC3,Isoquinoline alkaloid biosynthesis,1
+DC3,Novobiocin biosynthesis,1
+DC3,Nucleotide metabolism,1
+DC3,Phenylalanine metabolism,1
+DC3,"Phenylalanine, tyrosine and tryptophan biosynthesis",1
+DC3,Purine metabolism,1
+DC3,Pyrimidine metabolism,1
+DC3,"Tropane, piperidine and pyridine alkaloid biosynthesis",1
+DC3,Tyrosine metabolism,1
+DC4,ABC transporters,3
+DC5,Benzoate degradation,1
+DC5,Degradation of aromatic compounds,1
+DC5,Lysosome biogenesis,1
+DC5,Metabolic pathways,1
+DC5,Microbial metabolism in diverse environments,1
+DC6,beta-Lactam resistance,1
+DC7,Quorum sensing,5
+DC7,Two-component system,5
+DC7,ABC transporters,3
+DC7,Phosphotransferase system (PTS),3
+DC7,Starch and sucrose metabolism,3
+DC7,Metabolic pathways,2
+DC7,Biosynthesis of secondary metabolites,1
+DC7,Carbon metabolism,1
+DC7,Glutathione metabolism,1
+DC7,"Glycine, serine and threonine metabolism",1
+DC7,Glyoxylate and dicarboxylate metabolism,1
+DC7,Lipoic acid metabolism,1
+DC7,One carbon pool by folate,1
+DC9,Metabolic pathways,2
+DC9,Benzoate degradation,1
+DC9,Biosynthesis of secondary metabolites,1
+DC9,Degradation of aromatic compounds,1
+DC9,Microbial metabolism in diverse environments,1
+DC9,Phenazine biosynthesis,1
+DC9,Quorum sensing,1
+DC9,beta-Lactam resistance,1

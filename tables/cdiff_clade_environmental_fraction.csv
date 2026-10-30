@@ -1,0 +1,16 @@
+clade,n_unique_strains_with_source,n_environmental_unique,environmental_pct_unique,environmental_pct_entries
+Cds_C1-C4,23309,683,2.9,3.0
+Cds_C5,2074,92,4.4,3.8
+DC1,39,5,12.8,14.0
+DC2,33,28,84.8,87.8
+DC3,26,7,26.9,31.0
+DC4,14,14,100.0,100.0
+DC5,9,9,100.0,100.0
+DC6,8,4,50.0,50.0
+DC7,6,4,66.7,71.4
+DC8,7,2,28.6,37.5
+DC9,5,5,100.0,100.0
+DC10,6,6,100.0,100.0
+DC11,2,0,0.0,0.0
+DC12,2,0,0.0,0.0
+DC13,1,0,0.0,0.0

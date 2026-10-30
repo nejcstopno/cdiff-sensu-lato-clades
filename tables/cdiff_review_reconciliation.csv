@@ -1,0 +1,23 @@
+item,where,as_published,verified_value,verdict
+Canonical 5-gene PaLoc count,manuscript toxin section,102 Cds_C1-C4 genomes,77 with all five full-length; 148 with all five present at any status (Cds_C1-C4); 150 incl. Cds_C5,WRONG - matches neither definition; reviewer did not catch this
+Divergent genomes with all five PaLoc genes,manuscript,zero,zero (both definitions),CONFIRMED
+Cds_C5 canonical PaLoc,manuscript (implied zero outside C1-C4),not stated,"2 genomes carry all five (any status), 0 full-length",NEEDS STATING
+DC10 CDT content,Fig 4 architecture panel vs heatmap,"panel: tcdA-tcdR, no CDT / heatmap: 33%","4/6 tcdA+tcdR only; 2/6 cdtB full-length + cdtA partial; mutually exclusive, no genome has both","REVIEWER CORRECT - heatmap right, panel wrong"
+Toxin architecture per clade,Fig 4 (one architecture per clade),single modal architecture,"every clade polymorphic: DC6 6 signatures, DC1/DC2/DC3/DC7 4, DC4/DC8 3, DC10/DC5/DC12 2",FRAMING WRONG - polymorphism is the finding
+TcdA gene-tree monophyly,supp. toxin phylogeny,not quantified,"Cds_C1-C4 TcdA NOT exclusive (22 foreign tips in its MRCA); DC3, DC9, DC10 exclusive; Cds_C5 and DC12 single-member","PARTLY - TcdA is NOT uniformly clade-exclusive; the sensu stricto group fails too. Asymmetry vs TcdB is degree (TcdA 1 of 4 multi-member groups non-exclusive vs TcdB 4 of 7), not kind"
+TcdB gene-tree monophyly,supp. toxin phylogeny,not quantified,"Cds_C1-C4 (26 foreign), Cds_C5 (31), DC2 (8), DC6 (26) NOT exclusive; DC1, DC3, DC11 exclusive. Sensu stricto TcdB at 3 separate positions","REVIEWER CORRECT - core tree is strictly monophyletic, TcdB is not"
+DC6 TcdB lineages,unreported,-,"two: 1 tip sister to DC11, 6 tips in a separate group",REVIEWER CORRECT
+Most divergent TcdB,manuscript (DC7 GTD 69.8%),DC7 most divergent domain,DC7/TUM20227 TcdB is sister to all other TcdB in the gene tree,CONFIRMED and strengthens
+HGT screen coverage,manuscript 'no HGT above background',"1,110 clade-specific families",toxin genes are not clade-specific and were therefore never tested,REVIEWER CORRECT - scope must be stated
+Doubling time vs environmental fraction,3 different values in figure/methods/manuscript,figure: rho -0.01 (n12); methods: +0.325 (n10); manuscript: +0.36 (9 divergent clades),"rho=+0.356, p=0.347 on the 9 comparable DIVERGENT clades (reproduces the manuscript's +0.36); rho=-0.037, p=0.915 on all 11 comparable clades incl. Cds_C1-C4 and Cds_C5","MANUSCRIPT VALUE CORRECT for its stated population; figure (-0.01, n12) and methods (+0.325, n10) use undeclared/stale populations. Fix = state n and population on every reported rho; conclusion (no significant association) unchanged either way"
+Comparable clade count,mixed 10/12,10 or 12,11 total (9 divergent + Cds_C1-C4 + Cds_C5),MUST DECLARE
+Divergent clades >=50% environmental,manuscript '6 of 9',6 of 9,6 of 9 comparable divergent,CONFIRMED
+Divergent totals,figures 205 vs 176,205 entries / 176 strains,"205 entries, 176 unique strains","BOTH RIGHT, label needed"
+Haem catalase prevalence,manuscript 88.9/55.6/42.9 vs heatmap 83/50/50,two value sets,"unique-strain basis: DC9 100, DC5 88.9, DC7 55.6, DC8 42.9; entry basis: DC5 83.3, DC7 50, DC8 50",DENOMINATOR ARTEFACT - declare unique strains
+DC12 GTDB species,abstract 'every clade maps to exactly one GTDB species',every clade,DC12 has no GTDB species assigned,ABSTRACT WRONG
+Mn-catalase / haem-catalase trade,unreported,-,haem-cat prevalence vs Mn-cat copies rho=-0.741 p=0.0090 (11 clades); genome-level divergent rho=-0.491 p=7.6e-14 (n=205),NEW FINDING - reviewer correct
+Rubrerythrin compensation,unreported,-,Mn-cat copies vs rubrerythrin rho=-0.640 p=0.0338; DC5/DC9 5.00 vs sensu stricto 3.88,NEW FINDING - extends reviewer
+Desulfoferrodoxin loss,unreported,-,"PF06397 (C-term) 0% in DC1,DC2,DC4,DC5,DC6,DC7,DC8,DC11,DC12 while PF01880 (N-term) stays 1.00 everywhere - domain truncation, not gene loss",NEW FINDING - reviewer listed 7 of 9 and missed the N-term retention
+DC3 degradation signal,unreported,-,highest IS load (87.5 median) and slowest growth (2.261 h) of all 11 comparable clades,REVIEWER CORRECT
+DC10 mirror signal,unreported,-,highest GH content (55.2) and second-slowest growth (2.010 h),REVIEWER CORRECT
+Plasmid reference provenance,not stated,-,panel is Williamson 2022 closed plasmids from C-III/C-IV isolates = same lineages as DC2/DC4 - circularity is real,REVIEWER CORRECT

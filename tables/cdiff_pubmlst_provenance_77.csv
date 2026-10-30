@@ -1,0 +1,78 @@
+genome_id,new_clade,pubmlst_id,isolate,country,region,year,source_1,source_2,source_3,ribotype,pubmlst_ST,genotype,binary_toxin,submitter,date_entered,comments,had_metadata_before
+1605_WCHCD15108050,Cds_C1-C4,1605,WCHCD15108050,China,,,clinical,,,,,,,"Yu Feng (West China Hospital, Sichuan University)",2017-08-17,,True
+1613_BR81,Cds_C1-C4,1613,BR81,South Korea,Seoul,2017.0,human,,,,,,,Juneyoung Lee (Kyung Hee University),2018-04-12,,False
+1718_ERR026854,Cds_C1-C4,1718,ERR026854,Unknown,,2014.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,False
+1719_ERR1015455,Cds_C1-C4,1719,ERR1015455,UK [England],Cambridge,2014.0,clinical,,,,752.0,,,Daniel Knight (Murdoch University),2019-12-02,,False
+1720_ERR1015526,Cds_C1-C4,1720,ERR1015526,UK [England],Cambridge,2014.0,clinical,,,,747.0,,,Daniel Knight (Murdoch University),2019-12-02,,False
+1721_ERR125919,Cds_C1-C4,1721,ERR125919,Unknown,,2014.0,clinical,,,,636.0,,,Daniel Knight (Murdoch University),2019-12-02,,False
+1725_ERR789074,Cds_C1-C4,1725,ERR789074,UK [England],Warwick,,environmental,,,,745.0,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1731_SRR4156244,Cds_C1-C4,1731,SRR4156244,USA,,2014.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1736_SRR6197649,Cds_C1-C4,1736,SRR6197649,USA,Boston,2015.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1737_SRR6885274,Cds_C1-C4,1737,SRR6885274,USA,Boston,2017.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1739_SRR7108978,Cds_C1-C4,1739,SRR7108978,USA,Boston,2017.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1740_SRR7309087,Cds_C1-C4,1740,SRR7309087,Romania,,2013.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,False
+1742_SRR7852193,Cds_C1-C4,1742,SRR7852193,UK [England],Birmingham,2015.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,False
+1743_SRR8426752,Cds_C1-C4,1743,SRR8426752,USA,Boston,2017.0,clinical,,,,658.0,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1744_SRR8447894,Cds_C1-C4,1744,SRR8447894,USA,Boston,2017.0,clinical,,,,,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1746_38S,Cds_C1-C4,1746,38S,Zimbabwe,,,environmental,,,unknown,,,+,"Alexander Mellmann (University of Muenster, Germany)",2020-01-17,new sodA allele,False
+1756_20131116,Cds_C1-C4,1756,20131116,USA,,2013.0,human,,,,691.0,,,Nick Vlachos (Contractor for Centers for Disease Control),2020-08-10,,True
+1782_Y003,Cds_C1-C4,1782,Y003,Australia,Yanchep,2020.0,environmental,other,other,27,801.0,A-B-,+,Korakrit Imwattana (The University of Western Australia),2020-11-09,,False
+1799_268,Cds_C1-C4,1799,268,Mexico,CDMX,2016.0,human,,,,,,,Emmanuel Aguilar (Instituto Politécnico Nacional),2021-01-18,,True
+1800_C5,Cds_C1-C4,1800,C5,Mexico,CDMX,2017.0,human,,,,923.0,,,Emmanuel Aguilar (Instituto Politécnico Nacional),2021-01-18,,False
+1808_CD_HS_FS_000_069_I02,Cds_C1-C4,1808,CD-HS-FS-000-069-I02,USA,Arizona,2016.0,clinical,,,,861.0,,,Jason Sahl (Northern Arizona University),2021-04-23,,False
+1809_CD_HS_FS_000_241,Cds_C1-C4,1809,CD-HS-FS-000-241,USA,Arizona,2017.0,clinical,,,,,,,Jason Sahl (Northern Arizona University),2021-04-23,,False
+1810_CD_HS_FS_000_367_I03,Cds_C1-C4,1810,CD-HS-FS-000-367-I03,USA,Arizona,2018.0,clinical,,,,,,,Jason Sahl (Northern Arizona University),2021-04-23,,False
+1811_CD_HS_FS_000_378_I02,Cds_C1-C4,1811,CD-HS-FS-000-378-I02,USA,Arizona,2018.0,clinical,,,,,,,Jason Sahl (Northern Arizona University),2021-04-23,,False
+1812_CD_HS_FS_000_436_02,Cds_C1-C4,1812,CD-HS-FS-000-436-02,USA,Arizona,2019.0,clinical,,,,866.0,,,Jason Sahl (Northern Arizona University),2021-04-23,,False
+1813_CD_HS_FS_000_485_I02,Cds_C1-C4,1813,CD-HS-FS-000-485-I02,USA,Arizona,2019.0,clinical,,,,867.0,,,Jason Sahl (Northern Arizona University),2021-04-23,,False
+1832_SMG_21_1588,Cds_C1-C4,1832,SMG-21-1588,UK [Scotland],,2021.0,human,,,new,900.0,,,"Derek Brown (Scottish Microbiology Reference Laboratory, Glasgow)",2021-09-08,,False
+1833_2020HQ_00082,Cds_C1-C4,1833,2020HQ-00082,USA,South,2017.0,human,,,106,,,,Nick Vlachos (Contractor for Centers for Disease Control),2021-10-11,,False
+1838_Cd_510340,Cds_C1-C4,1838,Cd-510340,Austria,,,animal,canine,,,,,+,"Igor Loncaric (Institute of Microbiology, Department of Pathobiology, University of Veterinary Medicine Vienna, Vienna, Austria)",2022-02-02,,False
+1850_SMG_22_668,Cds_C1-C4,1850,SMG-22-668,UK [Scotland],,2022.0,human,,,106,,,,"Derek Brown (Scottish Microbiology Reference Laboratory, Glasgow)",2022-05-05,atpA allele submitted as BIGSdb_20220504112408_013947_34302,False
+1851_SMG_22_714,Cds_C1-C4,1851,SMG-22-714,UK [Scotland],,2022.0,human,,,,,,,"Derek Brown (Scottish Microbiology Reference Laboratory, Glasgow)",2022-05-18,"New ST (1,1,2,1,4,3,1)",False
+1873_SMG_22_1089,Cds_C1-C4,1873,SMG-22-1089,UK [Scotland],,2022.0,human,,,,,,,"Derek Brown (Scottish Microbiology Reference Laboratory, Glasgow)",2022-07-21,,False
+1874_SMG_22_1357,Cds_C1-C4,1874,SMG-22-1357,UK [Scotland],,2022.0,human,,,,977.0,,,"Derek Brown (Scottish Microbiology Reference Laboratory, Glasgow)",2022-08-17,New ST profile submitted 15-08-22,False
+1937_G4S4,Cds_C1-C4,1937,G4S4,Costa Rica,,2022.0,environmental,,,,,A+B+,-,Cesar Rodriguez (Universidad de Costa Rica),2023-03-08,cryptic Cd,True
+1944_97,Cds_C1-C4,1944,97,Brazil,,2022.0,human,,,,,,,Arnon Chukamnerd (Prince of Songkla University),2023-05-18,,True
+1945_T121,Cds_C1-C4,1945,T121,Ireland,,2023.0,animal,other,,,,,,Arnon Chukamnerd (Prince of Songkla University),2023-05-18,,False
+1959_GSK249,Cds_C1-C4,1959,GSK249,Spain,,2018.0,human,,,057,,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1960_GSK267,Cds_C1-C4,1960,GSK267,UK,,2018.0,human,,,013,,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1961_GSK340,Cds_C1-C4,1961,GSK340,France,,2018.0,human,,,014,,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+2023_SUH1,Cds_C1-C4,2023,SUH1,Japan,Shimane,2023.0,human,,,,,A+B+,+,Ryoichi Saito (Tokyo medical and dental university),2023-09-20,,True
+2027_CD07714,Cds_C1-C4,2027,CD07714,USA,,2016.0,human,,,,,,,Marissa Griffith (University of Pittsburgh),2023-12-21,,False
+2029_CD08521,Cds_C1-C4,2029,CD08521,USA,,2020.0,human,,,,,,,Marissa Griffith (University of Pittsburgh),2023-12-21,,False
+2030_CD08727,Cds_C1-C4,2030,CD08727,USA,,2021.0,human,,,,,,,Marissa Griffith (University of Pittsburgh),2023-12-21,,False
+2031_CD08799,Cds_C1-C4,2031,CD08799,USA,,2022.0,human,,,,,,,Marissa Griffith (University of Pittsburgh),2023-12-21,,True
+2032_CD08944,Cds_C1-C4,2032,CD08944,USA,,2023.0,human,,,,,,,Marissa Griffith (University of Pittsburgh),2023-12-21,,True
+2033_CD08946,Cds_C1-C4,2033,CD08946,USA,,2023.0,human,,,,,,,Marissa Griffith (University of Pittsburgh),2023-12-21,,True
+2120_NEWMLST,Cds_C1-C4,2120,NEWMLST,The Netherlands,,,human,,,,,,,Marco Ivens (LUMC),2024-11-21,,False
+1783_DC013,Cds_C5,1783,DC013,Australia,,2014.0,human,,,,806.0,,,Korakrit Imwattana (The University of Western Australia),2020-11-18,,False
+1784_ES1324,Cds_C5,1784,ES1324,Australia,,2012.0,human,,,,807.0,,,Korakrit Imwattana (The University of Western Australia),2020-11-18,,False
+1785_ES943,Cds_C5,1785,ES943,Australia,,2012.0,human,,,,808.0,,,Korakrit Imwattana (The University of Western Australia),2020-11-18,,False
+1962_GSK96,Cds_C5,1962,GSK96,Italy,,2018.0,human,,,126,,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1728_SRR3242073,DC1,1728,SRR3242073,USA,,2014.0,clinical,,,,764.0,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1729_SRR3242112,DC1,1729,SRR3242112,USA,,2014.0,clinical,,,,763.0,,,Daniel Knight (Murdoch University),2019-12-02,,True
+1954_GSK142,DC12,1954,GSK142,Romania,,2018.0,food,,,915,1087.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1958_GSK146,DC2,1958,GSK146,Italy,,2018.0,food,,,919,1091.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1952_GSK131,DC3,1952,GSK131,Spain,,2018.0,human,,,903,1085.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1953_GSK139,DC3,1953,GSK139,Poland,,2018.0,food,,,913,1086.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1956_GSK144,DC3,1956,GSK144,Greece,,2018.0,food,,,917,1089.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1957_GSK145,DC3,1957,GSK145,Greece,,2018.0,food,,,918,1090.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1801_HGP05,DC5,1801,HGP05,Australia,Western Australia,2018.0,environmental,,,,848.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A-B-CDT-,True
+1802_HGP07,DC5,1802,HGP07,Australia,Western Australia,2018.0,environmental,,,,849.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A-B-CDT-,True
+1805_HGP34,DC5,1805,HGP34,Australia,Western Australia,2018.0,environmental,,,,851.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A-B-CDT-,True
+1807_HGP47,DC5,1807,HGP47,Australia,Western Australia,2018.0,environmental,,,,853.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A-B-CDT-,True
+1933_G11S4,DC6,1933,G11S4,Costa Rica,,2022.0,environmental,,,,1062.0,A-B-,+,Cesar Rodriguez (Universidad de Costa Rica),2023-03-08,cryptic Cd,True
+1934_G11S5,DC6,1934,G11S5,Costa Rica,,2022.0,environmental,,,,1063.0,A-B-,+,Cesar Rodriguez (Universidad de Costa Rica),2023-03-08,cryptic Cd,True
+1935_G11S6,DC6,1935,G11S6,Costa Rica,,2022.0,environmental,,,,1064.0,A-B+,+,Cesar Rodriguez (Universidad de Costa Rica),2023-03-08,cryptic Cd,True
+1936_G15S6,DC6,1936,G15S6,Costa Rica,,2023.0,environmental,,,,1065.0,A-B-,-,Cesar Rodriguez (Universidad de Costa Rica),2023-03-08,cryptic Cd,True
+1803_HGP28,DC7,1803,HGP28,Australia,Western Australia,2018.0,environmental,,,,850.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A-B-CDT-,True
+1841_TUM20227,DC7,1841,TUM20227,Japan,Tokyo,2020.0,human,,,,919.0,A-B-,-,"Kohji Komori (Department of Microbiology and Infectious Diseases, Toho University School of Medicine)",2022-03-01,,False
+1806_HGP46,DC8,1806,HGP46,Australia,Western Australia,2018.0,environmental,,,,852.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A-B-CDT-,True
+1840_TUM20226,DC8,1840,TUM20226,Japan,Tokyo,2020.0,human,,,,918.0,A-B-,-,"Kohji Komori (Department of Microbiology and Infectious Diseases, Toho University School of Medicine)",2022-03-01,,False
+1843_TUM20838,DC8,1843,TUM20838,Japan,Gifu,2021.0,animal,other,,,921.0,A-B-,-,"Kohji Komori (Department of Microbiology and Infectious Diseases, Toho University School of Medicine)",2022-03-01,,False
+1844_TUM20839,DC8,1844,TUM20839,Japan,Gifu,2021.0,animal,other,,,922.0,A-B-,-,"Kohji Komori (Department of Microbiology and Infectious Diseases, Toho University School of Medicine)",2022-03-01,,False
+1955_GSK143,DC8,1955,GSK143,Italy,,2018.0,food,,,916,1088.0,,,"Sandra Janezic (National Laboratory for Health, Environment and Food)",2023-08-07,,False
+1717_HGP14,DC9,1717,HGP14,Australia,Western Australia,2018.0,environmental,,,,632.0,,-,Daniel Knight (Murdoch University),2019-10-30,A+B-CDT-,True
+1804_HGP33,DC9,1804,HGP33,Australia,Western Australia,2018.0,environmental,,,,632.0,,-,Nirajmohan Shivaperumal (The University of Western Australia),2021-03-09,A+B-CDT-,True
+1842_TUM20350,DC9,1842,TUM20350,Japan,Tokyo,2021.0,environmental,,,,920.0,A-B-,-,"Kohji Komori (Department of Microbiology and Infectious Diseases, Toho University School of Medicine)",2022-03-01,,False

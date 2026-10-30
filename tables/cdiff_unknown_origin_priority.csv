@@ -1,0 +1,37 @@
+genome_id,new_clade,gtdb_r226_species,accession,recovered_strain,recovered_country,bioproject,study,assembly_length,next_action
+CLO_BA8179AA_AS,DC1,s__Clostridioides difficile_A,,,,PRJEB23450,,4193318,chase BioProject PRJEB23450
+CLO_CA9135AA_AS,DC1,s__Clostridioides difficile_A,,98481a4c-155a-11e8-899b-3c4a9275d6c8,,PRJEB25045,,4322926,chase BioProject PRJEB25045
+CLO_DA8493AA_AS,DC1,s__Clostridioides difficile_A,,,,,,4300632,no accession or project - origin unknown
+ERR232398,DC1,s__Clostridioides difficile_A,ERR232398,,,PRJEB1483,Evolutionary History of Clostridium difficile Pathogenicity Locus,4231233,chase BioProject PRJEB1483
+ERR232399,DC1,s__Clostridioides difficile_A,ERR232399,,,PRJEB1483,Evolutionary History of Clostridium difficile Pathogenicity Locus,4050041,chase BioProject PRJEB1483
+ERR2216002,DC1,s__Clostridioides difficile_A,ERR2216002,ZZV13-5576,,PRJEB23450,C. difficile cgMLST scheme development and evaluation,4212285,NLZOH culture collection record
+ERR232402,DC1,s__Clostridioides difficile_A,ERR232402,,,PRJEB1483,Evolutionary History of Clostridium difficile Pathogenicity Locus,4076432,chase BioProject PRJEB1483
+ERR232401,DC1,s__Clostridioides difficile_A,ERR232401,,,PRJEB1483,Evolutionary History of Clostridium difficile Pathogenicity Locus,4251157,chase BioProject PRJEB1483
+CLO_BA4768AA_AS,DC1,s__Clostridioides difficile_A,,ZZV13-5576,,,,4193955,NLZOH culture collection record
+CLO_DA8476AA_AS,DC11,s__Clostridioides difficile_G,,,,,,4203391,no accession or project - origin unknown
+CLO_DA8475AA_AS,DC11,s__Clostridioides difficile_G,,,,,,4203391,no accession or project - origin unknown
+1954_GSK142,DC12,s__,,,,,,4266650,NLZOH culture collection record
+ERR2216003,DC2,s__Clostridioides sp020641055,ERR2216003,ZZV14-6045,,PRJEB23450,C. difficile cgMLST scheme development and evaluation,4650202,NLZOH culture collection record
+ZZV16-7664,DC2,s__Clostridioides sp020641055,,ZZV16-7664,,-,,4425712,NLZOH culture collection record
+ERR2215981,DC2,s__Clostridioides sp020641055,ERR2215981,CD10055,France,PRJEB23450,C. difficile cgMLST scheme development and evaluation,4315580,chase BioProject PRJEB23450
+MS1,DC2,s__Clostridioides sp020641055,,,,,,4219132,NLZOH culture collection record
+CLO_DA1503AA_AS,DC2,s__Clostridioides sp020641055,,ZZV14-6045,,,,4587369,NLZOH culture collection record
+S10-P-4,DC2,s__Clostridioides sp020641055,,,,,,4129763,NLZOH culture collection record
+ZZV16-7664-P,DC2,s__Clostridioides sp020641055,,,,,,4466025,NLZOH culture collection record
+1958_GSK146,DC2,s__Clostridioides sp020641055,,,,,,4291731,NLZOH culture collection record
+CLO_BA8158AA_AS,DC2,s__Clostridioides sp020641055,,,,PRJEB23450,,4307368,chase BioProject PRJEB23450
+1957_GSK145,DC3,s__Clostridioides difficile_D,,,,,,3905707,NLZOH culture collection record
+1956_GSK144,DC3,s__Clostridioides difficile_D,,,,,,4139857,NLZOH culture collection record
+1953_GSK139,DC3,s__Clostridioides difficile_D,,,,,,3888306,NLZOH culture collection record
+1952_GSK131,DC3,s__Clostridioides difficile_D,,,,,,4342101,NLZOH culture collection record
+CLO_AA1405AA_AS,DC6,s__Clostridioides difficile_E,,,,PRJEB5034,,4450113,chase BioProject PRJEB5034
+CLO_EA1168AA_AS,DC6,s__Clostridioides difficile_E,,,,PRJNA85757,,4759543,chase BioProject PRJNA85757
+CLO_EA4861AA_AS,DC7,s__Clostridioides difficile_F,,M190570,,PRJEB38370,,4374366,chase BioProject PRJEB38370
+MC1-4,DC7,s__Clostridioides difficile_F,,,,,,4464195,no accession or project - origin unknown
+1841_TUM20227,DC7,s__Clostridioides difficile_F,,,,,,4238073,no accession or project - origin unknown
+CLO_EA9788AA_AS,DC7,s__Clostridioides difficile_F,,20092912R,,,,4348382,no accession or project - origin unknown
+1955_GSK143,DC8,s__Clostridioides difficile_F,,,,,,4027155,NLZOH culture collection record
+1844_TUM20839,DC8,s__Clostridioides difficile_F,,,,,,4368376,no accession or project - origin unknown
+1843_TUM20838,DC8,s__Clostridioides difficile_F,,,,,,4120940,no accession or project - origin unknown
+1840_TUM20226,DC8,s__Clostridioides difficile_F,,,,,,4198889,no accession or project - origin unknown
+1842_TUM20350,DC9,s__Clostridioides difficile_F,,,,,,4839384,no accession or project - origin unknown

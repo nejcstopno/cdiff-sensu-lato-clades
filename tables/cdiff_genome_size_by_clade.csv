@@ -1,0 +1,16 @@
+clade,n,median_Mb,mean_Mb,min_Mb,max_Mb,median_CDS,median_coding_density,group,comparable_n_ge6
+Cds_C1-C4,27989,4.161,4.185,3.64,4.8,3780.0,0.836,sensu_stricto,True
+Cds_C5,2776,3.983,3.987,3.64,4.35,3638.0,0.833,sensu_stricto,True
+DC1,50,4.252,4.244,4.05,4.52,3965.5,0.851,divergent,True
+DC2,49,4.251,4.265,3.97,4.65,4013.0,0.843,divergent,True
+DC3,29,4.14,4.134,3.79,4.41,3908.0,0.839,divergent,True
+DC4,17,4.297,4.329,4.12,4.58,4065.0,0.841,divergent,True
+DC5,12,4.139,4.209,4.11,4.51,3807.0,0.845,divergent,True
+DC6,12,4.489,4.452,4.22,4.76,4175.0,0.848,divergent,True
+DC7,10,4.361,4.368,4.24,4.61,4069.0,0.843,divergent,True
+DC8,8,4.194,4.197,4.03,4.37,3808.0,0.8474999999999999,divergent,True
+DC9,7,4.258,4.364,4.24,4.84,3971.0,0.846,divergent,True
+DC10,6,3.984,4.043,3.93,4.27,3666.0,0.8354999999999999,divergent,True
+DC11,2,4.203,4.203,4.2,4.2,4035.0,0.851,divergent,False
+DC12,2,4.29,4.29,4.27,4.31,3951.5,0.8434999999999999,divergent,False
+DC13,1,4.617,4.617,4.62,4.62,4343.0,0.837,divergent,False

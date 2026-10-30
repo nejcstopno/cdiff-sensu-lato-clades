@@ -1,0 +1,1248 @@
+clade,gene,gene_name,annotation,is_hypothetical
+DC9,group_8549,,hypothetical protein,True
+DC9,group_7662,;yeiR,hypothetical protein;Zinc-binding GTPase YeiR,True
+DC9,bcrA_5~~~bcrA_1~~~bcrA_7,bcrA_5;bcrA_1;bcrA_7,Bacitracin transport ATP-binding protein BcrA,False
+DC9,group_3535,,hypothetical protein,True
+DC9,ribZ_1~~~ribZ_4~~~ribZ_6~~~ribZ_2,ribZ_1;ribZ_4;ribZ_6;ribZ_2,Riboflavin transporter RibZ,False
+DC9,saeR,saeR,Response regulator SaeR,False
+DC9,group_1648,,hypothetical protein,True
+DC9,rhaS_1~~~rhaS_4~~~rhaS_6~~~rhaS_2,rhaS_1;rhaS_4;rhaS_6;rhaS_2,HTH-type transcriptional activator RhaS,False
+DC9,ytcD~~~hxlR_6~~~ytcD_2,ytcD;hxlR_6;ytcD_2,putative HTH-type transcriptional regulator YtcD;HTH-type transcriptional activator HxlR,False
+DC9,group_239,,hypothetical protein,True
+DC9,group_9139,,hypothetical protein,True
+DC9,group_8998,,hypothetical protein,True
+DC9,group_6613,,hypothetical protein,True
+DC9,group_3035,,hypothetical protein,True
+DC9,group_2930,,hypothetical protein,True
+DC9,group_2837,,hypothetical protein,True
+DC9,group_1260,ytrB_2,ABC transporter ATP-binding protein YtrB,False
+DC9,group_919,,hypothetical protein,True
+DC9,group_655,,hypothetical protein,True
+DC9,group_9126,,hypothetical protein,True
+DC9,bcrA_3~~~bcrA_8~~~bcrA_4,bcrA_3;bcrA_8;bcrA_4,Bacitracin transport ATP-binding protein BcrA,False
+DC9,group_7900,,hypothetical protein,True
+DC9,group_4901,,hypothetical protein,True
+DC9,bceA_1~~~lolD_2~~~lolD_1,bceA_1;lolD_2;lolD_1,Bacitracin export ATP-binding protein BceA;Lipoprotein-releasing system ATP-binding protein LolD,False
+DC9,gloB_2~~~gloB_1~~~gloB_3~~~gloB_4,gloB_2;gloB_1;gloB_3;gloB_4,Hydroxyacylglutathione hydrolase,False
+DC9,group_2326,,hypothetical protein,True
+DC9,group_7329,,hypothetical protein,True
+DC9,hosA,hosA,Transcriptional regulator HosA,False
+DC9,group_7205,,hypothetical protein,True
+DC9,group_4779,,Putative two-component membrane permease complex subunit SMU_747c,False
+DC9,group_3232,,hypothetical protein,True
+DC9,group_2374,,hypothetical protein,True
+DC9,group_558,,hypothetical protein,True
+DC9,group_8996,,hypothetical protein,True
+DC9,group_3677,,hypothetical protein,True
+DC9,arsR,arsR,Arsenical resistance operon repressor,False
+DC9,group_6485,,hypothetical protein,True
+DC9,group_2278,,hypothetical protein,True
+DC9,ypdB_3~~~ypdB_2,ypdB_3;;ypdB_2,Transcriptional regulatory protein YpdB;hypothetical protein,True
+DC9,yxdL_3~~~yxdL_5~~~yxdL_4~~~yxdL_2,yxdL_3;yxdL_5;yxdL_4;yxdL_2,ABC transporter ATP-binding protein YxdL,False
+DC9,btsR_2,btsR_2;,Transcriptional regulatory protein BtsR;hypothetical protein,True
+DC9,group_2308,,hypothetical protein,True
+DC9,group_1806,,hypothetical protein,True
+DC9,group_1805,,hypothetical protein,True
+DC9,group_1722,,hypothetical protein,True
+DC9,group_1355,,hypothetical protein,True
+DC9,group_640,,hypothetical protein,True
+DC9,group_435,,hypothetical protein,True
+DC9,group_7932,,hypothetical protein,True
+DC9,yddE_1,;yddE_1,hypothetical protein;putative isomerase YddE,True
+DC9,group_908,,hypothetical protein,True
+DC9,mepA_13~~~mepA_9~~~mepA_1~~~mepA_12~~~mepA_11,mepA_13;mepA_9;mepA_1;mepA_12;mepA_11,Multidrug export protein MepA,False
+DC9,tetR,tetR;,Tetracycline repressor protein class E;Tetracycline repressor protein class H;hypothetical protein,True
+DC9,smc_2,smc_2,Chromosome partition protein Smc,False
+DC9,group_9242,,hypothetical protein,True
+DC9,group_8986,,putative ABC transporter ATP-binding protein,False
+DC9,group_8441,,hypothetical protein,True
+DC9,group_7445,,hypothetical protein,True
+DC9,norG_1~~~norG,norG_1;norG,HTH-type transcriptional regulator NorG,False
+DC9,group_12126,,hypothetical protein,True
+DC9,gltR,gltR,HTH-type transcriptional regulator GltR,False
+DC9,group_1735,,hypothetical protein,True
+DC9,group_5844,,hypothetical protein,True
+DC9,group_170,,hypothetical protein,True
+DC9,group_6705,,hypothetical protein,True
+DC9,group_5744,entS_2,Enterobactin exporter EntS,False
+DC9,group_5179,,hypothetical protein,True
+DC9,cat_1,cat_1,Chloramphenicol acetyltransferase,False
+DC9,group_4806,,hypothetical protein,True
+DC9,group_645,,hypothetical protein,True
+DC1,group_7252,,hypothetical protein,True
+DC1,group_7155,,hypothetical protein,True
+DC1,group_7378,,hypothetical protein,True
+DC1,group_2221,,hypothetical protein,True
+DC1,group_3107,,hypothetical protein,True
+DC1,group_2378,,hypothetical protein,True
+DC1,cutD_2,cutD_2,Choline trimethylamine-lyase activating enzyme,False
+DC1,group_9306,,Aspartate aminotransferase,False
+DC1,nrdD~~~nrdD_3,nrdD;nrdD_3,Anaerobic ribonucleoside-triphosphate reductase,False
+DC1,mltF_2~~~mltF_4~~~mltF_1,mltF_2;mltF_4;mltF_1,Membrane-bound lytic murein transglycosylase F,False
+DC1,group_7615,,hypothetical protein,True
+DC1,group_7603,,hypothetical protein,True
+DC1,group_5945,,hypothetical protein,True
+DC1,group_5762,,hypothetical protein,True
+DC1,ptcB~~~ptcB_1,ptcB;ptcB_1,PTS system galactose-specific EIIB component,False
+DC1,group_4275,,hypothetical protein,True
+DC1,group_2926,,hypothetical protein,True
+DC1,group_2228,,hypothetical protein,True
+DC1,group_3149,,hypothetical protein,True
+DC1,group_560,,Ferredoxin;hypothetical protein,True
+DC1,aacA4,aacA4,Aminoglycoside N(6')-acetyltransferase type 1,False
+DC1,malK~~~btuD_8~~~btuD_11~~~cysA_2~~~cysA_1,malK;btuD_8;btuD_11;cysA_2;;cysA_1,Maltose/maltodextrin import ATP-binding protein MalK;Vitamin B12 import ATP-binding protein BtuD;Sulfate/thiosulfate import ATP-binding protein CysA;hypothetical protein,True
+DC1,group_9250,,hypothetical protein,True
+DC1,group_7090,,hypothetical protein,True
+DC1,group_6588,,hypothetical protein,True
+DC1,gbsB_2~~~gbsB_1~~~dhaT_1,gbsB_2;gbsB_1;dhaT_1,Choline dehydrogenase;13-propanediol dehydrogenase,False
+DC1,bmrR_2~~~bmrR_3~~~bmrR_4,;bmrR_2;bmrR_3;bmrR_4,hypothetical protein;Multidrug-efflux transporter 1 regulator,True
+DC1,aguA,aguA,Agmatine deiminase,False
+DC1,group_3165,,hypothetical protein,True
+DC1,group_2518,,hypothetical protein,True
+DC1,cph2_1,;cph2_1,hypothetical protein;Phytochrome-like protein cph2,True
+DC1,melR~~~rhaS_4,melR;rhaS_4,Melibiose operon regulatory protein;HTH-type transcriptional activator RhaS,False
+DC1,dpaL_1~~~dpaL_2~~~dpaL,;dpaL_1;dpaL_2;dpaL,hypothetical protein;Diaminopropionate ammonia-lyase,True
+DC1,group_3171,,hypothetical protein,True
+DC1,group_11041,,hypothetical protein,True
+DC1,ytrB_2~~~ytrB_1,ytrB_2;ytrB_1,ABC transporter ATP-binding protein YtrB,False
+DC1,group_8847,,hypothetical protein,True
+DC1,group_4293,,hypothetical protein,True
+DC1,group_1717,,hypothetical protein,True
+DC1,mepA_8~~~mepA_2~~~mepA_5~~~mepA_1~~~mepA_4,mepA_8;mepA_2;mepA_5;mepA_1;mepA_4,Multidrug export protein MepA,False
+DC1,group_415,,hypothetical protein,True
+DC1,group_8907,,hypothetical protein,True
+DC1,group_8883,,hypothetical protein,True
+DC1,group_6975,,hypothetical protein,True
+DC1,group_4977,,hypothetical protein,True
+DC1,group_9228,,hypothetical protein,True
+DC1,group_5789,,hypothetical protein,True
+DC1,group_5788,,hypothetical protein,True
+DC1,group_5562,,hypothetical protein,True
+DC1,group_2349,,hypothetical protein,True
+DC1,group_2203,,hypothetical protein,True
+DC1,arsC,arsC,Arsenate reductase,False
+DC1,group_4134,,hypothetical protein,True
+DC1,group_4027,,hypothetical protein,True
+DC1,group_2681,,hypothetical protein,True
+DC1,group_8905,,hypothetical protein,True
+DC1,group_9025,,hypothetical protein,True
+DC1,group_8830,,hypothetical protein,True
+DC1,group_8735,,hypothetical protein,True
+DC1,group_7048,,hypothetical protein,True
+DC1,group_7047,,hypothetical protein,True
+DC1,lolD_1,lolD_1,Lipoprotein-releasing system ATP-binding protein LolD,False
+DC1,group_2565,,hypothetical protein,True
+DC1,group_1870,,hypothetical protein,True
+DC1,group_3297,,hypothetical protein,True
+DC1,group_3194,,hypothetical protein,True
+DC1,group_2564,,hypothetical protein,True
+DC1,group_8591,,hypothetical protein,True
+DC1,iaaH,iaaH,Indole-3-acetyl-aspartic acid hydrolase,False
+DC1,group_7936,,hypothetical protein,True
+DC1,group_5952,,hypothetical protein,True
+DC1,norR_5~~~norR_12~~~zraR_2~~~norR_10~~~norR_7,norR_5;norR_12;zraR_2;norR_10;norR_7,Anaerobic nitric oxide reductase transcription regulator NorR;Transcriptional regulatory protein ZraR,False
+DC1,group_4565,,hypothetical protein,True
+DC1,group_3267,,hypothetical protein,True
+DC1,gsiB,gsiB,Glutathione-binding protein GsiB,False
+DC1,hcp_3,hcp_3,Hydroxylamine reductase,False
+DC1,group_2087,,hypothetical protein,True
+DC1,group_1868,,3-beta-hydroxycholanate 3-dehydrogenase (NADP(+)),False
+DC1,group_1267,,hypothetical protein,True
+DC1,group_921,,hypothetical protein,True
+DC1,group_776,,hypothetical protein,True
+DC1,group_718,,hypothetical protein,True
+DC1,group_576,,hypothetical protein,True
+DC1,group_8719,,hypothetical protein,True
+DC1,rnz,rnz,Ribonuclease Z,False
+DC1,npr,npr,NADH peroxidase,False
+DC1,group_8593,tcyP,L-cystine uptake protein TcyP,False
+DC1,group_8592,,hypothetical protein,True
+DC1,patA,patA,Peptidoglycan O-acetyltransferase,False
+DC1,group_1239,,hypothetical protein,True
+DC1,ltaE,;ltaE,hypothetical protein;Low specificity L-threonine aldolase,True
+DC1,sauU,sauU,putative sulfoacetate transporter SauU,False
+DC1,group_8729,,hypothetical protein,True
+DC1,group_7879,,hypothetical protein,True
+DC1,group_5001,,hypothetical protein,True
+DC1,ytfE,ytfE,Iron-sulfur cluster repair protein YtfE,False
+DC1,group_269,,hypothetical protein,True
+Cds_C1-C4,scrB~~~scrB_1~~~scrB_2,scrB;scrB_1;scrB_2,Sucrose-6-phosphate hydrolase,False
+Cds_C1-C4,scrK,scrK,Fructokinase,False
+Cds_C1-C4,blaR1_1,;blaR1_1,hypothetical protein;Regulatory protein BlaR1,True
+Cds_C1-C4,group_6951,,hypothetical protein,True
+Cds_C1-C4,group_9140,,hypothetical protein,True
+Cds_C1-C4,maa_1~~~lacA_1~~~lacA~~~lacA_2~~~maa_2,;maa_1;lacA_1;lacA;lacA_2;maa_2,hypothetical protein;Putative acetyltransferase;Maltose O-acetyltransferase;Galactoside O-acetyltransferase,True
+Cds_C1-C4,group_7842,,putative protein;hypothetical protein,True
+Cds_C1-C4,group_2420,,hypothetical protein,True
+Cds_C1-C4,rhaS_4~~~marA~~~rob,;rhaS_4;marA;rob,hypothetical protein;HTH-type transcriptional activator RhaS;Multiple antibiotic resistance protein MarA;Right origin-binding protein,True
+Cds_C1-C4,group_1123,,hypothetical protein,True
+Cds_C5,group_6217,,hypothetical protein,True
+Cds_C5,group_4127,,hypothetical protein,True
+Cds_C5,group_3974,,hypothetical protein;Putative two-component membrane permease complex subunit SMU_747c,True
+Cds_C5,group_7610,,hypothetical protein,True
+Cds_C5,group_7243,,hypothetical protein,True
+Cds_C5,yeiR,yeiR,Zinc-binding GTPase YeiR,False
+Cds_C5,znuB,znuB,High-affinity zinc uptake system membrane protein ZnuB,False
+Cds_C5,fpuD~~~mntB,fpuD;mntB,Petrobactin import ATP-binding protein FpuD;Manganese transport system ATP-binding protein MntB,False
+Cds_C5,znuA,znuA,High-affinity zinc uptake system binding-protein ZnuA,False
+Cds_C5,fur_1~~~fur_2,fur_1;fur_2,Ferric uptake regulation protein,False
+Cds_C5,group_4970,,hypothetical protein,True
+Cds_C5,group_9068,,hypothetical protein,True
+Cds_C5,hipO~~~scmP_1,hipO;scmP_1,Hippurate hydrolase;N-acetylcysteine deacetylase,False
+Cds_C5,group_5502,,hypothetical protein,True
+Cds_C5,group_76,,hypothetical protein,True
+Cds_C5,group_7762,,hypothetical protein,True
+Cds_C5,group_6453,,hypothetical protein,True
+Cds_C5,group_6108,,hypothetical protein,True
+Cds_C5,group_5822,,hypothetical protein,True
+Cds_C5,group_4961,;yfkN_2,hypothetical protein;Trifunctional nucleotide phosphoesterase protein YfkN,True
+Cds_C5,group_3464,,hypothetical protein,True
+Cds_C5,group_1594,,hypothetical protein,True
+Cds_C5,group_585,,hypothetical protein,True
+Cds_C5,group_445,,hypothetical protein,True
+Cds_C5,group_22,,hypothetical protein,True
+Cds_C5,group_10958,,hypothetical protein,True
+Cds_C5,group_10907,,hypothetical protein,True
+Cds_C5,group_9143,,hypothetical protein,True
+Cds_C5,group_9118,,hypothetical protein,True
+Cds_C5,group_8810,,hypothetical protein,True
+Cds_C5,group_8808,,hypothetical protein,True
+Cds_C5,group_8650,,hypothetical protein,True
+Cds_C5,group_8056,,hypothetical protein,True
+Cds_C5,alkA,alkA;,DNA-3-methyladenine glycosylase;hypothetical protein,True
+Cds_C5,group_3152,,hypothetical protein,True
+Cds_C5,group_3105,,hypothetical protein,True
+Cds_C5,group_3104,,hypothetical protein,True
+Cds_C5,group_2513,,hypothetical protein,True
+Cds_C5,group_2312,,hypothetical protein,True
+Cds_C5,group_2187,,hypothetical protein,True
+Cds_C5,group_2096,,hypothetical protein,True
+Cds_C5,group_2008,,hypothetical protein,True
+Cds_C5,group_1891,,hypothetical protein,True
+Cds_C5,group_1890,,hypothetical protein,True
+Cds_C5,ywnA,ywnA,Putative HTH-type transcriptional regulator YwnA,False
+Cds_C5,group_1372,,hypothetical protein,True
+Cds_C5,group_1008,,hypothetical protein,True
+Cds_C5,group_938,,hypothetical protein,True
+Cds_C5,group_685,,hypothetical protein,True
+Cds_C5,group_638,,hypothetical protein,True
+Cds_C5,group_8985,,hypothetical protein,True
+Cds_C5,group_2244,,hypothetical protein,True
+Cds_C5,group_747,,hypothetical protein,True
+DC5,group_9120,,hypothetical protein,True
+DC5,sasA_5~~~sasA_20,;sasA_5;sasA_20,hypothetical protein;Adaptive-response sensory-kinase SasA,True
+DC5,group_8549,,hypothetical protein,True
+DC5,group_7662,;yeiR,hypothetical protein;Zinc-binding GTPase YeiR,True
+DC5,bcrA_5~~~bcrA_1~~~bcrA_7,bcrA_5;bcrA_1;bcrA_7,Bacitracin transport ATP-binding protein BcrA,False
+DC5,group_3535,,hypothetical protein,True
+DC5,ribZ_1~~~ribZ_4~~~ribZ_6~~~ribZ_2,ribZ_1;ribZ_4;ribZ_6;ribZ_2,Riboflavin transporter RibZ,False
+DC5,saeR,saeR,Response regulator SaeR,False
+DC5,group_1648,,hypothetical protein,True
+DC5,rhaS_1~~~rhaS_4~~~rhaS_6~~~rhaS_2,rhaS_1;rhaS_4;rhaS_6;rhaS_2,HTH-type transcriptional activator RhaS,False
+DC5,ytcD~~~hxlR_6~~~ytcD_2,ytcD;hxlR_6;ytcD_2,putative HTH-type transcriptional regulator YtcD;HTH-type transcriptional activator HxlR,False
+DC5,group_239,,hypothetical protein,True
+DC5,group_9139,,hypothetical protein,True
+DC5,group_3035,,hypothetical protein,True
+DC5,group_2930,,hypothetical protein,True
+DC5,group_2837,,hypothetical protein,True
+DC5,group_1605,,3-beta-hydroxycholanate 3-dehydrogenase (NADP(+)),False
+DC5,group_1260,ytrB_2,ABC transporter ATP-binding protein YtrB,False
+DC5,group_919,,hypothetical protein,True
+DC5,group_655,,hypothetical protein,True
+DC5,group_9126,,hypothetical protein,True
+DC5,bcrA_3~~~bcrA_8~~~bcrA_4,bcrA_3;bcrA_8;bcrA_4,Bacitracin transport ATP-binding protein BcrA,False
+DC5,group_4901,,hypothetical protein,True
+DC5,group_1989,,hypothetical protein,True
+DC5,cpnA~~~actIII,cpnA;actIII,Cyclopentanol dehydrogenase;Putative ketoacyl reductase,False
+DC5,hosA,hosA,Transcriptional regulator HosA,False
+DC5,group_7205,,hypothetical protein,True
+DC5,mepA_4~~~mepA_1,mepA_4;mepA_1,Multidrug export protein MepA,False
+DC5,group_8536,,hypothetical protein,True
+DC5,group_3232,,hypothetical protein,True
+DC5,group_8996,,hypothetical protein,True
+DC5,rbn_1~~~rbn,rbn_1;rbn;,Ribonuclease BN;hypothetical protein,True
+DC5,group_444,,hypothetical protein,True
+DC5,group_8132,,hypothetical protein,True
+DC5,group_3060,,hypothetical protein,True
+DC5,group_2766,,hypothetical protein,True
+DC5,group_2451,aadK;,Aminoglycoside 6-adenylyltransferase;hypothetical protein,True
+DC5,adaA,adaA,Bifunctional transcriptional activator/DNA repair enzyme AdaA,False
+DC5,mltF_1,mltF_1,Membrane-bound lytic murein transglycosylase F,False
+DC5,group_5383,,hypothetical protein,True
+DC5,group_5051,,hypothetical protein,True
+DC5,group_550,,hypothetical protein,True
+DC5,sasA_23~~~walK~~~sasA_11,sasA_23;;walK;sasA_11,Adaptive-response sensory-kinase SasA;hypothetical protein;Sensor protein kinase WalK,True
+DC5,group_4030,,hypothetical protein,True
+DC5,group_1651,,hypothetical protein,True
+DC5,group_1197,,hypothetical protein,True
+DC5,group_261,,hypothetical protein,True
+DC5,group_2672,,hypothetical protein,True
+DC5,group_2308,,hypothetical protein,True
+DC5,group_1355,,hypothetical protein,True
+DC5,group_95,,hypothetical protein,True
+DC5,mepA_5~~~mepA_15,mepA_5;mepA_15,Multidrug export protein MepA,False
+DC5,group_7932,,hypothetical protein,True
+DC5,group_7889,,hypothetical protein,True
+DC5,group_6921,,hypothetical protein,True
+DC5,group_4885,,hypothetical protein,True
+DC5,group_2083,,hypothetical protein,True
+DC5,group_2390,,hypothetical protein,True
+DC5,group_6922,,hypothetical protein,True
+DC5,btuD_4~~~irtA,btuD_4;irtA,Vitamin B12 import ATP-binding protein BtuD;Iron import ATP-binding/permease protein IrtA,False
+DC5,group_4242,,hypothetical protein,True
+DC5,group_4171,,putative ABC transporter ATP-binding protein,False
+DC5,group_2417,,hypothetical protein,True
+DC5,group_1859,,hypothetical protein,True
+DC5,group_8656,,hypothetical protein,True
+DC5,group_8456,,hypothetical protein,True
+DC5,group_7999,,Potassium channel,False
+DC5,group_3929,,hypothetical protein,True
+DC5,gabR_1,gabR_1,HTH-type transcriptional regulatory protein GabR,False
+DC5,ytcD_1,ytcD_1,putative HTH-type transcriptional regulator YtcD,False
+DC5,group_1171,,hypothetical protein,True
+DC5,group_30,,hypothetical protein,True
+DC5,group_9254,,hypothetical protein,True
+DC5,group_8948,,hypothetical protein,True
+DC5,group_8915,,hypothetical protein,True
+DC5,group_8446,,hypothetical protein,True
+DC5,group_8346,,hypothetical protein,True
+DC5,group_8035,macB_1,Macrolide export ATP-binding/permease protein MacB,False
+DC5,group_7450,,hypothetical protein,True
+DC5,group_7082,,hypothetical protein,True
+DC5,group_5970,,hypothetical protein,True
+DC5,group_5140,,hypothetical protein,True
+DC5,group_4855,,hypothetical protein,True
+DC5,group_4204,,hypothetical protein,True
+DC5,group_3963,,hypothetical protein,True
+DC5,yybR_1,yybR_1,putative HTH-type transcriptional regulator YybR,False
+DC5,group_2905,,hypothetical protein,True
+DC5,group_1803,,hypothetical protein,True
+DC5,group_1511,,hypothetical protein,True
+DC5,group_858,,hypothetical protein,True
+DC5,group_833,,hypothetical protein,True
+DC5,group_642,,putative oxidoreductase/MSMEI_2347,False
+DC5,group_577,,hypothetical protein,True
+DC5,hdfR,hdfR,HTH-type transcriptional regulator HdfR,False
+DC5,group_272,,hypothetical protein,True
+DC5,group_102,,hypothetical protein,True
+DC7,group_7486,,hypothetical protein,True
+DC7,sasA_5~~~sasA_20,;sasA_5;sasA_20,hypothetical protein;Adaptive-response sensory-kinase SasA,True
+DC7,group_8549,,hypothetical protein,True
+DC7,group_7662,;yeiR,hypothetical protein;Zinc-binding GTPase YeiR,True
+DC7,bcrA_5~~~bcrA_1~~~bcrA_7,bcrA_5;bcrA_1;bcrA_7,Bacitracin transport ATP-binding protein BcrA,False
+DC7,ribZ_1~~~ribZ_4~~~ribZ_6~~~ribZ_2,ribZ_1;ribZ_4;ribZ_6;ribZ_2,Riboflavin transporter RibZ,False
+DC7,saeR,saeR,Response regulator SaeR,False
+DC7,group_1648,,hypothetical protein,True
+DC7,rhaS_1~~~rhaS_4~~~rhaS_6~~~rhaS_2,rhaS_1;rhaS_4;rhaS_6;rhaS_2,HTH-type transcriptional activator RhaS,False
+DC7,ytcD~~~hxlR_6~~~ytcD_2,ytcD;hxlR_6;ytcD_2,putative HTH-type transcriptional regulator YtcD;HTH-type transcriptional activator HxlR,False
+DC7,group_239,,hypothetical protein,True
+DC7,group_9139,,hypothetical protein,True
+DC7,group_3035,,hypothetical protein,True
+DC7,group_2837,,hypothetical protein,True
+DC7,group_1605,,3-beta-hydroxycholanate 3-dehydrogenase (NADP(+)),False
+DC7,group_655,,hypothetical protein,True
+DC7,group_9126,,hypothetical protein,True
+DC7,bcrA_3~~~bcrA_8~~~bcrA_4,bcrA_3;bcrA_8;bcrA_4,Bacitracin transport ATP-binding protein BcrA,False
+DC7,group_1989,,hypothetical protein,True
+DC7,cpnA~~~actIII,cpnA;actIII,Cyclopentanol dehydrogenase;Putative ketoacyl reductase,False
+DC7,group_966,,hypothetical protein,True
+DC7,gloB_2~~~gloB_1~~~gloB_3~~~gloB_4,gloB_2;gloB_1;gloB_3;gloB_4,Hydroxyacylglutathione hydrolase,False
+DC7,group_2326,,hypothetical protein,True
+DC7,group_2852,,hypothetical protein,True
+DC7,group_4779,,Putative two-component membrane permease complex subunit SMU_747c,False
+DC7,group_2374,,hypothetical protein,True
+DC7,rob_1~~~rob,rob_1;rob;,Right origin-binding protein;hypothetical protein,True
+DC7,rbn_1~~~rbn,rbn_1;rbn;,Ribonuclease BN;hypothetical protein,True
+DC7,group_444,,hypothetical protein,True
+DC7,group_8132,,hypothetical protein,True
+DC7,group_6485,,hypothetical protein,True
+DC7,group_2766,,hypothetical protein,True
+DC7,group_2451,aadK;,Aminoglycoside 6-adenylyltransferase;hypothetical protein,True
+DC7,adaA,adaA,Bifunctional transcriptional activator/DNA repair enzyme AdaA,False
+DC7,mltF_1,mltF_1,Membrane-bound lytic murein transglycosylase F,False
+DC7,group_550,,hypothetical protein,True
+DC7,sasA_23~~~walK~~~sasA_11,sasA_23;;walK;sasA_11,Adaptive-response sensory-kinase SasA;hypothetical protein;Sensor protein kinase WalK,True
+DC7,group_1197,,hypothetical protein,True
+DC7,group_261,,hypothetical protein,True
+DC7,group_2502,,hypothetical protein,True
+DC7,group_5147,,hypothetical protein,True
+DC7,group_908,,hypothetical protein,True
+DC7,group_6496,,hypothetical protein,True
+DC7,group_5195,bcrA_3,Bacitracin transport ATP-binding protein BcrA,False
+DC7,group_4956,,hypothetical protein,True
+DC7,mprA_2~~~phoB,mprA_2;phoB,Response regulator MprA;Phosphate regulon transcriptional regulatory protein PhoB,False
+DC7,group_2786,,hypothetical protein,True
+DC7,ribZ_5,ribZ_5,Riboflavin transporter RibZ,False
+DC7,bcrA_2~~~bcrA_3~~~bcrA_4,bcrA_2;bcrA_3;bcrA_4,Bacitracin transport ATP-binding protein BcrA,False
+DC7,group_751,,hypothetical protein,True
+DC7,rcsC_8,rcsC_8,Sensor histidine kinase RcsC,False
+DC7,group_7092,,hypothetical protein,True
+DC7,group_8637,,hypothetical protein,True
+DC7,group_5583,,hypothetical protein,True
+DC7,group_3460,,hypothetical protein,True
+DC7,group_1813,,hypothetical protein,True
+DC7,group_7394,,putative peptidase,False
+DC7,xerC_3~~~xerC_1,xerC_3;;xerC_1,Tyrosine recombinase XerC;hypothetical protein,True
+DC7,group_1566,,hypothetical protein,True
+DC7,group_11852,,hypothetical protein,True
+DC7,group_9177,,hypothetical protein,True
+DC7,group_8774,,hypothetical protein,True
+DC7,group_6849,,hypothetical protein,True
+DC7,group_6500,,hypothetical protein,True
+DC7,aar,aar,L-alanine/L-glutamate racemase,False
+DC7,group_5459,,hypothetical protein,True
+DC7,licA_3,licA_3,Lichenan-specific phosphotransferase enzyme IIA component,False
+DC7,chbB,chbB,PTS system NN'-diacetylchitobiose-specific EIIB component,False
+DC7,uhpC,uhpC,Membrane sensor protein UhpC,False
+DC7,group_4880,licC_3,Lichenan permease IIC component,False
+DC7,yhhW,yhhW,Quercetin 23-dioxygenase,False
+DC7,gmuR,gmuR,HTH-type transcriptional regulator GmuR,False
+DC7,licR_3,licR_3,putative licABCH operon regulator,False
+DC7,group_2436,,hypothetical protein,True
+DC7,group_2027,,hypothetical protein,True
+DC7,pepA_1~~~pepA_2,pepA_1;pepA_2,Cytosol aminopeptidase,False
+DC7,group_1789,,hypothetical protein,True
+DC7,group_1716,,hypothetical protein,True
+DC7,group_1443,,hypothetical protein,True
+DC7,group_1145,,hypothetical protein,True
+DC7,group_753,,hypothetical protein,True
+DC7,group_752,,hypothetical protein,True
+DC7,group_377,,hypothetical protein,True
+DC7,group_8693,,hypothetical protein,True
+DC7,rhaR_2,rhaR_2,HTH-type transcriptional activator RhaR,False
+DC7,mobA_3,mobA_3,Molybdenum cofactor guanylyltransferase,False
+DC7,group_7349,,IS200/IS605 family transposase ISBth17,False
+DC7,group_7094,,hypothetical protein,True
+DC7,acr3_1,acr3_1,Arsenical-resistance protein Acr3,False
+DC7,group_6282,,hypothetical protein,True
+DC7,group_4383,,hypothetical protein,True
+DC7,group_4140,,hypothetical protein,True
+DC7,mepA_1,mepA_1,Multidrug export protein MepA,False
+DC7,group_2829,,hypothetical protein,True
+DC7,group_2243,,putative ABC transporter ATP-binding protein,False
+DC7,btuD_9,btuD_9,Vitamin B12 import ATP-binding protein BtuD,False
+DC7,gcvH_2~~~gcvH_1,gcvH_2;gcvH_1,Glycine cleavage system H protein,False
+DC7,group_866,,hypothetical protein,True
+DC7,btuD_17,btuD_17,Vitamin B12 import ATP-binding protein BtuD,False
+DC7,group_804,,hypothetical protein,True
+DC7,COQ5_1~~~COQ5_2,COQ5_1;COQ5_2,2-methoxy-6-polyprenyl-14-benzoquinol methylase mitochondrial,False
+DC7,group_644,,hypothetical protein,True
+DC7,walR_12~~~phoP_3,walR_12;phoP_3,Transcriptional regulatory protein WalR;Alkaline phosphatase synthesis transcriptional regulatory protein PhoP,False
+DC7,group_316,,hypothetical protein,True
+DC8,group_3535,,hypothetical protein,True
+DC8,group_6613,,hypothetical protein,True
+DC8,group_2930,,hypothetical protein,True
+DC8,group_1260,ytrB_2,ABC transporter ATP-binding protein YtrB,False
+DC8,group_919,,hypothetical protein,True
+DC8,group_5516,,IS200/IS605 family transposase ISAsp8,False
+DC8,group_4901,,hypothetical protein,True
+DC8,group_2326,,hypothetical protein,True
+DC8,group_2852,,hypothetical protein,True
+DC8,group_4779,,Putative two-component membrane permease complex subunit SMU_747c,False
+DC8,arsR,arsR,Arsenical resistance operon repressor,False
+DC8,group_382,,hypothetical protein,True
+DC8,group_5051,,hypothetical protein,True
+DC8,group_4137,,hypothetical protein,True
+DC8,mepA_13~~~mepA_9~~~mepA_1~~~mepA_12~~~mepA_11,mepA_13;mepA_9;mepA_1;mepA_12;mepA_11,Multidrug export protein MepA,False
+DC8,group_8598,,hypothetical protein,True
+DC8,tetR,tetR;,Tetracycline repressor protein class E;Tetracycline repressor protein class H;hypothetical protein,True
+DC8,group_1448,,IS607 family transposase ISCbt4,False
+DC8,group_9226,,hypothetical protein,True
+DC8,group_7520,,hypothetical protein,True
+DC8,group_2057,,hypothetical protein,True
+DC8,group_1741,,hypothetical protein,True
+DC8,group_452,,hypothetical protein,True
+DC6,group_3254,,hypothetical protein,True
+DC6,cmpR_1,cmpR_1,HTH-type transcriptional activator CmpR,False
+DC6,yvgN,yvgN,Glyoxal reductase,False
+DC6,group_2152,,hypothetical protein,True
+DC6,group_7565,,hypothetical protein,True
+DC6,group_7608,,hypothetical protein,True
+DC6,cycB_2,;cycB_2,hypothetical protein;Cyclodextrin-binding protein,True
+DC6,group_5204,,hypothetical protein,True
+DC6,group_905,,hypothetical protein,True
+DC6,group_6308,,hypothetical protein,True
+DC6,group_6307,,hypothetical protein,True
+DC6,rhaR_3~~~rhaS_8~~~rhaS_4~~~rhaR_2~~~rhaR_5,rhaR_3;rhaS_8;rhaS_4;rhaR_2;rhaR_5,HTH-type transcriptional activator RhaR;HTH-type transcriptional activator RhaS,False
+DC6,group_6193,,hypothetical protein,True
+DC6,group_6182,cadA_1,Cadmium zinc and cobalt-transporting ATPase,False
+DC6,yhaZ_2~~~yhaZ_1,yhaZ_2;yhaZ_1,putative protein YhaZ,False
+DC6,mepA_12~~~mepA_6~~~mepA_2~~~mepA_3,mepA_12;mepA_6;mepA_2;mepA_3,Multidrug export protein MepA,False
+DC6,group_5652,,hypothetical protein,True
+DC6,group_5607,ziaR_1,Transcriptional repressor SmtB,False
+DC6,group_4585,,hypothetical protein,True
+DC6,group_2220,,hypothetical protein,True
+DC6,group_6984,,hypothetical protein,True
+DC6,group_6345,,hypothetical protein,True
+DC6,group_6235,,hypothetical protein,True
+DC6,group_7935,,hypothetical protein,True
+DC6,group_5996,,hypothetical protein,True
+DC6,group_3762,,hypothetical protein,True
+DC6,group_2959,,hypothetical protein,True
+DC6,COQ3_2~~~COQ3_3~~~COQ3_4,COQ3_2;COQ3_3;COQ3_4,Ubiquinone biosynthesis O-methyltransferase mitochondrial,False
+DC6,group_1518,,hypothetical protein,True
+DC6,group_1164,,hypothetical protein,True
+DC6,COQ5_2~~~ycgJ,COQ5_2;ycgJ,2-methoxy-6-polyprenyl-14-benzoquinol methylase mitochondrial;putative methyltransferase YcgJ,False
+DC6,rsmG,rsmG,Ribosomal RNA small subunit methyltransferase G,False
+DC6,group_8884,,hypothetical protein,True
+DC6,group_6238,,hypothetical protein,True
+DC6,mdtK,mdtK,Multidrug resistance protein MdtK,False
+DC6,group_1846,,hypothetical protein,True
+DC6,rhaS_4,rhaS_4,HTH-type transcriptional activator RhaS,False
+DC6,yvbK,yvbK,putative N-acetyltransferase YvbK,False
+DC6,rutD,rutD,Putative aminoacrylate hydrolase RutD,False
+DC6,blaI_2~~~blaI_6,blaI_2;blaI_6,Penicillinase repressor,False
+DC6,group_8552,,hypothetical protein,True
+DC6,group_6026,,hypothetical protein,True
+DC3,group_5710,,hypothetical protein,True
+DC3,group_449,,hypothetical protein,True
+DC3,group_920,,hypothetical protein,True
+DC3,cypC_2~~~cypC~~~cypC_1,cypC_2;cypC;cypC_1;,Fatty-acid peroxygenase;hypothetical protein,True
+DC3,group_144,,hypothetical protein,True
+DC3,group_12018,,hypothetical protein,True
+DC3,group_10077,cutD_2,Choline trimethylamine-lyase activating enzyme,False
+DC3,group_10076,nrdD,Anaerobic ribonucleoside-triphosphate reductase,False
+DC3,group_10075,,Aspartate aminotransferase,False
+DC3,group_8768,,hypothetical protein,True
+DC3,group_6043,,hypothetical protein;Virulence protein,True
+DC3,ybxI,;ybxI,hypothetical protein;putative beta-lactamase YbxI,True
+DC3,group_2196,,hypothetical protein,True
+DC3,group_11058,,hypothetical protein,True
+DC3,group_8663,arsR,Arsenical resistance operon repressor,False
+DC3,group_8560,,hypothetical protein;Putative two-component membrane permease complex subunit SMU_747c,True
+DC3,group_2697,,hypothetical protein,True
+DC3,group_9287,,hypothetical protein,True
+DC3,group_4589,,hypothetical protein,True
+DC3,gltC_4,gltC_4,HTH-type transcriptional regulator GltC,False
+DC12,group_6078,,hypothetical protein,True
+DC12,group_1244,,hypothetical protein,True
+DC12,cycB_2,;cycB_2,hypothetical protein;Cyclodextrin-binding protein,True
+DC12,group_905,,hypothetical protein,True
+DC12,group_7209,,hypothetical protein,True
+DC12,group_6308,,hypothetical protein,True
+DC12,group_6307,,hypothetical protein,True
+DC12,rhaR_3~~~rhaS_8~~~rhaS_4~~~rhaR_2~~~rhaR_5,rhaR_3;rhaS_8;rhaS_4;rhaR_2;rhaR_5,HTH-type transcriptional activator RhaR;HTH-type transcriptional activator RhaS,False
+DC12,group_6193,,hypothetical protein,True
+DC12,group_6182,cadA_1,Cadmium zinc and cobalt-transporting ATPase,False
+DC12,yhaZ_2~~~yhaZ_1,yhaZ_2;yhaZ_1,putative protein YhaZ,False
+DC12,mepA_12~~~mepA_6~~~mepA_2~~~mepA_3,mepA_12;mepA_6;mepA_2;mepA_3,Multidrug export protein MepA,False
+DC12,group_5652,,hypothetical protein,True
+DC12,group_5607,ziaR_1,Transcriptional repressor SmtB,False
+DC12,group_4585,,hypothetical protein,True
+DC12,group_2220,,hypothetical protein,True
+DC12,group_7618,,hypothetical protein;IS1182 family transposase ISCpe5,True
+DC12,group_6345,,hypothetical protein,True
+DC12,group_6235,,hypothetical protein,True
+DC12,gmuE~~~glcK_1~~~glcK_2,gmuE;glcK_1;glcK_2,Putative fructokinase;Glucokinase,False
+DC12,group_7935,,hypothetical protein,True
+DC12,menH_3~~~menH_1~~~menH_4,menH_3;;menH_1;menH_4,2-succinyl-6-hydroxy-24-cyclohexadiene-1-carboxylate synthase;hypothetical protein,True
+DC12,xerC_6~~~xerC_9,;xerC_6;xerC_9,hypothetical protein;Tyrosine recombinase XerC,True
+DC12,group_3762,,hypothetical protein,True
+DC12,group_2959,,hypothetical protein,True
+DC12,COQ3_2~~~COQ3_3~~~COQ3_4,COQ3_2;COQ3_3;COQ3_4,Ubiquinone biosynthesis O-methyltransferase mitochondrial,False
+DC12,group_4584,,hypothetical protein,True
+DC12,group_8139,,hypothetical protein,True
+DC12,group_4417,,hypothetical protein,True
+DC12,group_3621,,hypothetical protein,True
+DC12,group_3231,,hypothetical protein,True
+DC12,group_238,,hypothetical protein,True
+DC12,group_4897,,hypothetical protein,True
+DC12,group_12264,,hypothetical protein;IS1182 family transposase ISClbu1;IS1182 family transposase ISCpe5,True
+DC12,licH_1,licH_1,putative 6-phospho-beta-glucosidase,False
+DC12,group_12210,,hypothetical protein,True
+DC12,licA_1,licA_1,Lichenan-specific phosphotransferase enzyme IIA component,False
+DC12,group_12129,,hypothetical protein,True
+DC12,group_12125,,hypothetical protein,True
+DC12,group_12115,,hypothetical protein,True
+DC12,group_12108,,hypothetical protein,True
+DC12,fabF_1~~~fabF_2,fabF_1;fabF_2,3-oxoacyl-[acyl-carrier-protein] synthase 2,False
+DC12,group_12012,,hypothetical protein,True
+DC12,group_10260,,hypothetical protein,True
+DC12,group_10115,,hypothetical protein,True
+DC12,group_10102,,hypothetical protein,True
+DC12,group_10101,,hypothetical protein,True
+DC12,group_10100,,hypothetical protein,True
+DC12,group_10099,,IS256 family transposase ISCbe6,False
+DC12,group_10098,,hypothetical protein,True
+DC12,srtB_1,srtB_1,Sortase B,False
+DC12,group_9270,,hypothetical protein,True
+DC12,group_8031,,hypothetical protein,True
+DC12,group_1259,,hypothetical protein,True
+DC2,group_4940,,hypothetical protein,True
+DC2,group_3364,,hypothetical protein,True
+DC2,group_7197,,hypothetical protein;IS200/IS605 family transposase ISBth17,True
+DC2,group_11475,,hypothetical protein,True
+DC2,yknY_2~~~yknY_3~~~yknY_1,yknY_2;yknY_3;yknY_1,putative ABC transporter ATP-binding protein YknY,False
+DC2,group_7298,;yknZ,hypothetical protein;putative ABC transporter permease YknZ,True
+DC2,group_8121,,hypothetical protein,True
+DC2,group_1714,,hypothetical protein,True
+DC2,group_7297,,hypothetical protein,True
+DC2,tag,tag,DNA-3-methyladenine glycosylase 1,False
+DC2,group_6240,,IS607 family transposase ISCbo6;hypothetical protein;IS607 family transposase ISCbo9;IS200/IS605 family transposase ISBth15,True
+DC2,group_8218,,hypothetical protein,True
+DC2,group_7116,,hypothetical protein,True
+DC2,group_6906,,hypothetical protein,True
+DC2,group_5851,,hypothetical protein,True
+DC2,group_5572,,putative oxidoreductase/MSMEI_2347,False
+DC2,adhR_1,adhR_1,HTH-type transcriptional regulator AdhR,False
+DC2,group_4513,,hypothetical protein,True
+DC2,group_1494,,hypothetical protein,True
+DC2,group_9249,,hypothetical protein,True
+DC2,group_9045,,Sulfurtransferase,False
+DC2,group_8633,,hypothetical protein,True
+DC2,group_8489,,hypothetical protein,True
+DC2,group_8110,,hypothetical protein,True
+DC2,group_7710,,hypothetical protein,True
+DC2,group_7339,,IS200/IS605 family transposase ISCpe4,False
+DC2,group_7117,,hypothetical protein,True
+DC2,group_6826,,hypothetical protein,True
+DC2,group_5554,,hypothetical protein,True
+DC2,group_5430,,hypothetical protein,True
+DC2,group_4186,,hypothetical protein,True
+DC2,ytrA_3,ytrA_3,HTH-type transcriptional repressor YtrA,False
+DC2,group_3136,,hypothetical protein,True
+DC2,cdr_2~~~tusA,cdr_2;tusA,Coenzyme A disulfide reductase;Sulfur carrier protein TusA,False
+DC2,group_2199,,hypothetical protein,True
+DC2,group_2169,,hypothetical protein,True
+DC2,group_1706,,hypothetical protein,True
+DC2,group_1631,,hypothetical protein,True
+DC2,group_1452,,hypothetical protein,True
+DC2,group_1275,,hypothetical protein,True
+DC2,btuD_8,btuD_8,Vitamin B12 import ATP-binding protein BtuD,False
+DC2,group_512,,hypothetical protein,True
+DC2,group_237,,hypothetical protein,True
+DC2,group_18,,hypothetical protein,True
+DC2,group_8386,,hypothetical protein,True
+DC2,group_11287,,hypothetical protein,True
+DC2,group_8814,,hypothetical protein,True
+DC2,group_8054,,hypothetical protein,True
+DC2,group_1174,,hypothetical protein,True
+DC2,group_125,,hypothetical protein,True
+DC2,group_2214,,hypothetical protein,True
+DC11,group_8971,,hypothetical protein,True
+DC11,group_5633,,hypothetical protein,True
+DC11,group_7028,,hypothetical protein,True
+DC11,group_6056,,hypothetical protein,True
+DC11,group_5383,,hypothetical protein,True
+DC11,group_1839,,hypothetical protein,True
+DC11,group_7715,,hypothetical protein,True
+DC11,group_7330,,hypothetical protein,True
+DC11,group_5907,,hypothetical protein,True
+DC11,group_7209,,hypothetical protein,True
+DC11,colD,colD,GDP-4-keto-6-deoxy-D-mannose 3-dehydratase,False
+DC11,group_77,,hypothetical protein,True
+DC11,group_7992,,hypothetical protein,True
+DC11,group_6308,,hypothetical protein,True
+DC11,group_6307,,hypothetical protein,True
+DC11,rhaR_3~~~rhaS_8~~~rhaS_4~~~rhaR_2~~~rhaR_5,rhaR_3;rhaS_8;rhaS_4;rhaR_2;rhaR_5,HTH-type transcriptional activator RhaR;HTH-type transcriptional activator RhaS,False
+DC11,group_6193,,hypothetical protein,True
+DC11,group_6182,cadA_1,Cadmium zinc and cobalt-transporting ATPase,False
+DC11,yhaZ_2~~~yhaZ_1,yhaZ_2;yhaZ_1,putative protein YhaZ,False
+DC11,mepA_12~~~mepA_6~~~mepA_2~~~mepA_3,mepA_12;mepA_6;mepA_2;mepA_3,Multidrug export protein MepA,False
+DC11,group_5652,,hypothetical protein,True
+DC11,group_5607,ziaR_1,Transcriptional repressor SmtB,False
+DC11,group_4585,,hypothetical protein,True
+DC11,gmd,gmd,GDP-mannose 46-dehydratase,False
+DC11,group_2220,,hypothetical protein,True
+DC11,fcl,fcl,GDP-L-fucose synthase,False
+DC11,group_6984,,hypothetical protein,True
+DC11,group_6345,,hypothetical protein,True
+DC11,group_6235,,hypothetical protein,True
+DC11,group_619,,hypothetical protein,True
+DC11,group_8975,,hypothetical protein,True
+DC11,group_8974,,hypothetical protein,True
+DC11,group_5448,,hypothetical protein,True
+DC11,btuD_4~~~irtA,btuD_4;irtA,Vitamin B12 import ATP-binding protein BtuD;Iron import ATP-binding/permease protein IrtA,False
+DC11,group_4242,,hypothetical protein,True
+DC11,group_4171,,putative ABC transporter ATP-binding protein,False
+DC11,group_3890,,hypothetical protein,True
+DC11,group_2417,,hypothetical protein,True
+DC11,group_1518,,hypothetical protein,True
+DC11,group_1164,,hypothetical protein,True
+DC11,group_773,,hypothetical protein,True
+DC11,group_4219,,hypothetical protein,True
+DC11,recD2_2,recD2_2;,ATP-dependent RecD-like DNA helicase;hypothetical protein,True
+DC11,group_8831,,hypothetical protein,True
+DC11,group_719,,hypothetical protein,True
+DC11,group_3683,,hypothetical protein,True
+DC11,group_3342,;apxIB,Putative multidrug export ATP-binding/permease protein;Toxin RTX-I translocation ATP-binding protein,False
+DC11,group_1113,,hypothetical protein,True
+DC11,group_1112,,hypothetical protein,True
+DC11,ypdB_2~~~ypdB_5,ypdB_2;ypdB_5,Transcriptional regulatory protein YpdB,False
+DC11,group_4402,,hypothetical protein,True
+DC11,group_4380,moaA_3;moaA_5,GTP 3'8-cyclase,False
+DC11,group_4315,moaA_4;,GTP 3'8-cyclase;Anaerobic sulfatase-maturating enzyme,False
+DC11,group_1185,,hypothetical protein,True
+DC11,group_7462,,hypothetical protein,True
+DC11,group_5403,,hypothetical protein,True
+DC11,group_3621,,hypothetical protein,True
+DC11,group_3381,,hypothetical protein,True
+DC11,group_3231,,hypothetical protein,True
+DC11,group_1515,,hypothetical protein,True
+DC11,group_1457,,hypothetical protein,True
+DC11,group_198,,hypothetical protein,True
+DC11,group_4615,,hypothetical protein,True
+DC11,group_4590,,hypothetical protein,True
+DC11,group_2622,,hypothetical protein,True
+DC11,group_12309,,hypothetical protein,True
+DC11,group_5857,,hypothetical protein,True
+DC11,group_4751,,hypothetical protein,True
+DC11,group_2432,,hypothetical protein,True
+DC11,group_2427,,hypothetical protein,True
+DC11,group_6939,,hypothetical protein,True
+DC11,group_2804,,hypothetical protein,True
+DC11,group_12252,,hypothetical protein,True
+DC11,group_4897,,hypothetical protein,True
+DC11,group_4425,gtfA,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase GtfA subunit,False
+DC11,group_4406,;COQ3_2;COQ3_3,hypothetical protein;Ubiquinone biosynthesis O-methyltransferase mitochondrial,True
+DC11,group_4391,,hypothetical protein,True
+DC11,group_4346,,hypothetical protein,True
+DC11,group_4308,,hypothetical protein,True
+DC11,spnR~~~arnB,spnR;arnB,dTDP-4-dehydro-236-trideoxy-D-glucose 4-aminotransferase;UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase,False
+DC11,group_4109,,hypothetical protein,True
+DC11,vioA,vioA,dTDP-4-amino-46-dideoxy-D-glucose transaminase,False
+DC11,vioB,vioB,dTDP-4-amino-46-dideoxy-D-glucose acyltransferase,False
+DC11,group_3300,,hypothetical protein,True
+DC11,group_2817,,hypothetical protein,True
+DC11,hisC_7,hisC_7,Histidinol-phosphate aminotransferase,False
+DC11,group_12470,,Tryptophan decarboxylase,False
+DC11,group_12418,,hypothetical protein,True
+DC11,group_12140,,hypothetical protein,True
+DC11,group_10936,,hypothetical protein,True
+DC11,cdr_1,cdr_1,Coenzyme A disulfide reductase,False
+DC11,group_10001,,hypothetical protein,True
+DC11,group_8983,lexA_2,LexA repressor,False
+DC11,group_5866,,hypothetical protein,True
+DC11,group_2517,,hypothetical protein,True
+DC11,group_10937,,hypothetical protein,True
+DC11,group_10935,,hypothetical protein,True
+DC11,group_10934,,hypothetical protein,True
+DC11,group_10933,,hypothetical protein,True
+DC11,group_10932,rcsC_7,Sensor histidine kinase RcsC,False
+DC11,group_10931,mprA_1,Response regulator MprA,False
+DC11,group_10930,,hypothetical protein,True
+DC11,group_10929,bcrA_3,Bacitracin transport ATP-binding protein BcrA,False
+DC11,group_10928,,hypothetical protein,True
+DC11,group_10927,,hypothetical protein,True
+DC11,group_10926,,hypothetical protein,True
+DC11,group_10925,,hypothetical protein,True
+DC11,group_10000,,hypothetical protein,True
+DC11,group_9180,,hypothetical protein,True
+DC11,group_8739,,hypothetical protein,True
+DC11,group_8703,,hypothetical protein,True
+DC11,group_8601,,hypothetical protein,True
+DC11,group_8374,,hypothetical protein,True
+DC11,group_6998,cat3,Chloramphenicol acetyltransferase 3,False
+DC11,group_5152,,hypothetical protein,True
+DC11,group_1833,,hypothetical protein,True
+DC11,group_1674,,hypothetical protein,True
+DC11,group_522,,hypothetical protein,True
+DC11,group_295,,hypothetical protein,True
+DC13,group_4878,,hypothetical protein,True
+DC13,group_4871,,hypothetical protein,True
+DC13,rbn_1~~~rbn,rbn_1;rbn;,Ribonuclease BN;hypothetical protein,True
+DC13,group_3608,,hypothetical protein,True
+DC13,dnaC_2~~~dnaC_3,dnaC_2;dnaC_3,Replicative DNA helicase,False
+DC13,group_8691,,hypothetical protein,True
+DC13,ssbA~~~ssbA_2~~~ssbA_1,ssbA;ssbA_2;ssbA_1,Single-stranded DNA-binding protein A,False
+DC13,group_7754,,hypothetical protein,True
+DC13,group_6250,,hypothetical protein,True
+DC13,group_4923,,hypothetical protein,True
+DC13,apaH~~~pphA,apaH;pphA;,Bis(5'-nucleosyl)-tetraphosphatase symmetrical;Serine/threonine-protein phosphatase 1;hypothetical protein,True
+DC13,group_2763,,hypothetical protein,True
+DC13,group_8340,,hypothetical protein,True
+DC13,group_8156,,hypothetical protein,True
+DC13,group_7338,,hypothetical protein,True
+DC13,toxN,toxN,Endoribonuclease ToxN,False
+DC13,group_3374,,hypothetical protein,True
+DC13,group_2278,,hypothetical protein,True
+DC13,group_7369,,hypothetical protein,True
+DC13,group_7342,,hypothetical protein,True
+DC13,group_7341,,hypothetical protein,True
+DC13,group_7146,,hypothetical protein,True
+DC13,group_6647,,hypothetical protein,True
+DC13,group_5481,,hypothetical protein,True
+DC13,group_5181,,hypothetical protein,True
+DC13,immR~~~immR_2,;immR;immR_2,hypothetical protein;HTH-type transcriptional regulator ImmR,True
+DC13,group_2051,,hypothetical protein,True
+DC13,group_1046,,hypothetical protein,True
+DC13,group_6823,,hypothetical protein,True
+DC13,group_6413,,hypothetical protein,True
+DC13,btuD_9~~~ytrA_3~~~btuD_3~~~btuD_11~~~btuD_6,;btuD_9;ytrA_3;btuD_3;btuD_11;btuD_6,hypothetical protein;Vitamin B12 import ATP-binding protein BtuD;HTH-type transcriptional repressor YtrA,True
+DC13,group_5213,,hypothetical protein,True
+DC13,alkA,alkA;,DNA-3-methyladenine glycosylase;hypothetical protein,True
+DC13,group_3408,,hypothetical protein,True
+DC13,group_2826,,hypothetical protein,True
+DC13,group_7852,,hypothetical protein,True
+DC13,slmA~~~slmA_4~~~slmA_1~~~slmA_3~~~slmA_2,slmA;slmA_4;slmA_1;slmA_3;slmA_2,Nucleoid occlusion factor SlmA,False
+DC13,group_7328,,hypothetical protein,True
+DC13,group_6470,,hypothetical protein,True
+DC13,group_5907,,hypothetical protein,True
+DC13,group_5407,,hypothetical protein,True
+DC13,group_5333,,hypothetical protein,True
+DC13,group_4827,,hypothetical protein,True
+DC13,group_1623,,hypothetical protein,True
+DC13,group_7062,,hypothetical protein,True
+DC13,group_5824,,hypothetical protein,True
+DC13,group_5382,,hypothetical protein,True
+DC13,group_5178,,hypothetical protein,True
+DC13,group_5116,,hypothetical protein,True
+DC13,group_3853,,hypothetical protein,True
+DC13,group_7858,,hypothetical protein,True
+DC13,rtcB_2~~~rtcB_1,rtcB_2;rtcB_1;,RNA-splicing ligase RtcB;hypothetical protein,True
+DC13,group_5881,,hypothetical protein,True
+DC13,group_2290,,hypothetical protein,True
+DC13,group_7448,,hypothetical protein,True
+DC13,group_6731,,hypothetical protein,True
+DC13,group_6132,,hypothetical protein,True
+DC13,group_1423,,hypothetical protein,True
+DC13,group_6922,,hypothetical protein,True
+DC13,group_5137,,hypothetical protein,True
+DC13,group_3837,,hypothetical protein,True
+DC13,group_3815,,hypothetical protein,True
+DC13,COQ5_2~~~ycgJ,COQ5_2;ycgJ,2-methoxy-6-polyprenyl-14-benzoquinol methylase mitochondrial;putative methyltransferase YcgJ,False
+DC13,group_6701,,hypothetical protein,True
+DC13,group_5355,,hypothetical protein,True
+DC13,group_8688,,hypothetical protein,True
+DC13,group_7540,,hypothetical protein,True
+DC13,group_7459,,hypothetical protein,True
+DC13,group_7228,,hypothetical protein,True
+DC13,group_7009,,hypothetical protein,True
+DC13,group_6594,,hypothetical protein,True
+DC13,group_6590,,hypothetical protein,True
+DC13,group_5800,,hypothetical protein,True
+DC13,group_5799,,hypothetical protein,True
+DC13,group_5357,,hypothetical protein,True
+DC13,group_5244,,hypothetical protein,True
+DC13,group_3505,,hypothetical protein,True
+DC13,group_3443,,hypothetical protein,True
+DC13,group_2979,,hypothetical protein,True
+DC13,group_2784,,hypothetical protein,True
+DC13,group_1616,,hypothetical protein,True
+DC13,group_159,,hypothetical protein,True
+DC13,group_157,,hypothetical protein,True
+DC13,group_12323,,hypothetical protein,True
+DC13,group_7215,,hypothetical protein,True
+DC13,group_7105,,hypothetical protein,True
+DC13,group_7044,,hypothetical protein,True
+DC13,group_5450,,hypothetical protein,True
+DC13,group_3353,,hypothetical protein,True
+DC13,group_3347,,hypothetical protein,True
+DC13,group_2717,,hypothetical protein,True
+DC13,group_1874,immR,HTH-type transcriptional regulator ImmR,False
+DC13,dam~~~dpnM,dam;dpnM;,DNA adenine methylase;Modification methylase DpnIIA;hypothetical protein,True
+DC13,group_794,,hypothetical protein,True
+DC13,group_294,,hypothetical protein,True
+DC13,group_6474,,hypothetical protein,True
+DC13,group_6171,,hypothetical protein,True
+DC13,group_5889,,hypothetical protein,True
+DC13,group_5546,,hypothetical protein,True
+DC13,group_5115,,hypothetical protein,True
+DC13,lytC_2,lytC_2;,N-acetylmuramoyl-L-alanine amidase LytC;hypothetical protein,True
+DC13,group_1158,,hypothetical protein,True
+DC13,group_7581,,hypothetical protein,True
+DC13,group_7267,,hypothetical protein,True
+DC13,group_1725,,hypothetical protein,True
+DC13,group_12160,,hypothetical protein,True
+DC13,group_11143,,hypothetical protein,True
+DC13,group_8912,;arcB,hypothetical protein;Delta(1)-pyrroline-2-carboxylate reductase,True
+DC13,group_6526,,hypothetical protein,True
+DC13,group_6289,,hypothetical protein,True
+DC13,group_12482,,hypothetical protein,True
+DC13,group_7605,,hypothetical protein,True
+DC13,group_7337,,hypothetical protein,True
+DC13,group_5353,,hypothetical protein,True
+DC13,queG_3,queG_3,Epoxyqueuosine reductase,False
+DC13,group_3826,,hypothetical protein,True
+DC13,group_3461,,hypothetical protein,True
+DC13,group_1904,arsC,Arsenate reductase,False
+DC13,group_1797,,hypothetical protein,True
+DC13,group_1689,,hypothetical protein,True
+DC13,group_988,,hypothetical protein,True
+DC13,group_12288,,hypothetical protein,True
+DC13,group_7717,,hypothetical protein,True
+DC13,group_7336,,hypothetical protein,True
+DC13,group_3737,,hypothetical protein,True
+DC13,group_12466,,hypothetical protein,True
+DC13,group_12465,,hypothetical protein,True
+DC13,group_12464,sipP,Signal peptidase I P,False
+DC13,group_12451,,hypothetical protein,True
+DC13,group_12450,,hypothetical protein,True
+DC13,group_12449,,hypothetical protein,True
+DC13,prsA_2~~~prsA_1,prsA_2;prsA_1,Foldase protein PrsA,False
+DC13,group_12448,,hypothetical protein,True
+DC13,group_12447,,hypothetical protein,True
+DC13,group_12446,,hypothetical protein,True
+DC13,group_12445,,hypothetical protein,True
+DC13,group_12444,,hypothetical protein,True
+DC13,traC,traC,DNA primase TraC,False
+DC13,group_12442,,hypothetical protein,True
+DC13,group_12441,,hypothetical protein,True
+DC13,group_12440,,hypothetical protein,True
+DC13,group_12439,,hypothetical protein,True
+DC13,group_12367,,hypothetical protein,True
+DC13,group_12366,,hypothetical protein,True
+DC13,group_12365,,hypothetical protein,True
+DC13,group_12364,,hypothetical protein,True
+DC13,group_12363,,hypothetical protein,True
+DC13,group_12362,,hypothetical protein,True
+DC13,group_12361,,hypothetical protein,True
+DC13,group_12360,,hypothetical protein,True
+DC13,group_12359,,hypothetical protein,True
+DC13,group_12285,,hypothetical protein,True
+DC13,group_12282,,hypothetical protein,True
+DC13,group_12256,,hypothetical protein,True
+DC13,group_12255,,hypothetical protein,True
+DC13,group_12251,,hypothetical protein,True
+DC13,group_12248,,hypothetical protein,True
+DC13,group_12246,,hypothetical protein,True
+DC13,ftsH_2~~~ftsH_1~~~ftsH1,ftsH_2;ftsH_1;ftsH1,ATP-dependent zinc metalloprotease FtsH;ATP-dependent zinc metalloprotease FtsH 1,False
+DC13,group_12245,,hypothetical protein,True
+DC13,group_12238,,hypothetical protein,True
+DC13,group_12236,,hypothetical protein,True
+DC13,group_12235,,hypothetical protein,True
+DC13,group_12234,,hypothetical protein,True
+DC13,mtgA_1~~~mtgA,mtgA_1;mtgA,Biosynthetic peptidoglycan transglycosylase,False
+DC13,group_12233,,hypothetical protein,True
+DC13,group_12179,,hypothetical protein,True
+DC13,group_12178,,hypothetical protein,True
+DC13,group_12177,,hypothetical protein,True
+DC13,group_12176,,hypothetical protein,True
+DC13,group_12175,,hypothetical protein,True
+DC13,group_12174,,hypothetical protein,True
+DC13,group_12173,,hypothetical protein,True
+DC13,group_12171,,hypothetical protein,True
+DC13,group_12170,,hypothetical protein,True
+DC13,group_12169,,hypothetical protein,True
+DC13,group_12168,,hypothetical protein,True
+DC13,group_12167,,hypothetical protein,True
+DC13,tagU_2,tagU_2,Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagU,False
+DC13,group_12109,,hypothetical protein,True
+DC13,group_12106,,hypothetical protein,True
+DC13,group_12105,,hypothetical protein,True
+DC13,group_12104,,hypothetical protein,True
+DC13,group_12103,,hypothetical protein,True
+DC13,group_12102,,hypothetical protein,True
+DC13,group_12101,,hypothetical protein,True
+DC13,group_12100,,hypothetical protein,True
+DC13,group_12099,,hypothetical protein,True
+DC13,group_12097,,hypothetical protein,True
+DC13,group_12091,,hypothetical protein,True
+DC13,group_12090,,hypothetical protein,True
+DC13,group_12089,,hypothetical protein,True
+DC13,group_12088,,hypothetical protein,True
+DC13,group_12087,,hypothetical protein,True
+DC13,group_12086,,hypothetical protein,True
+DC13,group_12085,,hypothetical protein,True
+DC13,group_11960,,hypothetical protein,True
+DC13,group_11283,,hypothetical protein,True
+DC13,group_11282,,hypothetical protein,True
+DC13,ypuA,;ypuA,hypothetical protein;putative protein YpuA,True
+DC13,group_11281,,hypothetical protein,True
+DC13,group_11280,,hypothetical protein,True
+DC13,group_11190,,hypothetical protein,True
+DC13,group_11189,,hypothetical protein,True
+DC13,group_11188,,hypothetical protein,True
+DC13,group_11186,,hypothetical protein,True
+DC13,group_11185,,hypothetical protein,True
+DC13,group_11184,,hypothetical protein,True
+DC13,group_11183,,hypothetical protein,True
+DC13,group_11181,,hypothetical protein,True
+DC13,group_11178,,hypothetical protein,True
+DC13,group_11177,,hypothetical protein,True
+DC13,group_11176,,hypothetical protein,True
+DC13,group_11175,,hypothetical protein,True
+DC13,group_11174,,hypothetical protein,True
+DC13,group_11173,,hypothetical protein,True
+DC13,group_11172,,hypothetical protein,True
+DC13,group_11171,,hypothetical protein,True
+DC13,group_11170,,hypothetical protein,True
+DC13,group_11169,,hypothetical protein,True
+DC13,group_11167,,hypothetical protein,True
+DC13,group_11165,,hypothetical protein,True
+DC13,group_11164,,hypothetical protein,True
+DC13,group_11163,,hypothetical protein,True
+DC13,group_11162,,hypothetical protein,True
+DC13,group_11157,hhaIM,Modification methylase HhaI,False
+DC13,group_11156,,hypothetical protein,True
+DC13,group_11151,,hypothetical protein,True
+DC13,group_11148,,hypothetical protein,True
+DC13,ssb~~~ssbA,ssb;ssbA,Single-stranded DNA-binding protein;Single-stranded DNA-binding protein A,False
+DC13,group_11146,,hypothetical protein,True
+DC13,group_11145,,hypothetical protein,True
+DC13,group_11144,,hypothetical protein,True
+DC13,group_11142,,hypothetical protein,True
+DC13,group_11140,,hypothetical protein,True
+DC13,group_11139,,hypothetical protein,True
+DC13,group_11138,,hypothetical protein,True
+DC13,group_11137,,hypothetical protein,True
+DC13,group_11135,,hypothetical protein,True
+DC13,group_11129,,hypothetical protein,True
+DC13,group_11128,,hypothetical protein,True
+DC13,group_11126,,hypothetical protein,True
+DC13,group_11125,,hypothetical protein,True
+DC13,group_11124,,hypothetical protein,True
+DC13,group_11122,,hypothetical protein,True
+DC13,group_11121,yhdJ;,DNA adenine methyltransferase YhdJ;hypothetical protein,True
+DC13,group_11118,,hypothetical protein,True
+DC13,group_11116,,hypothetical protein,True
+DC13,group_11110,,hypothetical protein,True
+DC13,group_11108,,hypothetical protein,True
+DC13,group_11103,,hypothetical protein,True
+DC13,group_11101,,hypothetical protein,True
+DC13,group_11099,,hypothetical protein,True
+DC13,group_10078,,hypothetical protein,True
+DC13,group_8574,,hypothetical protein,True
+DC13,group_8008,,hypothetical protein,True
+DC13,group_7923,,hypothetical protein,True
+DC13,group_7921,,hypothetical protein,True
+DC13,group_7060,,hypothetical protein,True
+DC13,group_6999,,hypothetical protein,True
+DC13,group_6054,,hypothetical protein,True
+DC13,group_5346,,hypothetical protein,True
+DC13,group_5345,,hypothetical protein,True
+DC13,group_4953,,hypothetical protein,True
+DC13,xerC_11~~~xerC_7,xerC_11;xerC_7,Tyrosine recombinase XerC,False
+DC13,group_4581,,hypothetical protein,True
+DC13,group_4556,,hypothetical protein,True
+DC13,group_4541,,hypothetical protein,True
+DC13,group_4507,,hypothetical protein,True
+DC13,group_4475,,hypothetical protein,True
+DC13,group_2977,,hypothetical protein,True
+DC13,group_2686,,hypothetical protein,True
+DC13,group_2363,,hypothetical protein,True
+DC13,group_2028,,hypothetical protein,True
+DC13,group_1718,,hypothetical protein,True
+DC13,group_1642,,hypothetical protein,True
+DC13,group_1639,,hypothetical protein,True
+DC13,group_1492,,hypothetical protein,True
+DC13,group_1414,,hypothetical protein,True
+DC13,cysH,cysH,Phosphoadenosine phosphosulfate reductase,False
+DC13,group_1104,,hypothetical protein,True
+DC13,group_816,,hypothetical protein,True
+DC13,group_420,,hypothetical protein,True
+DC13,group_345,,hypothetical protein,True
+DC13,group_233,,hypothetical protein,True
+DC13,group_53,,hypothetical protein,True
+DC13,group_12443,,hypothetical protein,True
+DC13,group_12284,,hypothetical protein,True
+DC13,group_12283,,hypothetical protein,True
+DC13,group_12041,,hypothetical protein,True
+DC13,group_11957,,hypothetical protein,True
+DC13,group_11113,,hypothetical protein,True
+DC13,group_11112,,hypothetical protein,True
+DC13,group_11104,,hypothetical protein,True
+DC13,group_11102,,hypothetical protein,True
+DC13,group_11100,,hypothetical protein,True
+DC13,group_7040,,hypothetical protein,True
+DC13,group_6252,,hypothetical protein,True
+DC13,group_5619,,hypothetical protein,True
+DC13,group_1027,,hypothetical protein,True
+DC13,group_409,,hypothetical protein,True
+DC13,group_133,,hypothetical protein,True
+DC13,group_12492,,hypothetical protein,True
+DC13,group_12237,,hypothetical protein,True
+DC13,group_12114,,Anaerobic sulfatase-maturating enzyme,False
+DC13,licT_6,licT_6,Transcription antiterminator LicT,False
+DC13,bglH_8~~~bglH_10,bglH_8;bglH_10,Aryl-phospho-beta-D-glucosidase BglH,False
+DC13,bglF_8~~~bglF_11,bglF_8;bglF_11,PTS system beta-glucoside-specific EIIBCA component,False
+DC13,group_12113,,Multifunctional alkaline phosphatase superfamily protein,False
+DC13,group_12112,,hypothetical protein,True
+DC13,group_11182,,hypothetical protein,True
+DC13,group_11141,,hypothetical protein,True
+DC13,group_11132,,hypothetical protein,True
+DC13,group_11130,,hypothetical protein,True
+DC13,group_11120,,hypothetical protein,True
+DC13,ybdM_2~~~ybdM_1,ybdM_2;ybdM_1,putative protein YbdM,False
+DC13,group_11111,,hypothetical protein,True
+DC13,group_11109,,hypothetical protein,True
+DC13,group_11106,,hypothetical protein,True
+DC13,group_7106,,hypothetical protein,True
+DC13,group_5900,,hypothetical protein,True
+DC13,group_5866,,hypothetical protein,True
+DC13,group_4647,,hypothetical protein,True
+DC13,group_2732,,hypothetical protein,True
+DC13,group_2162,,hypothetical protein,True
+DC13,group_2023,,hypothetical protein,True
+DC13,group_391,,hypothetical protein,True
+DC13,group_54,,hypothetical protein,True
+DC13,group_12098,,hypothetical protein,True
+DC13,group_12030,,hypothetical protein,True
+DC13,group_12028,,hypothetical protein,True
+DC13,group_12019,,hypothetical protein,True
+DC13,group_11278,srtB_2;srtB_3,Sortase B,False
+DC13,group_11257,,hypothetical protein,True
+DC13,group_11159,,hypothetical protein,True
+DC13,group_11115,,hypothetical protein,True
+DC13,group_11098,,hypothetical protein,True
+DC13,group_10904,,hypothetical protein,True
+DC13,group_8890,,hypothetical protein,True
+DC13,group_4662,,hypothetical protein,True
+DC13,group_2552,,hypothetical protein,True
+DC13,group_508,,hypothetical protein,True
+DC13,group_11279,,hypothetical protein,True
+DC13,group_11277,,hypothetical protein,True
+DC13,group_11276,,hypothetical protein,True
+DC13,group_11275,,hypothetical protein,True
+DC13,group_11274,,hypothetical protein,True
+DC13,toxA_1,toxA_1,Toxin A,False
+DC13,group_11273,,hypothetical protein,True
+DC13,group_11272,,hypothetical protein,True
+DC13,group_11270,,hypothetical protein,True
+DC13,group_11269,,hypothetical protein,True
+DC13,group_11268,,hypothetical protein,True
+DC13,group_11267,,hypothetical protein,True
+DC13,group_11266,,hypothetical protein,True
+DC13,group_11265,,hypothetical protein,True
+DC13,group_11264,,hypothetical protein,True
+DC13,group_11263,,hypothetical protein,True
+DC13,group_11262,,hypothetical protein,True
+DC13,group_11261,,hypothetical protein,True
+DC13,group_11260,,IS200/IS605 family transposase ISCpe4,False
+DC13,group_11259,,hypothetical protein,True
+DC13,group_11258,,hypothetical protein,True
+DC13,group_11255,,hypothetical protein,True
+DC13,group_11254,,hypothetical protein,True
+DC13,group_11253,,hypothetical protein,True
+DC13,group_11252,,hypothetical protein,True
+DC13,group_11251,,hypothetical protein,True
+DC13,group_11187,,hypothetical protein,True
+DC13,group_11180,,hypothetical protein,True
+DC13,group_11123,,hypothetical protein,True
+DC13,group_11097,,hypothetical protein,True
+DC13,group_9258,,hypothetical protein,True
+DC13,group_8877,,hypothetical protein,True
+DC13,group_8614,,hypothetical protein,True
+DC13,group_8276,,hypothetical protein,True
+DC13,group_6656,,hypothetical protein,True
+DC13,group_5067,,IS110 family transposase ISEnfa110,False
+DC13,group_841,,hypothetical protein,True
+DC13,group_840,,hypothetical protein,True
+DC13,group_785,,hypothetical protein,True
+DC4,group_6955,,hypothetical protein,True
+DC4,group_5516,,IS200/IS605 family transposase ISAsp8,False
+DC4,group_966,,hypothetical protein,True
+DC4,group_1105,,hypothetical protein,True
+DC4,group_161,,hypothetical protein,True
+DC4,group_6415,,hypothetical protein,True
+DC4,group_3154,,hypothetical protein,True
+DC4,group_8030,,hypothetical protein,True
+DC4,mepA_8~~~mepA_13~~~mepA_7,mepA_8;mepA_13;mepA_7,Multidrug export protein MepA,False
+DC4,group_7595,,hypothetical protein,True
+DC4,group_12187,,hypothetical protein,True
+DC4,group_5522,,hypothetical protein,True
+DC4,group_11462,,hypothetical protein,True
+DC4,group_9198,,hypothetical protein,True
+DC4,group_9196,,hypothetical protein,True
+DC4,group_8462,,hypothetical protein,True
+DC4,group_8242,,hypothetical protein,True
+DC4,group_8227,,hypothetical protein,True
+DC4,group_8051,,hypothetical protein,True
+DC4,group_6209,,hypothetical protein,True
+DC4,group_6065,,hypothetical protein,True
+DC4,group_5226,,hypothetical protein,True
+DC4,group_2785,,hypothetical protein,True
+DC4,group_2475,,hypothetical protein,True
+DC4,group_2007,,hypothetical protein,True
+DC4,group_1993,,hypothetical protein,True
+DC4,group_1892,,hypothetical protein,True
+DC4,group_1661,,hypothetical protein,True
+DC4,group_1595,,hypothetical protein,True
+DC4,bcrA_1~~~bcrA_2~~~bcrA_4,bcrA_1;bcrA_2;bcrA_4,Bacitracin transport ATP-binding protein BcrA,False
+DC4,group_473,,hypothetical protein,True
+DC4,group_463,,hypothetical protein,True
+DC4,group_321,,hypothetical protein,True
+DC4,group_7612,,hypothetical protein,True
+DC10,hcaR~~~cynR_2~~~cynR,hcaR;cynR_2;cynR,Hca operon transcriptional activator HcaR;HTH-type transcriptional regulator CynR,False
+DC10,group_6517,,hypothetical protein,True
+DC10,group_6261,,hypothetical protein,True
+DC10,yajO~~~yajO_2~~~yajO_1,;yajO;yajO_2;yajO_1,hypothetical protein;1-deoxyxylulose-5-phosphate synthase YajO,True
+DC10,group_5760,murR_1;murR_2,HTH-type transcriptional regulator MurR,False
+DC10,bglF_1~~~bglF_11~~~bglF_10,bglF_1;bglF_11;bglF_10,PTS system beta-glucoside-specific EIIBCA component,False
+DC10,bglH_1~~~bglH_10~~~bglH_4~~~bglH_9~~~bglH_6,bglH_1;bglH_10;bglH_4;bglH_9;bglH_6,Aryl-phospho-beta-D-glucosidase BglH,False
+DC10,group_7632,,hypothetical protein,True
+DC10,group_6189,,hypothetical protein,True
+DC10,group_7482,,hypothetical protein,True
+DC10,group_6078,,hypothetical protein,True
+DC10,group_5633,,hypothetical protein,True
+DC10,dinG_3~~~dinG_4~~~dinG_2~~~dinG_1,dinG_3;;dinG_4;dinG_2;dinG_1,3'-5' exonuclease DinG;hypothetical protein,True
+DC10,group_5181,,hypothetical protein,True
+DC10,btuD_9~~~ytrA_3~~~btuD_3~~~btuD_11~~~btuD_6,;btuD_9;ytrA_3;btuD_3;btuD_11;btuD_6,hypothetical protein;Vitamin B12 import ATP-binding protein BtuD;HTH-type transcriptional repressor YtrA,True
+DC10,group_5907,,hypothetical protein,True
+DC10,group_5204,,hypothetical protein,True
+DC10,group_1200,,hypothetical protein,True
+DC10,gmuE~~~glcK_1~~~glcK_2,gmuE;glcK_1;glcK_2,Putative fructokinase;Glucokinase,False
+DC10,group_8029,,hypothetical protein,True
+DC10,group_294,,hypothetical protein,True
+DC10,group_8058,,hypothetical protein,True
+DC10,group_4023,,hypothetical protein,True
+DC10,group_3788,,hypothetical protein,True
+DC10,ykoT,ykoT,putative glycosyltransferase YkoT,False
+DC10,group_3068,,hypothetical protein,True
+DC10,group_7655,yfiR;,putative HTH-type transcriptional regulator YfiR;hypothetical protein,True
+DC10,group_5404,msmE,Multiple sugar-binding protein,False
+DC10,group_1961,,hypothetical protein,True
+DC10,ltrA_2~~~ltrA,ltrA_2;;ltrA,Group II intron-encoded protein LtrA;hypothetical protein,True
+DC10,group_12076,,hypothetical protein,True
+DC10,group_12066,dnaE_2,DNA polymerase III subunit alpha,False
+DC10,group_11504,,hypothetical protein,True
+DC10,group_11437,,hypothetical protein,True
+DC10,group_11436,,hypothetical protein,True
+DC10,group_9265,,hypothetical protein,True
+DC10,group_9219,,hypothetical protein,True
+DC10,group_9137,,hypothetical protein,True
+DC10,group_9082,,hypothetical protein,True
+DC10,group_9020,,hypothetical protein,True
+DC10,frlB,frlB,Fructosamine deglycase FrlB,False
+DC10,group_8964,,hypothetical protein,True
+DC10,group_8959,,hypothetical protein,True
+DC10,bglF_11,bglF_11,PTS system beta-glucoside-specific EIIBCA component,False
+DC10,rhaS_9,rhaS_9,HTH-type transcriptional activator RhaS,False
+DC10,glcB_2,glcB_2,PTS system glucoside-specific EIICBA component,False
+DC10,group_8958,,Carbohydrate deacetylase,False
+DC10,nagE_2,nagE_2,PTS system N-acetylglucosamine-specific EIICBA component,False
+DC10,pagL_2,pagL_2,6-phospho-alpha-glucosidase,False
+DC10,group_8957,,hypothetical protein,True
+DC10,group_8954,,hypothetical protein,True
+DC10,group_8853,,hypothetical protein,True
+DC10,group_8826,,hypothetical protein,True
+DC10,melR,melR,HTH-type transcriptional repressor MelR,False
+DC10,group_8372,,hypothetical protein,True
+DC10,group_8129,,4-O-beta-D-mannosyl-D-glucose phosphorylase,False
+DC10,group_8072,,hypothetical protein,True
+DC10,group_6353,,hypothetical protein,True
+DC10,group_6298,,hypothetical protein,True
+DC10,group_4971,,hypothetical protein,True
+DC10,group_4351,,IS256 family transposase ISCcl1,False
+DC10,group_4116,,hypothetical protein,True
+DC10,group_3222,,hypothetical protein,True
+DC10,group_3082,,hypothetical protein,True
+DC10,sorC_3,sorC_3,PTS system sorbose-specific EIIC component,False
+DC10,group_2563,,hypothetical protein,True
+DC10,licT_8~~~licT_9,;licT_8;licT_9,hypothetical protein;Transcription antiterminator LicT,True
+DC10,group_2473,,hypothetical protein,True
+DC10,group_2158,,hypothetical protein,True
+DC10,group_2138,,hypothetical protein,True
+DC10,group_2120,,hypothetical protein,True
+DC10,group_2118,,hypothetical protein,True
+DC10,melR_2~~~rhaS_2,;melR_2;rhaS_2,hypothetical protein;Melibiose operon regulatory protein;HTH-type transcriptional activator RhaS,True
+DC10,araQ_3,araQ_3,L-arabinose transport system permease protein AraQ,False
+DC10,manZ_4,manZ_4,PTS system mannose-specific EIID component,False
+DC10,group_1421,,hypothetical protein,True
+DC10,wecB,wecB,UDP-N-acetylglucosamine 2-epimerase,False
+DC10,group_1001,,hypothetical protein,True
+DC10,group_911,,hypothetical protein,True
+DC10,group_904,,hypothetical protein,True
+DC10,group_853,,hypothetical protein,True
+DC10,manX_3,manX_3,PTS system mannose-specific EIIAB component,False
+DC10,group_742,,hypothetical protein,True
+DC10,group_731,,hypothetical protein,True
+DC10,malL,malL,Oligo-16-glucosidase,False
+DC10,ngcF,ngcF,Diacetylchitobiose uptake system permease protein NgcF,False
+DC10,dgaR_1,dgaR_1,Transcriptional regulatory protein DagR,False
+DC10,group_346,,hypothetical protein,True
+DC10,tipA,tipA;,HTH-type transcriptional activator TipA;hypothetical protein,True
+DC10,group_296,,Limonene hydroxylase,False
+DC10,group_143,,hypothetical protein,True
+DC10,group_141,,hypothetical protein,True
+DC10,group_31,,hypothetical protein,True

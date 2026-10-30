@@ -1,0 +1,19 @@
+Nr,ID,alias,clade_in_your_sheet,cesar_clade_label,cesar_prefix,our_divergent_clade,published_equiv,genome_id,in_460_working_set,is_clade_representative,toxin_genes_detected,carries_fused_block,validated_primer_pair,source,ONT_column_in_sheet,note
+1,ZZV13-5576,,C-I,10/C-I,10,DC1,C-I,CLO_BA4768AA_AS,yes,,TcdE,no,yes,Human,yes,
+2,ZZV14-6387,,C-I,10/C-I,10,DC1,C-I,CLO_EA9144AA_AS,yes,,TcdE,no,yes,soil,yes,
+3,ZZV14-6345,,C-II,12/C-II,12,DC3,C-II,CLO_EA9143AA_AS,yes,,TcdA+TcdR,no,yes,soil,yes,
+4,ZZV22-12061,S20-S-1,C-II ,12/C-II,12,DC3,C-II,CLO_GA2421AA_AS,yes,,TcdA+TcdR,no,yes,Sediment - fresh water,,
+5,ZZV23-12507,,C-II ,12/C-II,12,not in genome set,no published counterpart,,no,,none detected,no,no,Comopst,,"DC3 (expected: same ribotype/ST group and Cesar 12/C-II as ZZV14-6345 and ZZV22-12061, both DC3)"
+6,ZZV22-12048,S16-S-2,CIII-like,3/C-IIIA,3,DC4,no published counterpart,CLO_GA2408AA_AS,yes,,none detected,no,no,Sediment - fresh water,,
+7,ZZV14-6153,,C-III,4/C-IIIA,4,DC2,C-III (C-IIIa),CLO_EA9152AA_AS,yes,,none detected,no,yes,soil,yes,
+8,ZZV14-6045,,C-III,4/C-IIIA,4,DC2,C-III (C-IIIa),CLO_DA1503AA_AS,yes,,CdtA+CdtB+CdtR,no,yes,soil,yes,
+9,ZZV15-6597,,C-III,4/C-IIIA,4,DC2,C-III (C-IIIa),CLO_EA9146AA_AS,yes,yes,CdtA+CdtB+CdtR+TcdB+TcdE+TcdR,no,yes,soil,yes,
+10,ZZV22-12020,S1-P-6,C-III,4/C-IIIA,4,DC2,C-III (C-IIIa),CLO_GA2424AA_AS,yes,,none detected,no,yes,Sediment - fresh water,,
+11,ZZV22-12057,S19-P-2,C-III,4/C-IIIA,4,DC2,C-III (C-IIIa),CLO_GA2433AA_AS,yes,,CdtA+CdtB+CdtR,no,yes,Sediment - fresh water,,
+12,ZZV23-12520,,C-I,6/C-IIIB,6,DC7,C-IIIb,ZZV23-12520,yes,,CdtR+TcdA+TcdB+TcdC+TcdR,no,no,Comopst,,
+13,ZZV23-12542,,C-I,6/C-IIIB,6,DC7,C-IIIb,ZZV23-12542,yes,,CdtR+TcdA+TcdB+TcdC+TcdR,no,no,Rodent faeces,,
+14,ZZV15-6598,,C-III?,6/C-IIIB,6,DC7,C-IIIb,ZZV15-6598,yes,,none detected,no,no,soil,yes,
+15,GSK142,,C-I-like,8/C-VI,8,DC12,no published counterpart,1954_GSK142,yes,,TcdA+TcdR,no,no,Food isolate,,
+16,ZZV23-12543,,C-I,6/C-IIIB,6,not in genome set,no published counterpart,,no,,none detected,no,no,Rodent faeces,,"DC7 (expected: same ribotype SLO 308 and Cesar 6/C-IIIB as ZZV23-12542 and ZZV23-12520, both DC7)"
+17,ZZV12-4432,173070,C-II,,,DC3,C-II,CLO_DA8280AA_AS,yes,,CdtR+TcdB+TcdE+TcdR,no,yes,Human,,
+18,GSK143,,C-III-like,5/C-IIIb,5,DC8,no published counterpart,1955_GSK143,yes,,none detected,no,yes,Food isolate,,

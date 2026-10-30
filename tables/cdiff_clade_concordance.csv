@@ -1,0 +1,14 @@
+DC_clade,published_cryptic_clade,evidence,gtdb_r226_species,n_entries,n_unique_strains
+DC1,C-I,"ST181 (Knight 2021 C-I archetype) falls in DC1, n=2",s__Clostridioides difficile_A,50,45
+DC2,C-III (C-IIIa),"ST369 (Knight 2021 C-III archetype) falls in DC2, n=2; median ANI to 630 group 89.27% matches published C-III 89.2-89.4%",s__Clostridioides sp020641055,49,39
+DC3,C-II,"ST200 (Knight 2021 C-II archetype) falls in DC3, n=5",s__Clostridioides difficile_D,29,26
+DC7,C-IIIb,"ST919 = strain TUM20227, assigned C-IIIb by the AEM 2026 reanalysis",s__Clostridioides difficile_F,10,9
+DC4,unresolved,no published archetype ST available for C-IV/C-V/C-VI/C-VII,s__Clostridioides sp020641055,17,14
+DC5,unresolved,as above,s__Clostridioides difficile_F,12,9
+DC6,unresolved,as above; Costa Rican soil isolates (Rodriguez group),s__Clostridioides difficile_E,12,12
+DC8,unresolved,as above,s__Clostridioides difficile_F,8,7
+DC9,unresolved,as above,s__Clostridioides difficile_F,7,5
+DC10,unresolved,as above,s__Clostridioides sp021561035,6,6
+DC11,unresolved,as above,s__Clostridioides difficile_G,2,1
+DC12,unresolved,as above; NO GTDB species assigned,(none),2,2
+DC13,unresolved,"as above; ANI 95.57% to the type strain, most peripheral member of C. difficile sensu stricto",s__Clostridioides difficile,1,1

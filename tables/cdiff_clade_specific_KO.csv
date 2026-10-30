@@ -1,0 +1,207 @@
+clade,gene,ko,definition,score,threshold
+Cds_C1-C4,maa_1~~~lacA_1~~~lacA~~~lacA_2~~~maa_2,K00661,maltose O-acetyltransferase [EC:2.3.1.79],265.1,137.07
+Cds_C1-C4,scrK,K00847,fructokinase [EC:2.7.1.4],295.5,184.97
+Cds_C1-C4,scrB~~~scrB_1~~~scrB_2,K01193,beta-fructofuranosidase [EC:3.2.1.26],436.1,402.37
+Cds_C1-C4,group_7842,K02012,iron(III) transport system substrate-binding protein,268.9,194.67
+Cds_C1-C4,blaR1_1,K02172,bla regulator protein blaR1,231.1,147.7
+Cds_C1-C4,rhaS_4~~~marA~~~rob,K13653,AraC family transcriptional regulator,223.4,199.4
+Cds_C5,group_9068,K06166,alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase subunit PhnG [EC:2.7.8.37],61.8,59.67
+Cds_C5,group_6108,K07079,uncharacterized protein,234.8,210.77
+Cds_C5,group_3974,K07089,uncharacterized protein,216.4,62.47
+Cds_C5,group_4127,K08986,putative membrane protein,123.1,52.2
+Cds_C5,znuA,K09815,zinc transport system substrate-binding protein,364.5,257.27
+DC1,group_776,K00694,cellulose synthase (UDP-forming) [EC:2.4.1.12],600.1,280.23
+DC1,rnz,K00784,ribonuclease Z [EC:3.1.26.11],183.3,84.8
+DC1,group_9306,K00812,aspartate aminotransferase [EC:2.6.1.1],469.8,467.3
+DC1,group_5762,K01448,N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28],94.6,36.1
+DC1,ltaE,K01620,threonine aldolase [EC:4.1.2.48],357.4,92.23
+DC1,dpaL_1~~~dpaL_2~~~dpaL,K01751,diaminopropionate ammonia-lyase [EC:4.3.1.15],506.9,239.27
+DC1,lolD_1,K02003,putative ABC transport system ATP-binding protein,305.3,288.5
+DC1,group_7047,K02004,putative ABC transport system permease protein,93.9,50.6
+DC1,malK~~~btuD_8~~~btuD_11~~~cysA_2~~~cysA_1,K02010,iron(III) transport system ATP-binding protein [EC:7.2.2.7],476.1,454.07
+DC1,mltF_2~~~mltF_4~~~mltF_1,K02030,polar amino acid transport system substrate-binding protein,89.5,87.57
+DC1,gsiB,K02035,peptide/nickel transport system substrate-binding protein,322.3,255.23
+DC1,group_1267,K02171,"BlaI family transcriptional regulator, penicillinase repressor",107.8,60.93
+DC1,norR_5~~~norR_12~~~zraR_2~~~norR_10~~~norR_7,K02688,"transcriptional regulator, propionate catabolism operon regulatory protein",607.2,550.07
+DC1,ptcB~~~ptcB_1,K02760,cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205],143.4,68.07
+DC1,group_3171,K03790,[ribosomal protein S5]-alanine N-acetyltransferase [EC:2.3.1.267],126.5,105.87
+DC1,cutD_2,K04068,anaerobic ribonucleoside-triphosphate reductase activating protein [EC:1.97.1.4],220.3,118.97
+DC1,hcp_3,K05601,hydroxylamine reductase [EC:1.7.99.1],878.4,197.6
+DC1,group_8593,K06956,uncharacterized protein,499.2,340.33
+DC1,group_4977,K07089,uncharacterized protein,255.6,62.47
+DC1,ytfE,K07322,regulator of cell morphogenesis and NO signaling,207.3,52.43
+DC1,aguA,K10536,agmatine deiminase [EC:3.5.3.12],357.6,96.27
+DC1,iaaH,K12940,aminobenzoyl-glutamate utilization protein A,526.2,343.83
+DC1,npr,K18367,CoA-dependent NAD(P)H sulfur oxidoreductase [EC:1.8.1.18],575.4,485.6
+DC1,patA,K19294,alginate O-acetyltransferase complex protein AlgI,482.9,241.67
+DC1,group_4293,K19575,"MerR family transcriptional regulator, activator of bmr gene",155.7,137.6
+DC1,nrdD~~~nrdD_3,K21636,ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6],632.8,139.0
+DC10,ltrA_2~~~ltrA,K00986,RNA-directed DNA polymerase [EC:2.7.7.49],306.7,81.4
+DC10,bglH_1~~~bglH_10~~~bglH_4~~~bglH_9~~~bglH_6,K01223,6-phospho-beta-glucosidase [EC:3.2.1.86],761.5,495.0
+DC10,group_6517,K01607,4-carboxymuconolactone decarboxylase [EC:4.1.1.44],139.2,17.37
+DC10,group_12066,K02337,DNA polymerase III subunit alpha [EC:2.7.7.7],1180.6,948.5
+DC10,dinG_3~~~dinG_4~~~dinG_2~~~dinG_1,K02342,DNA polymerase III subunit epsilon [EC:2.7.7.7],136.7,102.27
+DC10,group_9020,K02395,peptidoglycan hydrolase FlgJ,86.0,36.03
+DC10,bglF_1~~~bglF_11~~~bglF_10,K02757,beta-glucoside PTS system EIICBA component [EC:2.7.1.-],715.9,637.13
+DC10,group_8826,K07341,death on curing protein,45.6,45.47
+DC10,group_8372,K07483,transposase,43.8,42.03
+DC10,group_4351,K07493,putative transposase,78.9,46.93
+DC10,frlB,K10708,fructoselysine 6-phosphate deglycase [EC:3.5.-.-],424.2,332.63
+DC10,dgaR_1,K19505,"sigma-54 dependent transcriptional regulator, gfr operon transcriptional activator",1018.7,716.87
+DC10,group_2158,K19506,fructoselysine/glucoselysine PTS system EIIA component [EC:2.7.1.-],143.0,131.43
+DC10,manX_3,K19507,fructoselysine/glucoselysine PTS system EIIB component [EC:2.7.1.-],181.6,162.23
+DC10,sorC_3,K19508,fructoselysine/glucoselysine PTS system EIIC component,272.3,260.8
+DC10,manZ_4,K19509,fructoselysine/glucoselysine PTS system EIID component,375.5,339.83
+DC10,ykoT,K20534,polyisoprenyl-phosphate glycosyltransferase [EC:2.4.-.-],368.7,342.13
+DC10,group_8129,K20885,"beta-1,2-mannobiose phosphorylase / 1,2-beta-oligomannan phosphorylase [EC:2.4.1.339 2.4.1.340]",352.7,274.53
+DC10,yajO~~~yajO_2~~~yajO_1,K23107,1-deoxyxylulose-5-phosphate synthase [EC:1.1.-.-],517.2,336.27
+DC11,group_3300,K00718,galactoside 2-L-fucosyltransferase 1/2 [EC:2.4.1.69],130.7,94.33
+DC11,group_7028,K01448,N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28],114.1,36.1
+DC11,group_6182,K01534,Zn2+/Cd2+-exporting ATPase [EC:7.2.2.12 7.2.2.21],819.6,729.2
+DC11,gmd,K01711,"GDPmannose 4,6-dehydratase [EC:4.2.1.47]",644.3,280.47
+DC11,fcl,K02377,GDP-L-fucose synthase [EC:1.1.1.271],503.8,232.77
+DC11,group_4425,K02840,"UDP-D-galactose:(glucosyl)LPS alpha-1,6-D-galactosyltransferase [EC:2.4.1.-]",349.6,291.53
+DC11,group_8601,K04095,"cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]",74.7,38.9
+DC11,group_4315,K06871,uncharacterized protein,191.6,172.23
+DC11,group_6235,K07052,CAAX protease family protein,38.5,30.9
+DC11,cdr_1,K07092,uncharacterized protein,73.4,63.43
+DC11,group_6193,K10947,"PadR family transcriptional regulator, regulatory protein PadR",49.2,46.0
+DC11,group_198,K11621,lia operon protein LiaG,122.2,66.57
+DC11,btuD_4~~~irtA,K14698,"ATP-binding cassette, subfamily B, bacterial IrtA/YbtP [EC:7.-.-.-]",705.5,637.73
+DC11,group_4171,K14699,"ATP-binding cassette, subfamily B, bacterial IrtB/YbtQ [EC:7.-.-.-]",640.3,598.13
+DC11,group_8975,K19173,DNA phosphorothioation-dependent restriction protein DptF,571.5,257.73
+DC11,group_3890,K19174,DNA phosphorothioation-dependent restriction protein DptG,397.6,205.43
+DC11,group_8971,K19175,DNA phosphorothioation-dependent restriction protein DptH,1466.6,323.17
+DC11,group_8974,K19175,DNA phosphorothioation-dependent restriction protein DptH,1043.7,323.17
+DC11,group_6998,K19271,chloramphenicol O-acetyltransferase type A [EC:2.3.1.28],224.3,76.73
+DC11,group_5607,K21903,"ArsR family transcriptional regulator, lead/cadmium/zinc/bismuth-responsive transcriptional repressor",145.6,123.6
+DC12,licH_1,K01222,6-phospho-beta-glucosidase [EC:3.2.1.86],591.0,401.97
+DC12,cycB_2,K02027,multiple sugar transport system substrate-binding protein,236.7,190.6
+DC12,licA_1,K02759,cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205],150.6,32.43
+DC12,group_4584,K07052,CAAX protease family protein,44.3,30.9
+DC12,group_7618,K07487,transposase,330.5,144.93
+DC12,group_12264,K07487,transposase,176.3,144.93
+DC12,group_10099,K07493,putative transposase,187.9,46.93
+DC12,group_4417,K07727,putative transcriptional regulator,122.1,43.9
+DC12,srtB_1,K08600,sortase B [EC:3.4.22.71],253.0,96.17
+DC13,group_11279,K00558,DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37],164.4,164.17
+DC13,tagU_2,K01005,polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase [EC:2.7.8.-],254.5,35.7
+DC13,bglH_8~~~bglH_10,K01223,6-phospho-beta-glucosidase [EC:3.2.1.86],809.2,495.0
+DC13,alkA,K01247,DNA-3-methyladenine glycosylase II [EC:3.2.2.21],219.3,172.5
+DC13,group_6252,K02171,"BlaI family transcriptional regulator, penicillinase repressor",89.2,60.93
+DC13,group_6526,K02172,bla regulator protein blaR1,237.1,147.7
+DC13,group_12365,K02238,competence protein ComEC,106.9,58.27
+DC13,dnaC_2~~~dnaC_3,K02314,replicative DNA helicase [EC:5.6.2.3],202.7,102.5
+DC13,bglF_8~~~bglF_11,K02757,beta-glucoside PTS system EIICBA component [EC:2.7.1.-],775.0,637.13
+DC13,group_5407,K03071,preprotein translocase subunit SecB,40.8,33.73
+DC13,group_12464,K03100,signal peptidase I [EC:3.4.21.89],157.8,117.2
+DC13,ssbA~~~ssbA_2~~~ssbA_1,K03111,single-strand DNA-binding protein,106.1,33.1
+DC13,ssb~~~ssbA,K03111,single-strand DNA-binding protein,67.7,33.1
+DC13,group_12106,K03466,"DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family",109.4,55.87
+DC13,licT_6,K03488,beta-glucoside operon transcriptional antiterminator,353.3,305.4
+DC13,group_1904,K03741,arsenate reductase (thioredoxin) [EC:1.20.4.4],124.1,118.57
+DC13,group_7044,K03892,"ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor",89.6,89.07
+DC13,group_7459,K04794,"peptidyl-tRNA hydrolase, PTH2 family [EC:3.1.1.29]",52.8,48.13
+DC13,dam~~~dpnM,K06223,DNA adenine methylase [EC:2.1.1.72],150.4,62.07
+DC13,group_12114,K06871,uncharacterized protein,257.6,172.23
+DC13,group_8614,K06950,uncharacterized protein,72.1,59.87
+DC13,group_12169,K07038,inner membrane protein,46.0,31.5
+DC13,group_7105,K07089,uncharacterized protein,258.9,62.47
+DC13,group_12112,K07090,uncharacterized protein,71.8,37.97
+DC13,apaH~~~pphA,K07313,serine/threonine protein phosphatase 1 [EC:3.1.3.16],162.3,135.83
+DC13,group_11262,K07450,putative resolvase,180.1,88.4
+DC13,group_11265,K07467,putative DNA relaxase,489.4,141.07
+DC13,group_5067,K07486,transposase,60.3,29.9
+DC13,group_11115,K07496,putative transposase,125.4,25.77
+DC13,group_11260,K07496,putative transposase,115.5,25.77
+DC13,group_11261,K07496,putative transposase,91.1,25.77
+DC13,group_11278,K08600,sortase B [EC:3.4.22.71],250.2,96.17
+DC13,group_12442,K08600,sortase B [EC:3.4.22.71],188.8,96.17
+DC13,xerC_11~~~xerC_7,K14059,integrase,263.7,190.2
+DC13,rtcB_2~~~rtcB_1,K14415,tRNA-splicing ligase RtcB (3'-phosphate/5'-hydroxy nucleic acid ligase) [EC:6.5.1.8],385.3,278.87
+DC13,group_53,K18640,plasmid segregation protein ParM,103.5,75.43
+DC13,mtgA_1~~~mtgA,K18770,penicillin-binding protein 4 [EC:2.4.1.129 3.4.16.4],714.3,619.17
+DC13,queG_3,K18979,epoxyqueuosine reductase [EC:1.17.99.6],117.0,77.43
+DC13,toxN,K19167,protein AbiQ,155.9,41.87
+DC13,group_10904,K19167,protein AbiQ,54.4,41.87
+DC13,group_8912,K19244,alanine dehydrogenase [EC:1.4.1.1],342.2,302.07
+DC13,slmA~~~slmA_4~~~slmA_1~~~slmA_3~~~slmA_2,K21453,"TetR/AcrR family transcriptional regulator, biofilm operon repressor",121.6,110.9
+DC13,group_12446,K21471,peptidoglycan DL-endopeptidase CwlO [EC:3.4.-.-],151.8,148.63
+DC2,tag,K01246,DNA-3-methyladenine glycosylase I [EC:3.2.2.20],319.7,28.4
+DC2,yknY_2~~~yknY_3~~~yknY_1,K02003,putative ABC transport system ATP-binding protein,354.5,288.5
+DC2,group_7298,K02004,putative ABC transport system permease protein,108.4,50.6
+DC2,group_9045,K03972,phage shock protein E,90.5,88.03
+DC2,group_5572,K06221,"2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]",397.6,345.93
+DC2,group_1714,K07052,CAAX protease family protein,47.1,30.9
+DC2,cdr_2~~~tusA,K07092,uncharacterized protein,74.6,63.43
+DC2,group_7710,K07112,uncharacterized protein,47.8,24.07
+DC2,group_1275,K07450,putative resolvase,196.0,88.4
+DC2,group_7339,K07496,putative transposase,306.1,25.77
+DC2,group_6240,K07496,putative transposase,302.8,25.77
+DC2,adhR_1,K21745,"MerR family transcriptional regulator, aldehyde-responsive regulator",156.9,110.73
+DC3,group_10075,K00812,aspartate aminotransferase [EC:2.6.1.1],471.3,467.3
+DC3,group_8663,K03892,"ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor",95.6,89.07
+DC3,group_10077,K04068,anaerobic ribonucleoside-triphosphate reductase activating protein [EC:1.97.1.4],217.1,118.97
+DC3,group_8560,K07089,uncharacterized protein,237.2,62.47
+DC3,cypC_2~~~cypC~~~cypC_1,K15629,fatty-acid peroxygenase [EC:1.11.2.4],630.3,268.47
+DC3,group_10076,K21636,ribonucleoside-triphosphate reductase (formate) [EC:1.1.98.6],632.0,139.0
+DC4,group_5516,K07496,putative transposase,137.3,25.77
+DC4,group_9198,K07729,putative transcriptional regulator,77.3,60.5
+DC4,bcrA_1~~~bcrA_2~~~bcrA_4,K19309,bacitracin transport system ATP-binding protein,474.5,417.87
+DC4,group_2785,K19310,bacitracin transport system permease protein,181.0,126.73
+DC4,group_2007,K19310,bacitracin transport system permease protein,154.3,126.73
+DC5,gabR_1,K00375,GntR family transcriptional regulator / MocR family aminotransferase,496.6,380.97
+DC5,group_3963,K01607,4-carboxymuconolactone decarboxylase [EC:4.1.1.44],148.9,17.37
+DC5,group_4204,K02004,putative ABC transport system permease protein,68.8,50.6
+DC5,group_4855,K02004,putative ABC transport system permease protein,64.8,50.6
+DC5,mepA_5~~~mepA_15,K03327,"multidrug resistance protein, MATE family",160.0,122.83
+DC5,mepA_4~~~mepA_1,K03327,"multidrug resistance protein, MATE family",147.6,122.83
+DC5,group_642,K06221,"2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]",418.8,345.93
+DC5,group_5140,K10947,"PadR family transcriptional regulator, regulatory protein PadR",117.4,46.0
+DC5,group_7999,K24915,TMEM175 potassium channel family protein,129.2,39.47
+DC6,blaI_2~~~blaI_6,K02171,"BlaI family transcriptional regulator, penicillinase repressor",102.7,60.93
+DC6,mdtK,K03327,"multidrug resistance protein, MATE family",182.9,122.83
+DC6,rsmG,K03501,16S rRNA (guanine527-N7)-methyltransferase [EC:2.1.1.170],241.3,108.2
+DC6,yvgN,K06221,"2,5-diketo-D-gluconate reductase A [EC:1.1.1.346]",384.7,345.93
+DC6,group_1846,K21744,"MerR family transcriptional regulator, thiopeptide resistance regulator",125.5,123.47
+DC7,pepA_1~~~pepA_2,K01255,leucyl aminopeptidase [EC:3.4.11.1],534.5,429.67
+DC7,btuD_17,K01990,ABC-2 type transport system ATP-binding protein,281.0,256.3
+DC7,mltF_1,K02030,polar amino acid transport system substrate-binding protein,89.0,87.57
+DC7,gcvH_2~~~gcvH_1,K02437,glycine cleavage system H protein,148.1,37.5
+DC7,licA_3,K02759,cellobiose PTS system EIIA component [EC:2.7.1.196 2.7.1.205],141.9,32.43
+DC7,chbB,K02760,cellobiose PTS system EIIB component [EC:2.7.1.196 2.7.1.205],142.1,68.07
+DC7,group_4880,K02761,cellobiose PTS system EIIC component,451.7,377.63
+DC7,mepA_1,K03327,"multidrug resistance protein, MATE family",127.3,122.83
+DC7,gmuR,K03492,"GntR family transcriptional regulator, regulator of glucomannan utilization",257.5,230.57
+DC7,group_8637,K03892,"ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor",92.7,89.07
+DC7,group_2451,K05593,aminoglycoside 6-adenylyltransferase [EC:2.7.7.-],345.7,84.0
+DC7,group_7394,K05995,dipeptidase E [EC:3.4.13.21],157.3,95.97
+DC7,yhhW,K06911,"quercetin 2,3-dioxygenase [EC:1.13.11.24]",148.0,26.27
+DC7,group_7349,K07496,putative transposase,421.1,25.77
+DC7,rob_1~~~rob,K13653,AraC family transcriptional regulator,282.4,199.4
+DC7,xerC_3~~~xerC_1,K14059,integrase,236.8,190.2
+DC7,sasA_5~~~sasA_20,K20487,"two-component system, OmpR family, lantibiotic biosynthesis sensor histidine kinase NisK/SpaK [EC:2.7.13.3]",331.9,298.7
+DC7,saeR,K20488,"two-component system, OmpR family, lantibiotic biosynthesis response regulator NisR/SpaR",292.9,260.83
+DC7,bcrA_5~~~bcrA_1~~~bcrA_7,K20490,lantibiotic transport system ATP-binding protein,338.7,297.27
+DC7,group_239,K20491,lantibiotic transport system permease protein,181.7,102.4
+DC7,group_1648,K20492,lantibiotic transport system permease protein,205.7,114.97
+DC8,arsR,K03892,"ArsR family transcriptional regulator, arsenate/arsenite/antimonite-responsive transcriptional repressor",95.0,89.07
+DC8,group_5051,K04095,"cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]",117.4,38.9
+DC8,group_4779,K07089,uncharacterized protein,240.9,62.47
+DC8,group_8598,K07450,putative resolvase,251.5,88.4
+DC8,group_1448,K07496,putative transposase,269.7,25.77
+DC8,tetR,K18476,"TetR/AcrR family transcriptional regulator, tetracycline repressor protein",99.7,76.67
+DC8,mepA_13~~~mepA_9~~~mepA_1~~~mepA_12~~~mepA_11,K18908,multidrug efflux pump,565.8,519.53
+DC9,group_7445,K01607,4-carboxymuconolactone decarboxylase [EC:4.1.1.44],113.9,17.37
+DC9,yxdL_3~~~yxdL_5~~~yxdL_4~~~yxdL_2,K02003,putative ABC transport system ATP-binding protein,343.0,288.5
+DC9,group_8986,K02003,putative ABC transport system ATP-binding protein,319.8,288.5
+DC9,bceA_1~~~lolD_2~~~lolD_1,K02003,putative ABC transport system ATP-binding protein,315.0,288.5
+DC9,smc_2,K02004,putative ABC transport system permease protein,130.3,50.6
+DC9,group_435,K02004,putative ABC transport system permease protein,120.9,50.6
+DC9,group_8998,K02004,putative ABC transport system permease protein,105.4,50.6
+DC9,group_9242,K02171,"BlaI family transcriptional regulator, penicillinase repressor",63.9,60.93
+DC9,yddE_1,K06998,"trans-2,3-dihydro-3-hydroxyanthranilate isomerase [EC:5.3.3.17]",130.8,104.03
+DC9,group_558,K07052,CAAX protease family protein,54.8,30.9
+DC9,group_1806,K07729,putative transcriptional regulator,63.6,60.5
+DC9,group_5744,K08217,"MFS transporter, DHA3 family, macrolide efflux protein",284.1,222.37
+DC9,cat_1,K19271,chloramphenicol O-acetyltransferase type A [EC:2.3.1.28],217.3,76.73

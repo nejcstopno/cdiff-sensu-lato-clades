@@ -1,0 +1,4 @@
+group,n_runs,pct_gut_faecal,n_soil_sediment,n_soil_water_waste,expected_soil_water_waste_from_background,binomial_p_depletion
+divergent hits,52,94.2,0,0,6.9,0.000587
+sensu stricto hits,299,96.0,0,1,39.9,1.23e-17
+screening background,300,79.0,10,40,,

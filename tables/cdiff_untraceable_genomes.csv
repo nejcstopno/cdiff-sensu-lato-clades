@@ -1,0 +1,23 @@
+genome_id,new_clade,gtdb_r226_species,recovered_strain,assembly_length,group,note
+CLO_DA8493AA_AS,DC1,s__Clostridioides difficile_A,,4300632,external / unknown,
+CLO_BA4768AA_AS,DC1,s__Clostridioides difficile_A,ZZV13-5576,4193955,NLZOH collection,ZZV13-5576 (twin ERR2216002 has PRJEB23450)
+MS1,DC2,s__Clostridioides sp020641055,,4219132,NLZOH collection,
+CLO_DA1503AA_AS,DC2,s__Clostridioides sp020641055,ZZV14-6045,4587369,NLZOH collection,ZZV14-6045 (twin ERR2216003 has PRJEB23450)
+S10-P-4,DC2,s__Clostridioides sp020641055,,4129763,NLZOH collection,
+ZZV16-7664-P,DC2,s__Clostridioides sp020641055,,4466025,NLZOH collection,
+1958_GSK146,DC2,s__Clostridioides sp020641055,,4291731,NLZOH collection,
+1952_GSK131,DC3,s__Clostridioides difficile_D,,4342101,NLZOH collection,
+1953_GSK139,DC3,s__Clostridioides difficile_D,,3888306,NLZOH collection,
+1956_GSK144,DC3,s__Clostridioides difficile_D,,4139857,NLZOH collection,
+1957_GSK145,DC3,s__Clostridioides difficile_D,,3905707,NLZOH collection,
+MC1-4,DC7,s__Clostridioides difficile_F,,4464195,external / unknown,
+1841_TUM20227,DC7,s__Clostridioides difficile_F,,4238073,external / unknown,
+CLO_EA9788AA_AS,DC7,s__Clostridioides difficile_F,20092912R,4348382,external / unknown,
+1955_GSK143,DC8,s__Clostridioides difficile_F,,4027155,NLZOH collection,
+1844_TUM20839,DC8,s__Clostridioides difficile_F,,4368376,external / unknown,
+1843_TUM20838,DC8,s__Clostridioides difficile_F,,4120940,external / unknown,
+1840_TUM20226,DC8,s__Clostridioides difficile_F,,4198889,external / unknown,
+1842_TUM20350,DC9,s__Clostridioides difficile_F,,4839384,external / unknown,
+CLO_DA8475AA_AS,DC11,s__Clostridioides difficile_G,,4203391,external / unknown,sequence-identical to the other DC11 genome
+CLO_DA8476AA_AS,DC11,s__Clostridioides difficile_G,,4203391,external / unknown,sequence-identical to the other DC11 genome
+1954_GSK142,DC12,s__,,4266650,NLZOH collection,

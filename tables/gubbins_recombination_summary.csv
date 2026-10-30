@@ -1,0 +1,17 @@
+metric,value
+alignment_sites_total,2540864.0
+taxa,460.0
+branches_in_tree,917.0
+branches_in_per_branch_stats,919.0
+branches_with_at_least_one_recombination_block,810.0
+recombination_blocks_detected,24938.0
+unique_sites_flagged_recombinant_on_at_least_one_branch,2356195.0
+pct_sites_flagged_recombinant,92.732
+total_SNPs_all_branches,2653359.0
+SNPs_inside_recombinations,495659.0
+SNPs_outside_recombinations_clonal_frame,2157700.0
+pct_SNPs_inside_recombinations,18.68
+median_r_over_m_per_branch,0.2921
+median_rho_over_theta_per_branch,0.01783
+gubbins_iterations_completed,1.0
+gubbins_iterations_requested,5.0

@@ -1,0 +1,15 @@
+review_point,status,finding
+"1 ""sevenfold"" mixes biomes",CONFIRMED — error,"gut 0.094% / gut floor 0.041% = 2.29x, not 7x. 7.3x was gut abundance over the SOIL floor. Fixed in abstract, results, Fig 5c, methods, limitations."
+2 read-length correction missing,CONFIRMED — error,"(L-k+1)/L = 0.8667 at k=21,L=150. Coverage 0.357x -> 0.412x; 1.53 -> 1.77 Mbp. Floors: soil 0.0129%, water 0.0169%, waste 0.0168%, gut 0.0409%. No conclusion changed."
+3 C-IIIb mapping unverified,CHECKED — mapping HOLDS,"DC2<->DC7 median ANI 96.10% (95.42-96.45, 490 pairs), not ~89%. Mutual nearest neighbours. Abstract sentence stands."
+"4 three core-gene sets, no rationale",ADDED,"Rationale table in methods S12; bac120 is the only set spanning the outgroups; 1,455 codon core is a mechanical subset of the 2,530."
+5 specificity permits small-clade sharing,CONFIRMED — counts inflated,"358 of 1,110 strictly exclusive. DC1 retains 26% (median second-clade prevalence 100%, mostly DC6/DC11). Primers unaffected: 8/8 validated pairs from strictly exclusive families."
+6 ancestral-state threshold sensitivity,RUN — one character flips,"PF06397 invariant (4 changes, ambiguous) at 30/50/70%/polymorphic. Haem catalase 4-6 changes and polarity flips to ""absent"" at 70% and polymorphic. Reframing now rests on PF06397 only."
+7 Tn916/CTn search,RUN — major new result,"Complete CTn in 123/236 sensu stricto (52.1%) vs 3/176 divergent (1.7%); OR 62.8, p=8.8e-34; absent from 10 of 13 divergent clades. Not a sensitivity artefact."
+8 fused-block contig evidence,COUNTED — thinner than implied,"8 assemblies: 3 of 45 DC1 strains, 5 of 12 DC6. 7 internal with >=1 kb flanks. Span 13,988-13,993 bp. 2 and 4 independent after ANI collapse. In methods and Fig 4 legend."
+9 ANI cross-check on dedup,RUN — NOT a clean control,95 uncollapsed within-clade pairs at >=99.99% ANI. 176 -> 135 ANI clusters. Headline survives: aggregate p<1e-4 -> 0.0027. DC3 does not.
+10 multiple-testing policy,STATED,BH within three declared families. DC6/DC2 q=0.028; DC3 q=0.0632 (as predicted); oxidative correlations all survive.
+11 max-over-panel is conservative,ARGUED,Added to results and methods S3: max over six references inflates identity and works to CLOSE the gap.
+12 background sampling is conservative,ARGUED,"Added to results and methods S31: background drawn from containment 0.02-0.05 skews toward gut, so 13.3% understates environmental fraction and p is an upper bound."
+Reproducibility deposit,SECTION ADDED,"Methods S35: repository + SLURM scripts, Zenodo DOI, accession lists, clade assignments, dedup key, both primer tables. Repository/DOI not yet created."
+Primer gap: which five clades,ANSWERED,"DC4 (no complete+specific pair), DC6/DC7/DC12 (recall-specificity trade-off), DC11 (no candidate designed). Both sensu stricto groups also lack pairs."

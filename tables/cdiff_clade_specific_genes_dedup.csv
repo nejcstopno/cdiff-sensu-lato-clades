@@ -1,0 +1,16 @@
+clade,rarefied_460_entries,rarefied_431_strains,delta,n_entries,n_strains,comparable
+Cds_C1-C4,13.0,13.0,0.0,236,236,True
+Cds_C5,55.0,54.0,-1.0,19,19,True
+DC1,87.5,91.0,3.5,50,45,True
+DC2,56.0,59.0,3.0,49,39,True
+DC3,22.0,22.0,0.0,29,26,True
+DC4,37.5,36.0,-1.5,17,14,True
+DC5,96.0,63.0,-33.0,12,9,True
+DC6,38.0,39.0,1.0,12,12,True
+DC7,45.0,49.0,4.0,10,9,True
+DC8,25.0,26.0,1.0,8,7,True
+DC9,70.0,,,7,5,False
+DC10,93.0,94.0,1.0,6,6,True
+DC11,,,,2,1,False
+DC12,,,,2,2,False
+DC13,,,,1,1,False

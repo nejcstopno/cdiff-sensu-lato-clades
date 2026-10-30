@@ -1,0 +1,20 @@
+genome_id,new_clade,gtdb_r226_species,ani_to_630_group,assembly_length
+CLO_DA8493AA_AS,DC1,s__Clostridioides difficile_A,90.93,4300632
+ZZV16-7664-P,DC2,s__Clostridioides sp020641055,89.3,4466025
+MS1,DC2,s__Clostridioides sp020641055,89.23,4219132
+1958_GSK146,DC2,s__Clostridioides sp020641055,89.46,4291731
+S10-P-4,DC2,s__Clostridioides sp020641055,89.4,4129763
+1957_GSK145,DC3,s__Clostridioides difficile_D,93.93,3905707
+1956_GSK144,DC3,s__Clostridioides difficile_D,93.91,4139857
+1952_GSK131,DC3,s__Clostridioides difficile_D,93.93,4342101
+1953_GSK139,DC3,s__Clostridioides difficile_D,93.91,3888306
+MC1-4,DC7,s__Clostridioides difficile_F,88.88,4464195
+1841_TUM20227,DC7,s__Clostridioides difficile_F,89.25,4238073
+1955_GSK143,DC8,s__Clostridioides difficile_F,89.31,4027155
+1844_TUM20839,DC8,s__Clostridioides difficile_F,88.83,4368376
+1843_TUM20838,DC8,s__Clostridioides difficile_F,89.26,4120940
+1840_TUM20226,DC8,s__Clostridioides difficile_F,89.26,4198889
+1842_TUM20350,DC9,s__Clostridioides difficile_F,88.9,4839384
+CLO_DA8475AA_AS,DC11,s__Clostridioides difficile_G,90.88,4203391
+CLO_DA8476AA_AS,DC11,s__Clostridioides difficile_G,90.88,4203391
+1954_GSK142,DC12,s__,91.2,4266650

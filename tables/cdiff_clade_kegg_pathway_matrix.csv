@@ -1,0 +1,20 @@
+pathway,Cds_C1-C4,DC1,DC3,DC4,DC7,DC9,DC10,DC11,DC12,DC13
+Metabolic pathways,2.0,7.0,2.0,0.0,2.0,2.0,0.0,4.0,0.0,3.0
+Starch and sucrose metabolism,2.0,2.0,0.0,0.0,3.0,0.0,0.0,0.0,2.0,0.0
+ABC transporters,0.0,0.0,0.0,3.0,3.0,0.0,0.0,2.0,0.0,0.0
+Phosphotransferase system (PTS),0.0,0.0,0.0,0.0,3.0,0.0,5.0,0.0,0.0,0.0
+Two-component system,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0
+Quorum sensing,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0
+Mismatch repair,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0
+Homologous recombination,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0
+DNA replication,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,3.0
+Biosynthesis of secondary metabolites,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Glucosinolate metabolism,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0
+Arginine and proline metabolism,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fructose and mannose metabolism,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0
+Microbial metabolism in diverse environments,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Biosynthesis of various nucleotide sugars,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0
+Protein export,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0
+Biosynthesis of nucleotide sugars,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0
+Biosynthesis of amino acids,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+beta-Lactam resistance,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0

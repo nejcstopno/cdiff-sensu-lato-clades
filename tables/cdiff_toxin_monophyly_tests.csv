@@ -1,0 +1,15 @@
+gene,clade,n,result
+TcdA,Cds_C1-C4,9,NOT (22 foreign)
+TcdA,Cds_C5,1,single
+TcdA,DC10,4,MONO
+TcdA,DC12,1,single
+TcdA,DC3,10,MONO
+TcdA,DC9,5,MONO
+TcdB,Cds_C1-C4,7,NOT (26 foreign)
+TcdB,Cds_C5,2,NOT (31 foreign)
+TcdB,DC1,3,MONO
+TcdB,DC11,2,MONO
+TcdB,DC2,3,NOT (8 foreign)
+TcdB,DC3,8,MONO
+TcdB,DC6,7,NOT (26 foreign)
+TcdB,DC7,1,single

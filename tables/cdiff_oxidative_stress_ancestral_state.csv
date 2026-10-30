@@ -1,0 +1,4 @@
+marker,ingroup_pattern,outgroup_state,ancestral_state,min_changes_15_clades_plus_4_outgroups,conclusion
+desulfoferrodoxin C-term (PF06397),"strictly bimodal: only 0, 94.7, 98.7 or 100% across all 15 clades","2 of 4 outgroups present (M. mangenotii, T. glycolicus); 2 absent (both Paraclostridium)",ambiguous,4,reviewer hypothesis of two losses NOT supported once outgroups are included
+haem catalase (PF00199),"0% in all sensu stricto; 2.2-100% in DC1,DC5,DC6,DC7,DC8,DC9,DC11","2 of 4 outgroups present (P. bifermentans, T. glycolicus)",ambiguous,6,NOT a novel acquisition of divergent clades; loss in sensu stricto is equally parsimonious
+Mn-catalase copy number (PF05067),3.99-4.17 in regime A; 1.00-3.33 in regime B,outgroup counts come from a different annotation pipeline,not tested,not tested,copy number is not comparable across pipelines; presence/absence only

@@ -1,0 +1,17 @@
+genome_id,new_clade,Country,where_to_look,resolved_note
+ERR232398,DC1,UK,Depositor contact (source not in ENA),"ENA: PRJEB1483, University of Oxford ""Evolutionary History of Clostridium difficile Pathogenicity Locus""; diverse strain panel, isolation source not recorded"
+ERR232399,DC1,UK,Depositor contact (source not in ENA),"ENA: PRJEB1483, University of Oxford ""Evolutionary History of Clostridium difficile Pathogenicity Locus""; diverse strain panel, isolation source not recorded"
+ERR232401,DC1,UK,Depositor contact (source not in ENA),"ENA: PRJEB1483, University of Oxford ""Evolutionary History of Clostridium difficile Pathogenicity Locus""; diverse strain panel, isolation source not recorded"
+ERR232402,DC1,UK,Depositor contact (source not in ENA),"ENA: PRJEB1483, University of Oxford ""Evolutionary History of Clostridium difficile Pathogenicity Locus""; diverse strain panel, isolation source not recorded"
+ERR2215981,DC2,France,Depositor contact (source not in ENA),"ENA: strain CD10055, PRJEB23450 (University Hospital Muenster cgMLST study); isolation source not recorded in ENA"
+CLO_BA8179AA_AS,DC1,,EnteroBase curator / uberstrain record,
+CLO_CA9135AA_AS,DC1,,EnteroBase curator / uberstrain record,
+CLO_BA8158AA_AS,DC2,France,EnteroBase curator / uberstrain record,
+CLO_AA1405AA_AS,DC6,,EnteroBase curator / uberstrain record,
+CLO_EA1168AA_AS,DC6,,EnteroBase curator / uberstrain record,
+CLO_EA4861AA_AS,DC7,,EnteroBase curator / uberstrain record,
+CLO_EA9788AA_AS,DC7,China,EnteroBase curator / uberstrain record,"EnteroBase: strain 20092912R, Lab Contact Zhejiang University, uberstrain CLO_CA6460AA"
+ZZV16-7664,DC2,Slovenia,NLZOH lab records (ZZV collection),
+ZZV16-7664-P,DC2,Slovenia,NLZOH lab records (ZZV collection),"Same isolate as ZZV16-7664 (Slovenia, 2015, DC2); ""-P"" re-assembly"
+MS1,DC2,,"NLZOH lab records (in-house, no sample sheet)",In-house NLZOH assembly (/volumes/homehpc/storage/genomes/Clostridioides_difficile/MS1.fasta); no sample record located
+MC1-4,DC7,,"NLZOH lab records (in-house, no sample sheet)","In-house NLZOH assembly (/volumes/homehpc/storage/genomes/Clostridioides_difficile/MC1-4.fasta); no sample record located; 99.99% ANI to ZZV23-12542 (Slovenian compost/wild-mammal DC7 lineage, 2023)"

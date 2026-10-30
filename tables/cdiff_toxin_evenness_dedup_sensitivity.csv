@@ -1,0 +1,31 @@
+unit,clade,n_strains,n_toxin_states,evenness,perm_p
+metadata strain (primary),Cds_C5,19,5,0.7374,0.0379
+metadata strain (primary),DC1,45,3,0.6271,0.1425
+metadata strain (primary),DC10,6,2,0.9183,0.1785
+metadata strain (primary),DC11,1,1,,
+metadata strain (primary),DC12,2,1,,
+metadata strain (primary),DC13,1,1,,
+metadata strain (primary),DC2,39,3,0.7316,0.0068
+metadata strain (primary),DC3,26,3,0.8024,0.0183
+metadata strain (primary),DC4,14,2,0.7219,1.0
+metadata strain (primary),DC5,9,1,,
+metadata strain (primary),DC6,12,6,0.9112,0.0065
+metadata strain (primary),DC7,9,3,0.865,0.3623
+metadata strain (primary),DC8,7,2,0.971,0.0905
+metadata strain (primary),DC9,5,2,0.8113,1.0
+metadata strain (primary),Cds_C1-C4 (reference),171,7,0.3787,
+ANI cluster >=99.99% (conservative),Cds_C5,19,5,0.7374,0.0393
+ANI cluster >=99.99% (conservative),DC1,30,3,0.5971,0.4448
+ANI cluster >=99.99% (conservative),DC10,5,2,0.7219,1.0
+ANI cluster >=99.99% (conservative),DC11,1,1,,
+ANI cluster >=99.99% (conservative),DC12,2,1,,
+ANI cluster >=99.99% (conservative),DC13,1,1,,
+ANI cluster >=99.99% (conservative),DC2,35,3,0.6922,0.0277
+ANI cluster >=99.99% (conservative),DC3,21,3,0.75,0.1372
+ANI cluster >=99.99% (conservative),DC4,12,2,0.7219,1.0
+ANI cluster >=99.99% (conservative),DC5,4,1,,
+ANI cluster >=99.99% (conservative),DC6,9,6,0.9359,0.0051
+ANI cluster >=99.99% (conservative),DC7,7,3,0.9464,0.2878
+ANI cluster >=99.99% (conservative),DC8,6,2,1.0,0.0859
+ANI cluster >=99.99% (conservative),DC9,2,1,,
+ANI cluster >=99.99% (conservative),Cds_C1-C4 (reference),171,7,0.3787,

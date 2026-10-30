@@ -1,0 +1,16 @@
+clade,tips_on_tree,monophyly_vs_assigned,n_other_clade_tips,n_unassigned_tips_under_MRCA
+Cds_C1-C4,967,monophyletic (vs assigned genomes),0.0,248.0
+Cds_C5,60,monophyletic (vs assigned genomes),0.0,1.0
+DC1,46,monophyletic (vs assigned genomes),0.0,7.0
+DC2,35,monophyletic (vs assigned genomes),0.0,11.0
+DC3,23,monophyletic (vs assigned genomes),0.0,8.0
+DC4,14,monophyletic (vs assigned genomes),0.0,1.0
+DC5,8,monophyletic (vs assigned genomes),0.0,1.0
+DC6,11,monophyletic (vs assigned genomes),0.0,6.0
+DC7,10,monophyletic (vs assigned genomes),0.0,4.0
+DC8,8,monophyletic (vs assigned genomes),0.0,5.0
+DC9,4,monophyletic (vs assigned genomes),0.0,0.0
+DC10,5,monophyletic (vs assigned genomes),0.0,0.0
+DC11,2,monophyletic (vs assigned genomes),0.0,0.0
+DC12,2,monophyletic (vs assigned genomes),0.0,0.0
+DC13,1,single tip,,

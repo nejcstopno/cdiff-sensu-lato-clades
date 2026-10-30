@@ -1,0 +1,14 @@
+family,test,p,q_BH,significant_q05,n_tests_in_family
+"Toxin-state evenness, per-clade vs sensu stricto",DC6,0.0067,0.028,True,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC2,0.007,0.028,True,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC3,0.0237,0.0632,False,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC8,0.0968,0.1936,False,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC1,0.143,0.2288,False,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC10,0.189,0.252,False,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC7,0.3575,0.4086,False,8
+"Toxin-state evenness, per-clade vs sensu stricto",DC4,1,1,False,8
+Oxidative-stress correlations,haem prevalence vs Mn-catalase copies (11 clades),0.0083,0.01245,True,3
+Oxidative-stress correlations,Mn-catalase vs rubrerythrin copies (11 clades),0.0377,0.0377,True,3
+Oxidative-stress correlations,"Mn-catalase vs rubrerythrin, genome level (n=176)",7.35e-12,2.205e-11,True,3
+Ecology correlations,environmental % vs doubling time (9 divergent clades),0.347,0.694,False,2
+Ecology correlations,environmental % vs doubling time (11 comparable clades),0.915,0.915,False,2

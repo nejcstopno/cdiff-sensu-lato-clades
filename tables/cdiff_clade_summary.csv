@@ -1,0 +1,16 @@
+clade,n_genomes,n_derep_representatives,ani_to_630_min,ani_to_630_max,n_STs,gtdb_r226_species,best_representative,rep_contigs,rep_length,published_clade_composition
+Cds_C1-C4,27989,136,98.16,100.0,463,s__Clostridioides difficile,1613_BR81,1,4124384,"C1:10968, C2:5199, C3:635, C4:1306"
+Cds_C5,2776,12,95.71,96.62,28,s__Clostridioides difficile,CLO_DA9777AA_AS,68,4137720,C5:2761
+DC1,50,22,90.83,91.16,20,s__Clostridioides difficile_A,CLO_BA6185AA_AS,122,4069216,none typed
+DC2,49,2,89.08,89.8,15,s__Clostridioides sp020641055,CLO_GA2433AA_AS,80,3974799,none typed
+DC3,29,13,93.65,94.08,17,s__Clostridioides difficile_D,CLO_CA3584AA_AS,155,3939746,none typed
+DC4,17,11,88.95,89.37,11,s__Clostridioides sp020641055,CLO_FA2972AA_AS,105,4244660,none typed
+DC5,12,4,88.87,89.18,4,s__Clostridioides difficile_F,1801_HGP05,17,4139532,none typed
+DC6,12,9,90.91,91.38,9,s__Clostridioides difficile_E,CLO_AA1405AA_AS,108,4450113,none typed
+DC7,10,6,88.84,89.25,5,s__Clostridioides difficile_F,ZZV23-12542,188,4439831,none typed
+DC8,8,5,88.83,89.31,6,s__Clostridioides difficile_F,1806_HGP46,14,4194624,none typed
+DC9,7,2,88.9,89.12,2,s__Clostridioides difficile_F,1804_HGP33,17,4250727,none typed
+DC10,6,2,93.52,93.79,2,s__Clostridioides sp021561035,CLO_FA2961AA_AS,168,3990921,none typed
+DC11,2,1,90.88,90.88,1,s__Clostridioides difficile_G,CLO_DA8475AA_AS,389,4203391,none typed
+DC12,2,2,91.03,91.2,2,s__,CLO_AA6906AA_AS,51,4312861,none typed
+DC13,1,1,95.8,95.8,1,s__Clostridioides difficile,CLO_EA8969AA_AS,101,4616916,none typed

@@ -1,0 +1,16 @@
+pdb_id,title,method,resolution_A,ligands,release,citation_year,doi,pubmed,role_in_this_analysis
+10OH,Structure of Clostridium difficile Toxin B (TcdB) glucosyltransferase in complex with UDP and isofagomine analog 2-4,X-RAY DIFFRACTION,1.85,MN;UDP,2026-07-08,2026,,,TcdB GTD + Mn2+ + UDP + isofagomine analogue - independent donor-pocket definition
+2F6E,Clostridium difficile Toxin A C-terminal fragment 1 (TcdA-f1),X-RAY DIFFRACTION,1.85,,2005-12-20,2005,,,TcdA CROPS fragment (apo) - solenoid repeat geometry
+2G7C,"Clostridium difficile Toxin A Fragment Bound to aGal(1,3)bGal(1,4)bGlcNAc",X-RAY DIFFRACTION,2.0,,2006-04-18,2006,,,"TcdA CROPS fragment + aGal(1,3)bGal(1,4)bGlcNAc - carbohydrate receptor site"
+3SRZ,Clostridium difficile toxin A (TcdA) glucolsyltransferase domain bound to UDP-glucose,X-RAY DIFFRACTION,2.58,MN;UPG,2012-02-01,2012,,,TcdA GTD + Mn2+ + UDP-glucose - TcdA donor pocket
+4NP4,Clostridium difficile toxin B CROP domain in complex with FAB domains of neutralizing antibody bezlotoxumab,X-RAY DIFFRACTION,2.89,,2014-05-21,2014,,,TcdB CROPS (1834-2104) - bezlotoxumab Fab (2 copies) - therapeutic antibody epitope
+4R04,Clostridium difficile Toxin A (TcdA),X-RAY DIFFRACTION,3.26,ZN,2016-01-06,2016,,,TcdA holotoxin (4-1802) - domain architecture context
+5UQM,Clostridium difficile Toxin B (TcdB) glucosyltransferase domain in complex with U2F,X-RAY DIFFRACTION,2.03,MN;U2F,2017-05-10,2017,,,TcdB GTD + Mn2+ + UDP-2F-glucose - cofactor/donor pocket; superposition reference for TcdB GTD models
+6C0B,Structural basis for recognition of frizzled proteins by Clostridium difficile toxin B,X-RAY DIFFRACTION,2.5,NAG,2018-05-16,2018,,,TcdB delivery domain - Frizzled-2 CRD - FZD receptor site
+7ML7,Structural basis for CSPG4 as a receptor for TcdB and a therapeutic target in Clostridioides difficile infection,ELECTRON MICROSCOPY,3.17,ZN,2021-06-09,2021,,,TcdB - CSPG4 complex - CSPG4 receptor site
+7S0Y,Structures of TcdB in complex with Cdc42,X-RAY DIFFRACTION,2.79,GDP;MG;MN;UDP,2021-09-08,2021,,,TcdB1 GTD - Cdc42 complex - Rho-family substrate-binding surface
+7S0Z,Structures of TcdB in complex with R-Ras,X-RAY DIFFRACTION,2.34,GDP;MG;MN;UDP,2021-09-08,2021,,,R-Ras-modifying TcdB GTD - R-Ras complex - alternative substrate surface (GTD 79.3% id to TcdB630)
+7SO5,Novel structural insights for a pair of monoclonal antibodies recognizing non-overlapping epitopes of the glucosyltransferase domain of Clostridium difficile toxin B,X-RAY DIFFRACTION,1.797,,2022-05-11,2022,,,TcdB GTD - neutralising mAb Fab - GTD-directed antibody epitope
+7U1Z,Crystal structure of the DRBD and CROPs of TcdA,X-RAY DIFFRACTION,3.18,,2022-03-09,2022,,,TcdA delivery + CROPS (855-2481) - superposition reference for TcdA CROPS models
+7U2P,Structure of TcdA GTD in complex with RhoA,X-RAY DIFFRACTION,2.596,GDP;MG;MN;UPG,2022-05-04,2022,,,TcdA GTD - RhoA + Mn2+ + UDP-glucose - TcdA substrate-binding surface
+9BJA,C. difficile Tcdb cysteine protease domain in complex with IP6,X-RAY DIFFRACTION,2.1,,2024-07-03,2024,,,TcdB CPD + InsP6 - autoprotease activator pocket

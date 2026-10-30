@@ -1,0 +1,16 @@
+clade,n_genomes,core_genes,clade_specific_genes,genes_absent_vs_rest,specific_rarefied_n6_median,specific_rarefied_n6_iqr,count_reliable
+Cds_C1-C4,236,3070,10,2,14.0,12-19,yes
+Cds_C5,19,3021,53,13,53.0,52-56,yes
+DC1,50,3233,97,22,87.5,84-100,yes
+DC2,49,3315,51,5,58.0,50-69,yes
+DC3,29,2869,20,18,20.0,19-23,yes
+DC4,17,3235,34,10,37.0,35-40,yes
+DC5,12,3387,96,22,96.0,57-96,yes
+DC6,12,3259,42,6,38.0,36-39,yes
+DC7,10,3250,104,0,45.5,45-103,yes
+DC8,8,3160,23,1,25.0,24-26,yes
+DC9,7,3527,70,7,70.0,70-70,yes
+DC10,6,3068,93,145,93.0,93-93,yes
+DC11,2,3687,119,20,,,"no - n<6, counts are strain-level not clade-level"
+DC12,2,3505,54,6,,,"no - n<6, counts are strain-level not clade-level"
+DC13,1,4244,381,20,,,"no - n<6, counts are strain-level not clade-level"

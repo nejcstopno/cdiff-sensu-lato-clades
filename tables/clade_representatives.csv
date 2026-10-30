@@ -1,0 +1,16 @@
+new_clade,genome_id,genome_path
+Cds_C1-C4,CLO_BA0260AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_BA0260AA_AS.fa
+Cds_C5,CLO_GA1182AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_GA1182AA_AS.fa
+DC1,CLO_BA4195AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_BA4195AA_AS.fa
+DC10,CLO_FA2968AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_FA2968AA_AS.fa
+DC11,CLO_DA8475AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_DA8475AA_AS.fa
+DC12,CLO_AA6906AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_AA6906AA_AS.fa
+DC13,CLO_EA8969AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_EA8969AA_AS.fa
+DC2,CLO_EA9146AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_EA9146AA_AS.fa
+DC3,CLO_EA6881AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_EA6881AA_AS.fa
+DC4,CLO_FA2969AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_FA2969AA_AS.fa
+DC5,1805_HGP34,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/1805_HGP34.fa
+DC6,1935_G11S6,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/1935_G11S6.fa
+DC7,CLO_EA4861AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_EA4861AA_AS.fa
+DC8,CLO_FA0200AA_AS,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/CLO_FA0200AA_AS.fa
+DC9,1842_TUM20350,/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/1842_TUM20350.fa

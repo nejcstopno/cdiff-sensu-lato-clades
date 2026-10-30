@@ -1,0 +1,14 @@
+label,div_clade,n,intra_ani_min,intra_ani_median,ani_to_630_median,n_STs,top_STs,prev_ani_clades,example,gtdb_r226_species
+DC1,8,50,98.37,99.16,90.93,20,"177,297,764",10(46),1728_SRR3242073,s__Clostridioides difficile_A
+DC2,2,49,98.62,99.56,89.27,15,"343,340,344",4(35),1958_GSK146,s__Clostridioides sp020641055
+DC3,12,29,97.72,98.76,93.91,17,"200,768,1101",12(23),1952_GSK131,s__Clostridioides difficile_D
+DC4,1,17,98.97,99.19,89.09,11,"1098,825,822",3(14),CLO_FA2955AA_AS,s__Clostridioides sp020641055
+DC5,4,12,98.11,99.42,88.84,4,"848,849,853",6(8),1801_HGP05,s__Clostridioides difficile_F
+DC6,10,12,97.38,98.14,90.99,9,"784,1062,1063",7(11),1933_G11S4,s__Clostridioides difficile_E
+DC7,3,10,98.67,99.32,88.86,5,"850,919,688",6(10),1803_HGP28,s__Clostridioides difficile_F
+DC8,5,8,98.08,98.56,89.03,6,"852,918,921",5(8),1806_HGP46,s__Clostridioides difficile_F
+DC9,6,7,97.65,99.99,88.79,2,"632,920",5(4),1717_HGP14,s__Clostridioides difficile_F
+DC10,11,6,98.77,98.86,93.47,2,"823,835",11(5),CLO_FA2956AA_AS,s__Clostridioides sp021561035
+DC11,7,2,99.99,99.99,90.88,1,669,9(2),CLO_DA8475AA_AS,s__Clostridioides difficile_G
+DC12,9,2,98.65,98.65,91.12,2,"1087,796",8(2),1954_GSK142,s__
+DC13,15,1,,,95.8,1,881,14(1),CLO_EA8969AA_AS,s__Clostridioides difficile

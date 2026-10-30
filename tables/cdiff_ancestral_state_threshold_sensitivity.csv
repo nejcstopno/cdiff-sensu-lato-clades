@@ -1,0 +1,9 @@
+domain,coding,n_changes,ancestral_state_at_root,n_clades_coded_present
+haem catalase (PF00199),majority @ 30%,5,ambiguous,5
+haem catalase (PF00199),majority @ 50%,6,ambiguous,4
+haem catalase (PF00199),majority @ 70%,5,absent,3
+haem catalase (PF00199),polymorphic (10-90% ambiguous),4,absent,2
+desulfoferrodoxin C-term (PF06397),majority @ 30%,4,ambiguous,6
+desulfoferrodoxin C-term (PF06397),majority @ 50%,4,ambiguous,6
+desulfoferrodoxin C-term (PF06397),majority @ 70%,4,ambiguous,6
+desulfoferrodoxin C-term (PF06397),polymorphic (10-90% ambiguous),4,ambiguous,6

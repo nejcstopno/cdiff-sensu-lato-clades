@@ -1,0 +1,16 @@
+clade,clade_specific_families,strictly_exclusive,families_to_nt_extraction,candidate_pairs,validated_pairs,outcome
+Cds_C1-C4,10,3,7,0,0,families extracted but no alignment/primer3 candidate passed
+Cds_C5,52,27,15,0,0,families extracted but no alignment/primer3 candidate passed
+DC1,97,25,19,30,4,validated pair available
+DC2,51,32,40,40,26,validated pair available
+DC3,20,15,4,5,3,validated pair available
+DC4,34,22,8,5,0,"no zero-off-target pair (best recall 0.88, min 6 off-target)"
+DC5,54,31,43,100,15,validated pair available
+DC6,18,10,6,10,0,recall/specificity trade-off: best recall 1.00 with 2 off-target genomes; best zero-off-target pair reaches 0.58 recall
+DC7,99,41,14,10,0,recall/specificity trade-off: best recall 1.00 with 111 off-target genomes; best zero-off-target pair reaches 0.60 recall
+DC8,22,3,6,5,5,validated pair available
+DC9,32,6,26,20,20,validated pair available
+DC10,93,63,24,10,5,validated pair available
+DC11,116,24,13,0,0,families extracted but no alignment/primer3 candidate passed
+DC12,35,17,6,5,0,recall/specificity trade-off: best recall 1.00 with 44 off-target genomes; best zero-off-target pair reaches 0.50 recall
+DC13,377,39,52,15,15,validated pair available

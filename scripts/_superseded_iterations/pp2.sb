@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_pp2
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=450G
+#SBATCH --output=/home/nejc/cdiff_clades/pp2_%j.out
+set -euo pipefail
+export JAVA_HOME="${JAVA_HOME:-}"
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate poppunk_new
+cd /home/nejc/cdiff_clades
+poppunk --version
+echo "START create-db $(date)"
+poppunk --create-db --r-files pp_rfiles.txt --output pp_db --threads 64 2>&1 | tail -20
+echo "END create-db $(date)"
+echo "START fit-model $(date)"
+poppunk --fit-model dbscan --ref-db pp_db --output pp_db --threads 64 2>&1 | tail -25
+echo "END fit $(date)"
+ls -la pp_db | head -20
+wc -l pp_db/pp_db_clusters.csv 2>/dev/null || true

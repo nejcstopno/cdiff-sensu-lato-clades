@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_msa
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/msa_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate panaroo
+cd /home/nejc/cdiff_clades
+echo "START $(date)"
+panaroo-msa -o panaroo460 -a core --aligner mafft --core_threshold 0.95 -t 96 2>&1 | tail -15
+echo "END $(date)"
+ls -la panaroo460/core_gene_alignment.aln 2>/dev/null || ls panaroo460 | head -20
+grep -c '>' panaroo460/core_gene_alignment.aln 2>/dev/null || true
+head -1 panaroo460/core_gene_alignment.aln 2>/dev/null || true

@@ -1,0 +1,46 @@
+#!/bin/bash
+#SBATCH --job-name=ttrun
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/ttrun_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate treetime_env
+set -u
+SYSLIB=$CONDA_PREFIX/x86_64-conda-linux-gnu/sysroot/usr/lib64
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$SYSLIB:${LD_LIBRARY_PATH:-}
+cd /home/nejc/cdiff_clades
+mkdir -p treetime_in
+python - << 'PY'
+import re
+L=2540864
+src="/home/nejc/cdiff_clades/gubbins460/core_gene_alignment.iteration_1.tre"
+s=open(src).read().strip()
+# rescale every branch length from substitution counts to substitutions per site
+out=re.sub(r':(-?[0-9.eE+-]+)', lambda m: ':%.12g' % (float(m.group(1))/L), s)
+open("treetime_in/clonalframe_persite.nwk","w").write(out)
+import io
+names=re.findall(r'[(,]([^(),:]+):', s)
+names=[n for n in names if n and not n.startswith('Node_')]
+with open("treetime_in/dates.csv","w") as f:
+    f.write("name,date\n")
+    for n in names: f.write("%s,2020\n" % n)
+print("tips_written", len(names))
+PY
+wc -l treetime_in/dates.csv
+for TAG in lo hi; do
+  if [ "$TAG" = "lo" ]; then RATE=2.5e-9; else RATE=1.5e-8; fi
+  echo "=== TreeTime rate $RATE ==="
+  treetime --tree treetime_in/clonalframe_persite.nwk \
+           --dates treetime_in/dates.csv \
+           --sequence-length 2540864 \
+           --clock-rate $RATE \
+           --keep-root --confidence --no-covariance \
+           --outdir treetime_$TAG > treetime_$TAG.log 2>&1 || echo "TREETIME_FAILED_$TAG"
+  tail -12 treetime_$TAG.log
+  ls -la treetime_$TAG/ 2>/dev/null | head
+done
+echo "DONE_TTRUN"

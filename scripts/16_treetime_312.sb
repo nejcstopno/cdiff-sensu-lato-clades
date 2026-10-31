@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=tt312b
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --output=/home/nejc/cdiff_clades/tt312b_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate treetime_env
+set -u
+pip install --no-cache-dir graphviz > /tmp/g.txt 2>&1; tail -1 /tmp/g.txt
+SYSLIB=$CONDA_PREFIX/x86_64-conda-linux-gnu/sysroot/usr/lib64
+if ! python -c "import treetime" 2>/dev/null; then
+  conda install -y -c conda-forge libglvnd-egl-cos7-x86_64 > /tmp/ci.txt 2>&1 || true
+  [ -f $SYSLIB/libEGL.so.1 ] && ln -sf $SYSLIB/libEGL.so.1 $CONDA_PREFIX/lib/libEGL.so.1 || true
+fi
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$SYSLIB:${LD_LIBRARY_PATH:-}
+python -c "import treetime; print('treetime_import_OK', treetime.version)"
+echo "DONE_TT312B"

@@ -1,0 +1,37 @@
+#!/bin/bash
+#SBATCH --job-name=bdpilot
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64G
+#SBATCH --output=/home/nejc/cdiff_clades/bdpilot_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate pantools
+set -u
+export R_LIBS_USER=/home/nejc/cdiff_clades/Rlib
+cd /home/nejc/cdiff_clades
+Rscript - << 'RS'
+.libPaths(c("/home/nejc/cdiff_clades/Rlib", .libPaths()))
+suppressMessages({library(BactDating); library(ape)})
+tr <- loadGubbins("/home/nejc/cdiff_clades/gubbins460/gubCF")
+cat("tips:", length(tr$tip.label), " edges:", nrow(tr$edge), " total BL:", sum(tr$edge.length), "\n")
+cat("unrec range:", range(tr$unrec), "\n")
+L <- 2540864
+mu <- 1.5e-8 * L
+cat("mu (subs/genome/yr):", mu, "\n")
+set.seed(1)
+t0 <- Sys.time()
+res <- bactdate(tr, rep(2020, length(tr$tip.label)), initMu=mu, updateMu=FALSE,
+                updateAlpha=FALSE, updateSigma=FALSE, updateRoot=TRUE,
+                model="strictgamma", nbIts=2000, thin=100, showProgress=FALSE)
+cat("elapsed for 2000 its (s):", as.numeric(difftime(Sys.time(), t0, units="secs")), "\n")
+cat("names(res):", paste(names(res), collapse=", "), "\n")
+cat("dim(res$record):", paste(dim(res$record), collapse=" x "), "\n")
+cat("colnames head:", paste(head(colnames(res$record), 8), collapse=" | "), "\n")
+cat("colnames tail:", paste(tail(colnames(res$record), 8), collapse=" | "), "\n")
+cat("root.time:", res$tree$root.time, "\n")
+cat("class res$tree:", class(res$tree), "\n")
+saveRDS(res, "/home/nejc/cdiff_clades/bdpilot.rds")
+RS
+echo "DONE_PILOT"

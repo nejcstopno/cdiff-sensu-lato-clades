@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_prokka_fix
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=192
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/prokkafix_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate prokka
+cd /home/nejc/cdiff_clades
+echo "START $(date); to do: $(wc -l < missing_ids.txt)"
+run_one() {
+  id="$1"; p="/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/$id.fa"; out="/home/nejc/cdiff_clades/prokka460/$id"
+  [ -s "$out/$id.gff" ] && return 0
+  rm -rf "$out"
+  prokka --outdir "$out" --prefix "$id" --locustag "$id" --kingdom Bacteria \
+         --genus Clostridioides --species difficile --gcode 11 --cpus 4 \
+         --centre X --compliant --force --quiet "$p" 2> "/home/nejc/cdiff_clades/prokka460/$id.err" || echo "FAIL $id"
+}
+export -f run_one
+parallel -j 48 run_one :::: missing_ids.txt
+echo "END $(date)"
+ls /home/nejc/cdiff_clades/prokka460/*/*.gff | wc -l

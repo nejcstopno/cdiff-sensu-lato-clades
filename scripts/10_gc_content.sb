@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_gc
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=64G
+#SBATCH --output=/home/nejc/cdiff_clades/gc_%j.out
+set -euo pipefail
+cd /home/nejc/cdiff_clades
+GF=/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed
+echo "START $(date)"
+calc_gc() {
+  id="$1"; f="$GF/$id.fa"
+  [ -s "$f" ] || return 0
+  awk -v g="$id" '!/^>/{s=toupper($0); n+=length(s); gsub(/[^GC]/,"",s); gc+=length(s)} END{if(n>0) printf "%s\t%d\t%.5f\n", g, n, gc/n}' "$f"
+}
+export -f calc_gc; export GF
+printf "genome_id\tlength\tgc\n" > gc_all.tsv
+parallel -j 48 calc_gc :::: /home/nejc/.claude-science-scratch/cdiff_work/lists/qc_passed_ids.txt >> gc_all.tsv
+echo "END $(date)"
+wc -l gc_all.tsv

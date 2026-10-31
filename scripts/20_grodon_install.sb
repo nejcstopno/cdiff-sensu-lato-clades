@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -J grodon2
+#SBATCH -p mb-cpu
+#SBATCH -c 4
+#SBATCH --mem=16G
+#SBATCH -o /home/nejc/cdiff_clades/grodon_install2_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u; conda activate pantools; set -u
+LIB=/home/nejc/cdiff_clades/Rlib
+mkdir -p $LIB
+unset R_LIBS_USER
+Rscript -e '.libPaths(c("/home/nejc/cdiff_clades/Rlib",.libPaths())); if(!requireNamespace("BiocManager",quietly=TRUE)) install.packages("BiocManager",repos="https://cloud.r-project.org",lib="/home/nejc/cdiff_clades/Rlib"); if(!requireNamespace("coRdon",quietly=TRUE)) BiocManager::install("coRdon", ask=FALSE, update=FALSE, lib="/home/nejc/cdiff_clades/Rlib")' 2>&1 | tail -8
+Rscript -e '.libPaths(c("/home/nejc/cdiff_clades/Rlib",.libPaths())); remotes::install_github("jlw-ecoevo/gRodon", upgrade="never", lib="/home/nejc/cdiff_clades/Rlib")' 2>&1 | tail -8
+Rscript -e '.libPaths(c("/home/nejc/cdiff_clades/Rlib",.libPaths())); for(p in c("coRdon","gRodon","Biostrings","matrixStats")) cat(p, requireNamespace(p,quietly=TRUE),"\n")'
+echo DONE_INSTALL2

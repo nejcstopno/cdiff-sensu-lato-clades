@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=root464
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=200G
+#SBATCH --time=8:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/root464_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+cd /home/nejc/cdiff_clades
+printf "GCF_002865995.1\nGCF_017873185.1\nGCF_019916025.1\nGCF_036812735.1\n" > outgroup_ids.txt
+echo "START $(date)"
+python3 extract_core_families2.py panaroo464 root464 outgroup_ids.txt 0.90 prokka460 prokka_og
+cat root464/family_stats.txt
+conda activate /home/nejc/.local/share/mamba/envs/singlem
+mkdir -p root464/aln_aa
+aln(){ f="$1"; mafft --auto --anysymbol --quiet --thread 1 root464/fam_aa/$f.faa > root464/aln_aa/$f.aln 2>/dev/null || true; }
+export -f aln
+parallel -j 16 aln :::: root464/families.txt
+echo "MAFFT_DONE $(date)"; ls root464/aln_aa | wc -l
+conda deactivate
+python3 backtranslate_concat2.py root464
+echo "END $(date)"
+ls -la root464/concat_*.fasta

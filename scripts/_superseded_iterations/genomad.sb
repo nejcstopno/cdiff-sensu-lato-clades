@@ -1,0 +1,33 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_genomad
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/genomad_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate genomad
+export PATH=/home/nejc/miniconda3/envs/eggnog_mapper_env/bin:$PATH   # mmseqs 15.6f452, avoids the 14.7e284 SW bug
+mmseqs version
+cd /home/nejc/cdiff_clades
+mkdir -p genomad_batches genomad_out
+split -n l/8 -d /home/nejc/.claude-science-scratch/cdiff_work/lists/working_set_460_paths.txt genomad_batches/batch_
+for b in genomad_batches/batch_0*; do
+  out="$b.fna"
+  [ -s "$out" ] && continue
+  : > "$out"
+  while read p; do
+    id=$(basename "$p" .fa)
+    awk -v g="$id" '/^>/{sub(/^>/,""); split($0,a," "); print ">"g"__"a[1]; next} {print}' "$p" >> "$out"
+  done < "$b"
+done
+ls -la genomad_batches/*.fna | head
+echo "START $(date)"
+for b in genomad_batches/batch_0*.fna; do
+  n=$(basename "$b" .fna)
+  [ -s "genomad_out/$n/${n}_summary/${n}_virus_summary.tsv" ] && { echo "skip $n"; continue; }
+  echo "--- $n $(date) ---"
+  genomad end-to-end --cleanup --threads 64 --splits 4 "$b" "genomad_out/$n" /volumes/homehpc/storage/DB/genomad_db 2>&1 | tail -4
+done
+echo "END $(date)"
+ls genomad_out/*/*_summary/*_virus_summary.tsv 2>/dev/null | wc -l

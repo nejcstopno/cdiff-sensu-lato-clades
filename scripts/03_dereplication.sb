@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_derep
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=128
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/derep_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+echo "START $(date)"; nproc
+skani triangle --sparse -l all_sketches.txt -t 128 -s 99.5 --min-af 50 -o derep_edges.tsv
+echo "END $(date)"
+wc -l derep_edges.tsv
+du -sh derep_edges.tsv

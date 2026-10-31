@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_plasmid
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=64G
+#SBATCH --output=/home/nejc/cdiff_clades/plasmidscan_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate prokka
+cd /home/nejc/cdiff_clades
+cp /home/nejc/.claude-science-scratch/cdiff_work/refs/plasmid_refs.fasta ./plasmid_refs.fasta
+makeblastdb -in plasmid_refs.fasta -dbtype nucl -out plasmid_db > /dev/null
+: > plasmid_hits.tsv
+n=0
+while read -r g; do
+  id=$(basename "$g" .fa)
+  blastn -query "$g" -db plasmid_db -num_threads 32 -evalue 1e-10 -perc_identity 80 \
+    -max_target_seqs 5000 -outfmt '6 qseqid sseqid pident length qstart qend sstart send bitscore' \
+    | awk -v G="$id" '{print G"\t"$0}' >> plasmid_hits.tsv
+  n=$((n+1)); if [ $((n % 100)) -eq 0 ]; then echo "done $n"; fi
+done < /home/nejc/.claude-science-scratch/cdiff_work/lists/working_set_460_paths.txt
+wc -l plasmid_hits.tsv
+echo DONE

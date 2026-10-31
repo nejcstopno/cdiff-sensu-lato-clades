@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=bactdating
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --output=/home/nejc/cdiff_clades/bactdating2_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate pantools
+set -u
+mkdir -p /home/nejc/cdiff_clades/Rlib
+export R_LIBS_USER=/home/nejc/cdiff_clades/Rlib
+Rscript -e '
+.libPaths(c("/home/nejc/cdiff_clades/Rlib", .libPaths()))
+options(repos=c(CRAN="https://cloud.r-project.org"))
+for (p in c("lubridate","Rcpp")) if(!requireNamespace(p,quietly=TRUE)) install.packages(p, lib="/home/nejc/cdiff_clades/Rlib")
+ok <- tryCatch({ remotes::install_github("xavierdidelot/BactDating", lib="/home/nejc/cdiff_clades/Rlib", upgrade="never", build_vignettes=FALSE); TRUE }, error=function(e){ cat("GITHUB_FAIL:", conditionMessage(e), "\n"); FALSE })
+cat("install_attempt_ok:", ok, "\n")
+have <- requireNamespace("BactDating", quietly=TRUE)
+cat("BactDating_available:", have, "\n")
+if (have) { suppressMessages(library(BactDating)); cat("BactDating version:", as.character(packageVersion("BactDating")), "\n") }
+' 2>&1 | tail -60
+echo "DONE_R"

@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --job-name=bl460
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=250G
+#SBATCH --time=24:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/bl460_%j.out
+set -eo pipefail
+export PATH=/home/nejc/.local/share/mamba/envs/gubbins_env/bin:$PATH
+cd /home/nejc/cdiff_clades
+echo "START $(date)"
+iqtree2 -s codon460/concat_nt.fasta -m GTR+F+I+R4 -te core_iqtree.treefile -T 24 --prefix bl460_nt --redo -quiet > bl460_nt.stdout 2>&1
+echo "NT_DONE $(date)"
+iqtree2 -s codon460/concat_p12.fasta -m GTR+F+I+R3 -te core_iqtree.treefile -T 24 --prefix bl460_p12 --redo -quiet > bl460_p12.stdout 2>&1
+echo "P12_DONE $(date)"
+iqtree2 -s codon460/concat_aa.fasta -m JTT+F+R5 -te core_iqtree.treefile -T 24 --prefix bl460_aa --redo -quiet > bl460_aa.stdout 2>&1
+echo "END $(date)"
+ls -la bl460_*.treefile

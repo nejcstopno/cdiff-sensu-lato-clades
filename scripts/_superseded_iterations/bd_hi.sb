@@ -1,0 +1,72 @@
+#!/bin/bash
+#SBATCH --job-name=bd_hi
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=64G
+#SBATCH --time=7-00:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/bd_hi_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate pantools
+set -u
+export R_LIBS_USER=/home/nejc/cdiff_clades/Rlib
+cd /home/nejc/cdiff_clades
+Rscript - << 'RS'
+.libPaths(c("/home/nejc/cdiff_clades/Rlib", .libPaths()))
+suppressMessages({library(BactDating); library(ape)})
+RATE <- 1.5e-8 ; TAG <- "hi"
+L <- 2540864
+tr <- loadGubbins("/home/nejc/cdiff_clades/gubbins460/gubCF")
+n  <- length(tr$tip.label)
+mu <- RATE * L
+cat("TAG", TAG, "rate_per_site", RATE, "mu_per_genome", mu, "ntips", n, "\n")
+set.seed(42)
+t0 <- Sys.time()
+res <- bactdate(tr, rep(2020, n), initMu=mu, updateMu=FALSE, updateAlpha=FALSE,
+                updateSigma=FALSE, updateRoot=TRUE, model="strictgamma",
+                nbIts=1000000, thin=1000, showProgress=FALSE)
+cat("elapsed_s", as.numeric(difftime(Sys.time(), t0, units="secs")), "\n")
+saveRDS(res, sprintf("/home/nejc/cdiff_clades/bactdate_%s.rds", TAG))
+cat("record_dim", paste(dim(res$record), collapse="x"), "\n")
+cat("CI_dim", paste(dim(res$CI), collapse="x"), "\n")
+cat("root.time", res$tree$root.time, "\n")
+
+# clade membership
+meta <- read.csv("/home/nejc/.claude-science-scratch/cdiff_work/lists/cdiff_working_set_460.csv",
+                 stringsAsFactors=FALSE)
+stopifnot(all(tr$tip.label %in% meta$genome_id))
+dt   <- res$tree
+dep  <- node.depth.edgelength(dt)
+dates <- dt$root.time + dep                      # calendar date of every node
+present <- 2020
+out <- data.frame()
+for (cl in unique(meta$new_clade)) {
+  mem <- meta$genome_id[meta$new_clade == cl]
+  mem <- mem[mem %in% dt$tip.label]
+  if (length(mem) == 1) { nodeid <- which(dt$tip.label == mem); crown_date <- dates[nodeid] }
+  else { nodeid <- getMRCA(dt, mem); crown_date <- dates[nodeid] }
+  par <- dt$edge[dt$edge[,2]==nodeid, 1]
+  stem_date <- if (length(par)==1) dates[par] else NA
+  ci  <- if (!is.null(res$CI) && nodeid <= nrow(res$CI)) res$CI[nodeid, 1:2] else c(NA,NA)
+  cip <- if (!is.null(res$CI) && length(par)==1 && par <= nrow(res$CI)) res$CI[par, 1:2] else c(NA,NA)
+  out <- rbind(out, data.frame(clade=cl, n=length(mem), node=nodeid,
+      crown_date=crown_date, crown_Mya=(present-crown_date)/1e6,
+      crown_lo_Mya=(present-ci[2])/1e6, crown_hi_Mya=(present-ci[1])/1e6,
+      stem_node=ifelse(length(par)==1,par,NA), stem_Mya=(present-stem_date)/1e6,
+      stem_lo_Mya=(present-cip[2])/1e6, stem_hi_Mya=(present-cip[1])/1e6))
+}
+rootid <- n+1
+out <- rbind(out, data.frame(clade="ROOT", n=n, node=rootid, crown_date=dates[rootid],
+      crown_Mya=(present-dates[rootid])/1e6,
+      crown_lo_Mya=(present-res$CI[rootid,2])/1e6, crown_hi_Mya=(present-res$CI[rootid,1])/1e6,
+      stem_node=NA, stem_Mya=NA, stem_lo_Mya=NA, stem_hi_Mya=NA))
+write.csv(out, sprintf("/home/nejc/cdiff_clades/clade_ages_%s.csv", TAG), row.names=FALSE)
+write.tree(dt, sprintf("/home/nejc/cdiff_clades/dated_tree_%s.nwk", TAG))
+saveRDS(res$CI, sprintf("/home/nejc/cdiff_clades/bactdate_CI_%s.rds", TAG))
+write.csv(as.data.frame(res$CI), sprintf("/home/nejc/cdiff_clades/nodeCI_%s.csv", TAG))
+write.csv(as.data.frame(res$record[, (ncol(res$record)-5):ncol(res$record)]),
+          sprintf("/home/nejc/cdiff_clades/mcmc_params_%s.csv", TAG), row.names=FALSE)
+print(out)
+RS
+echo "DONE_BD_hi"

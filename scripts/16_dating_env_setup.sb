@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=dateenv
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --output=/home/nejc/cdiff_clades/dateenv_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+echo "=== create env dating_env ==="
+conda create -y -n dating_env python=3.10 pip 2>&1 | tail -5
+conda activate dating_env
+pip install --no-cache-dir treetime 2>&1 | tail -15
+echo "=== treetime version ==="
+treetime --version > /tmp/tt_ver.txt 2>&1 || true
+cat /tmp/tt_ver.txt
+python -c "import treetime, Bio, numpy; print('treetime', treetime.version); print('biopython', Bio.__version__)"
+echo "=== also install dendropy/ete3 for tree handling ==="
+pip install --no-cache-dir dendropy 2>&1 | tail -3
+echo "DONE_PY"

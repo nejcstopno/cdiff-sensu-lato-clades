@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_mge
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=120
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/mge_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate mge
+cd /home/nejc/cdiff_clades
+mkdir -p integron_out isescan_out
+echo "START $(date)"
+run_if() {
+  p="$1"; id=$(basename "$p" .fa)
+  [ -s "integron_out/Results_Integron_Finder_$id/$id.summary" ] && return 0
+  integron_finder --local-max --cpu 2 --outdir integron_out "$p" > integron_out/$id.log 2>&1 || echo "IFFAIL $id"
+}
+run_is() {
+  p="$1"; id=$(basename "$p" .fa)
+  [ -s "isescan_out/$id/$(basename $p).tsv" ] && return 0
+  isescan.py --seqfile "$p" --output isescan_out/$id --nthread 2 > isescan_out/$id.log 2>&1 || echo "ISFAIL $id"
+}
+export -f run_if run_is
+echo "--- integron_finder ---"; date
+parallel -j 55 run_if :::: /home/nejc/.claude-science-scratch/cdiff_work/lists/working_set_460_paths.txt
+echo "--- isescan ---"; date
+parallel -j 55 run_is :::: /home/nejc/.claude-science-scratch/cdiff_work/lists/working_set_460_paths.txt
+echo "END $(date)"
+ls -d integron_out/Results_Integron_Finder_* 2>/dev/null | wc -l
+ls isescan_out/*/*.tsv 2>/dev/null | wc -l

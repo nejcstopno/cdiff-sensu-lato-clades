@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_poppunk
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/poppunk_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate panaroo
+cd /home/nejc/cdiff_clades
+GF=/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed
+awk -v d="$GF" '{print $0"\t"d"/"$0".fa"}' /home/nejc/.claude-science-scratch/cdiff_work/lists/ss_ids.txt > pp_rfiles.txt
+echo "rfiles: $(wc -l < pp_rfiles.txt)"; head -2 pp_rfiles.txt
+echo "START create-db $(date)"
+poppunk --create-db --r-files pp_rfiles.txt --output pp_db --threads 64 --plot-fit 0 2>&1 | tail -30
+echo "END create-db $(date)"
+ls -la pp_db | head

@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_mge_install
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --output=/home/nejc/cdiff_clades/mgeinstall_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+echo "START $(date)"
+if [ ! -d /home/nejc/miniconda3/envs/mge ]; then
+  conda create -y -n mge -c conda-forge -c bioconda integron_finder isescan 2>&1 | tail -8
+fi
+conda activate mge
+integron_finder --version 2>&1 | head -3 || true
+isescan.py --version 2>&1 | head -3 || true
+echo "END $(date)"

@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_reptri
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128G
+#SBATCH --output=/home/nejc/cdiff_clades/reptri_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+awk -F'\t' 'NR>1 && $3==1 {print "/home/nejc/cdiff_clades/sketches/"$1".fa.sketch"}' derep_representatives.tsv > rep_sketches.txt
+echo "representatives: $(wc -l < rep_sketches.txt)"
+skani triangle --sparse -l rep_sketches.txt -t 32 -s 85 --min-af 15 -o rep_all_vs_all.tsv
+wc -l rep_all_vs_all.tsv

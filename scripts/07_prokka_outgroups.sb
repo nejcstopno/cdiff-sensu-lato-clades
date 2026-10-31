@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name=og_prokka
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=24G
+#SBATCH --output=/home/nejc/cdiff_clades/ogprokka_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate prokka
+cd /home/nejc/cdiff_clades/outgroups
+cp /volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed/GCF_002865995.1_ASM286599v1.fa GCF_002865995.1.fna
+echo "START $(date)"
+prokka --version
+for id in GCF_002865995.1 GCF_017873185.1 GCF_019916025.1 GCF_036812735.1; do
+  out=/home/nejc/cdiff_clades/prokka_og/$id
+  prokka --outdir "$out" --prefix "$id" --locustag "OG${id:4:9}" --kingdom Bacteria \
+         --genus Clostridioides --species difficile --gcode 11 --cpus 8 \
+         --centre X --compliant --force --quiet $id.fna 2> $id.prokka.err || echo "FAIL $id"
+  echo "$id CDS: $(grep -c CDS $out/$id.gff || true)"
+done
+echo "END $(date)"
+ls -la /home/nejc/cdiff_clades/prokka_og/*/*.gff

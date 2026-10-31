@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_screen
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=240G
+#SBATCH --output=/home/nejc/cdiff_clades/screen_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+printf '/home/nejc/cdiff_clades/sketches/GCF_000009205.2_ASM920v2.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_001077535.1_ASM107753v2.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_003095675.1_ASM309567v1.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_003095695.1_ASM309569v1.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_002073735.2_ASM207373v2.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_009362915.1_ASM936291v1.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_003697225.1_ASM369722v1.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_002080065.1_ASM208006v1.fa.sketch\n/home/nejc/cdiff_clades/sketches/GCF_002865995.1_ASM286599v1.fa.sketch\n/home/nejc/cdiff_clades/sketches/ZZV15-6598.fa.sketch\n/home/nejc/cdiff_clades/sketches/ZZV13-5576.fa.sketch\n/home/nejc/cdiff_clades/sketches/S1-P-1.fa.sketch\n/home/nejc/cdiff_clades/sketches/Metaclostridioides_mangenotii__GCF_017873185.1.fa.sketch\n/home/nejc/cdiff_clades/sketches/Paraclostridium_bifermentans__GCF_019916025.1.fa.sketch\n/home/nejc/cdiff_clades/sketches/Terrisporobacter_glycolicus__GCF_036812735.1.fa.sketch\n' > panel_sketches.txt
+echo "panel: $(wc -l < panel_sketches.txt)"; for f in $(cat panel_sketches.txt); do [ -f "$f" ] || echo "MISSING $f"; done
+ls /home/nejc/cdiff_clades/sketches/*.fa.sketch > all_sketches.txt
+echo "all: $(wc -l < all_sketches.txt)"
+echo "=== SPECIES SCREEN ==="; date
+skani dist --ql all_sketches.txt --rl panel_sketches.txt -t 64 -s 70 --min-af 5 -o species_screen.tsv
+wc -l species_screen.tsv; date
+echo "=== BENCHMARK triangle n=2000 ==="
+awk -v d=/home/nejc/cdiff_clades/sketches '{print d"/"$0".fa.sketch"}' /home/nejc/.claude-science-scratch/cdiff_work/lists/bench_ids.txt > bench_sketches.txt
+date; /usr/bin/time -v skani triangle --sparse -l bench_sketches.txt -t 64 -s 90 --min-af 30 -o bench_sparse.tsv 2> bench_time.txt || true
+date; wc -l bench_sparse.tsv; grep -E 'Elapsed|Maximum resident' bench_time.txt

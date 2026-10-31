@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=codon460
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=150G
+#SBATCH --output=/home/nejc/cdiff_clades/codon460_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+cd /home/nejc/cdiff_clades
+echo "START $(date)"
+python3 extract_core_families.py panaroo460 codon460 prokka460
+cat codon460/family_stats.txt
+conda activate /home/nejc/.local/share/mamba/envs/singlem
+mkdir -p codon460/aln_aa
+aln(){ f="$1"; mafft --auto --anysymbol --quiet --thread 1 codon460/fam_aa/$f.faa > codon460/aln_aa/$f.aln 2>/dev/null || true; }
+export -f aln
+parallel -j 16 aln :::: codon460/families.txt
+echo "MAFFT_DONE $(date)"
+ls codon460/aln_aa | wc -l
+conda deactivate
+python3 backtranslate_concat.py codon460
+echo "END $(date)"
+ls -la codon460/concat_*.fasta

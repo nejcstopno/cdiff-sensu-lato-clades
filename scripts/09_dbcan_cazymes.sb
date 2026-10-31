@@ -1,0 +1,55 @@
+#!/bin/bash
+#SBATCH -J dbcan460b
+#SBATCH -p mb-cpu
+#SBATCH -c 24
+#SBATCH --mem=100G
+#SBATCH -o /home/nejc/cdiff_clades/dbcan460b_%j.out
+set -eo pipefail
+cd /home/nejc/cdiff_clades
+mkdir -p dbcan460
+if [ ! -s dbcan460/all460.faa ]; then
+  : > dbcan460/all460.faa
+  while read -r g; do
+    f="prokka460/$g/$g.faa"
+    if [ ! -s "$f" ]; then echo "MISSING $f" >&2; continue; fi
+    awk -v G="$g" '/^>/{sub(/^>/,""); split($0,a," "); print ">" G "|" a[1]; next} {print}' "$f" >> dbcan460/all460.faa
+  done < ws460_ids.txt
+fi
+grep -c '^>' dbcan460/all460.faa > dbcan460/nproteins.txt
+echo "proteins: $(cat dbcan460/nproteins.txt)"
+
+# ---- targeted Pfam panel (65 domains) ----
+if [ ! -s dbcan460/pfam_panel.hmm ]; then
+python3 - <<'PY'
+accs=set(l.strip() for l in open('/home/nejc/cdiff_clades/pfam_panel_accs.txt') if l.strip())
+out=open('/home/nejc/cdiff_clades/dbcan460/pfam_panel.hmm','w')
+rec=[]; keep=False; n=0
+for line in open('/volumes/homehpc/storage/DB/funannotate_db/Pfam-A.hmm'):
+    rec.append(line)
+    if line.startswith('ACC '):
+        if line.split()[1].split('.')[0] in accs: keep=True
+    if line.startswith('//'):
+        if keep: out.writelines(rec); n+=1
+        rec=[]; keep=False
+out.close(); print('profiles_extracted',n)
+PY
+fi
+grep -c '^ACC' dbcan460/pfam_panel.hmm
+export PATH=/home/nejc/.local/share/mamba/envs/drep_env/bin:$PATH
+hmmsearch --cpu 24 --cut_ga --domtblout dbcan460/pfam_panel.domtbl -o /dev/null \
+  dbcan460/pfam_panel.hmm dbcan460/all460.faa
+echo DONE_PFAM
+awk '!/^#/{print $1"\t"$4"\t"$5"\t"$7"\t"$8}' dbcan460/pfam_panel.domtbl | sort -u > dbcan460/pfam_panel_hits.tsv
+wc -l dbcan460/pfam_panel_hits.tsv
+
+# ---- dbCAN ----
+export PATH=/home/nejc/miniconda3/envs/dbcan/bin:$PATH
+run_dbcan CAZyme_annotation \
+  --mode protein \
+  --input_raw_data dbcan460/all460.faa \
+  --output_dir dbcan460/out \
+  --db_dir /volumes/homehpc/storage/DB/dbcan_db \
+  --methods diamond,hmm \
+  --threads 24
+echo DONE_DBCAN
+ls -la dbcan460/out

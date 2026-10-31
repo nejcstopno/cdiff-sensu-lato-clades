@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_tree
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=450G
+#SBATCH --output=/home/nejc/cdiff_clades/tree_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+cd /home/nejc/cdiff_clades
+ALN=panaroo460/core_gene_alignment.aln
+echo "START fasttree $(date)"
+conda activate AMOA-SEQ
+export OMP_NUM_THREADS=16
+FastTree -nt -gtr -gamma "$ALN" > core_fasttree.nwk 2> fasttree.log || echo "FASTTREE FAIL"
+echo "END fasttree $(date)"; ls -la core_fasttree.nwk
+echo "START iqtree $(date)"
+iqtree2 -s "$ALN" -m GTR+F+G4 -T 96 -B 1000 --alrt 1000 --prefix core_iqtree -nt AUTO 2>&1 | tail -8 || echo "IQTREE FAIL"
+echo "END iqtree $(date)"; ls -la core_iqtree.* 2>/dev/null | head

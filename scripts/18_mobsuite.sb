@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_mobsuite
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=300G
+#SBATCH --output=/home/nejc/cdiff_clades/mobsuite2_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate mobsuite
+cd /home/nejc/cdiff_clades
+mkdir -p mobsuite460
+echo "START $(date)"
+run_one() {
+  p="$1"; id=$(basename "$p" .fa); out="/home/nejc/cdiff_clades/mobsuite460/$id"
+  [ -s "$out/contig_report.txt" ] && return 0
+  rm -rf "$out"
+  mob_recon --infile "$p" --outdir "$out" --num_threads 2 --force \
+       --database_directory /volumes/homehpc/storage/DB/mobsuite > "/home/nejc/cdiff_clades/mobsuite460/$id.log" 2>&1 || echo "FAIL $id"
+}
+export -f run_one
+parallel -j 40 run_one :::: /home/nejc/.claude-science-scratch/cdiff_work/lists/working_set_460_paths.txt
+echo "END $(date)"
+ls /home/nejc/cdiff_clades/mobsuite460/*/contig_report.txt 2>/dev/null | wc -l
+grep -c '^FAIL' /home/nejc/cdiff_clades/mobsuite2_$SLURM_JOB_ID.out || true

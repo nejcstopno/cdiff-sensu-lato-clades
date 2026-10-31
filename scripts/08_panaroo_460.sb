@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_panaroo
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=96
+#SBATCH --mem=500G
+#SBATCH --output=/home/nejc/cdiff_clades/panaroo_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate panaroo
+cd /home/nejc/cdiff_clades
+ls /home/nejc/cdiff_clades/prokka460/*/*.gff > panaroo_input.txt
+echo "input gffs: $(wc -l < panaroo_input.txt)"
+echo "START $(date)"
+panaroo -i $(cat panaroo_input.txt | tr '\n' ' ') -o panaroo460 \
+        --clean-mode moderate -t 96 --remove-invalid-genes 2>&1 | tail -30
+echo "END $(date)"
+ls -la panaroo460 | head -20
+head -1 panaroo460/gene_presence_absence.csv | cut -c1-200
+wc -l panaroo460/gene_presence_absence.csv

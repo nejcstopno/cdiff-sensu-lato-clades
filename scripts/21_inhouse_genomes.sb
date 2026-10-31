@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_inhouse
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128G
+#SBATCH --output=/home/nejc/cdiff_clades/inhouse_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+echo "queries: $(wc -l < /home/nejc/.claude-science-scratch/cdiff_work/lists/inhouse_new.txt)"
+skani dist --ql /home/nejc/.claude-science-scratch/cdiff_work/lists/inhouse_new.txt --rl all_sketches.txt -t 32 -s 85 --min-af 60 -o inhouse_new_ani.tsv
+wc -l inhouse_new_ani.tsv
+echo DONE

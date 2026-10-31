@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_reduce
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --output=/home/nejc/cdiff_clades/reduce_%j.out
+set -eo pipefail
+cd /home/nejc/cdiff_clades
+head -1 inhouse_new_ani.tsv > inhouse_top.tsv
+tail -n +2 inhouse_new_ani.tsv | sort -S 8G --parallel=8 -t$'\t' -k2,2 -k3,3gr \
+  | awk -F'\t' '{if($2!=p){n=0;p=$2} if(++n<=5) print}' >> inhouse_top.tsv
+wc -l inhouse_top.tsv
+echo DONE

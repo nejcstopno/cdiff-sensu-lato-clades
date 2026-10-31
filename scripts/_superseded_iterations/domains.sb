@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_domains
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=150G
+#SBATCH --output=/home/nejc/cdiff_clades/domains_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate prokka
+cd /home/nejc/cdiff_clades
+Q=/home/nejc/.claude-science-scratch/cdiff_work/lists/clade_specific_proteins.faa
+echo "START pfam $(date)"
+hmmscan --cpu 48 -E 1e-5 --domtblout pfam_clade_specific.domtbl -o /dev/null \
+        /volumes/homehpc/storage/DB/funannotate_db/Pfam-A.hmm "$Q"
+echo "START dbcan $(date)"
+hmmscan --cpu 48 -E 1e-5 --domtblout dbcan_clade_specific.domtbl -o /dev/null \
+        /volumes/homehpc/storage/DB/dbcan_db/dbCAN.hmm "$Q"
+echo "START merops $(date)"
+conda activate dbcan
+diamond blastp -q "$Q" -d /volumes/homehpc/storage/DB/merops_db/pepunit.dmnd \
+        -o merops_clade_specific.tsv --threads 48 -e 1e-10 --max-target-seqs 1 \
+        --outfmt 6 qseqid sseqid pident length evalue bitscore stitle 2>&1 | tail -3
+echo "END $(date)"
+wc -l pfam_clade_specific.domtbl dbcan_clade_specific.domtbl merops_clade_specific.tsv

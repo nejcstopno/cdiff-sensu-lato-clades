@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_pfam
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=120G
+#SBATCH --output=/home/nejc/cdiff_clades/pfam_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate eggnog_mapper_env   # mmseqs 15.6f452
+cd /home/nejc/cdiff_clades
+DB=/volumes/homehpc/storage/DB/DRAMv1
+rm -rf pfam_tmp pfam_qdb && mkdir -p pfam_tmp
+echo "START $(date)"
+mmseqs createdb /home/nejc/.claude-science-scratch/cdiff_work/lists/clade_specific_proteins.faa pfam_qdb
+mmseqs search pfam_qdb "$DB/pfam.mmspro" pfam_res pfam_tmp --threads 32 -e 1e-5 --max-seqs 20 -s 7 2>&1 | tail -3
+mmseqs convertalis pfam_qdb "$DB/pfam.mmspro" pfam_res pfam_hits.tsv --threads 32 \
+    --format-output "query,target,theader,evalue,bits,pident,alnlen" 2>&1 | tail -2
+echo "END $(date)"
+wc -l pfam_hits.tsv
+cut -f1 pfam_hits.tsv | sort -u | wc -l

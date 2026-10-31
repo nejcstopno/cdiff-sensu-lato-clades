@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_pp4
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=450G
+#SBATCH --output=/home/nejc/cdiff_clades/pp4_%j.out
+set -euo pipefail
+export JAVA_HOME="${JAVA_HOME:-}"
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate poppunk_new
+which pip python
+python -m ensurepip --upgrade 2>&1 | tail -3 || true
+python -m pip install setuptools 2>&1 | tail -5
+python -c "import pkg_resources; print('pkg_resources OK')"
+cd /home/nejc/cdiff_clades
+rm -rf pp_db
+echo "START create-db $(date)"
+poppunk --create-db --r-files pp_rfiles.txt --output pp_db --threads 64 2>&1 | tail -15
+echo "END create-db $(date)"
+echo "START fit $(date)"
+poppunk --fit-model dbscan --ref-db pp_db --output pp_db --threads 64 2>&1 | tail -20
+echo "END fit $(date)"
+ls pp_db | head -20

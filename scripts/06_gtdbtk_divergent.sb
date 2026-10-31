@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_gtdbtk
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=48
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/gtdbtk_%j.out
+set -euo pipefail
+export PERL5LIB="${PERL5LIB:-}"
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate gtdbtk-2.4.1
+export GTDBTK_DATA_PATH=/volumes/homehpc/storage/DB/gtdbtk_r226_db/release226
+cd /home/nejc/cdiff_clades
+rm -rf gtdbtk_in && mkdir -p gtdbtk_in
+GF=/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed
+while read g; do ln -sf "$GF/$g.fa" gtdbtk_in/"$g.fa"; done < /home/nejc/.claude-science-scratch/cdiff_work/lists/divergent_ids.txt
+for g in GCF_009362915.1_ASM936291v1 GCF_003697225.1_ASM369722v1 GCF_000009205.2_ASM920v2 AF351-6; do ln -sf "$GF/$g.fa" gtdbtk_in/"$g.fa"; done
+echo "input genomes: $(ls gtdbtk_in | wc -l)"
+echo "START $(date)"
+gtdbtk classify_wf --genome_dir gtdbtk_in --extension fa --out_dir gtdbtk_divergent --cpus 48 --skip_ani_screen 2>&1 | tail -25
+echo "END $(date)"
+ls gtdbtk_divergent/*.summary.tsv 2>/dev/null || ls gtdbtk_divergent

@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --job-name=pan464
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=250G
+#SBATCH --time=12:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/pan464_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+cd /home/nejc/cdiff_clades
+ls /home/nejc/cdiff_clades/prokka460/*/*.gff  > pan464_input.txt
+ls /home/nejc/cdiff_clades/prokka_og/*/*.gff >> pan464_input.txt
+echo "input gffs: $(wc -l < pan464_input.txt)"
+echo "START $(date)"
+conda activate panaroo
+panaroo -i $(cat pan464_input.txt | tr '\n' ' ') -o panaroo464 \
+        --clean-mode moderate -t 16 --remove-invalid-genes 2>&1 | tail -30
+echo "PANAROO_DONE $(date)"
+cat panaroo464/summary_statistics.txt
+conda deactivate
+python3 extract_core_families.py panaroo464 codon464 prokka460 prokka_og
+cat codon464/family_stats.txt
+conda activate /home/nejc/.local/share/mamba/envs/singlem
+mkdir -p codon464/aln_aa
+aln(){ f="$1"; mafft --auto --anysymbol --quiet --thread 1 codon464/fam_aa/$f.faa > codon464/aln_aa/$f.aln 2>/dev/null || true; }
+export -f aln
+parallel -j 16 aln :::: codon464/families.txt
+echo "MAFFT_DONE $(date)"; ls codon464/aln_aa | wc -l
+conda deactivate
+python3 backtranslate_concat.py codon464
+echo "END $(date)"
+ls -la codon464/concat_*.fasta

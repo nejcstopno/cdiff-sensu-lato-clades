@@ -1,0 +1,33 @@
+#!/bin/bash
+#SBATCH --job-name=ttrun3
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=2-00:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/ttrun3_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate treetime_env
+set -u
+pip uninstall -y treetime > /tmp/u.txt 2>&1 || true
+pip install --no-cache-dir phylo-treetime > /tmp/pt.txt 2>&1
+tail -2 /tmp/pt.txt
+python -c "import treetime; print('phylo-treetime version', treetime.version)"
+treetime --version > /tmp/v.txt 2>&1 || true
+cat /tmp/v.txt
+cd /home/nejc/cdiff_clades
+for TAG in lo hi; do
+  if [ "$TAG" = "lo" ]; then RATE=2.5e-9; else RATE=1.5e-8; fi
+  echo "=== TreeTime rate $RATE ==="
+  rm -rf treetime_$TAG
+  treetime --tree treetime_in/clonalframe_persite.nwk \
+           --dates treetime_in/dates.csv \
+           --sequence-length 2540864 \
+           --clock-rate $RATE \
+           --keep-root --confidence --no-covariance \
+           --outdir treetime_$TAG > treetime_$TAG.log 2>&1 || echo "TREETIME_FAILED_$TAG"
+  tail -18 treetime_$TAG.log
+  ls treetime_$TAG/ 2>/dev/null
+done
+echo "DONE_TTRUN3"

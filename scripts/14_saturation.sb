@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=sat460
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=120G
+#SBATCH --time=8:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/sat460_%j.out
+set -eo pipefail
+cd /home/nejc/cdiff_clades
+export PATH=/home/nejc/.local/share/mamba/envs/gubbins_env/bin:$PATH
+mkdir -p satur
+echo "START $(date)"
+for part in nt p12 aa; do
+  python3 subset_aln.py codon460/concat_$part.fasta panel_ids.txt satur/panel460_$part.fasta
+done
+for part in nt p12 aa; do
+  iqtree2 -s satur/panel460_$part.fasta -m MFP -n 0 -T 8 --prefix satur/panel460_$part --quiet --redo > satur/iq_$part.log 2>&1 || echo "IQFAIL $part"
+  grep -m1 "Best-fit model" satur/panel460_$part.log || true
+done
+echo "IQTREE_DONE $(date)"
+for part in nt p12 aa; do
+  dt=nt; if [ "$part" = "aa" ]; then dt=aa; fi
+  python3 saturation_stats.py satur/panel460_$part.fasta panel_ids.txt satur/panel460_$part.mldist $dt satur/sat460_$part
+done
+echo "END $(date)"
+wc -l satur/sat460_*_pairs.tsv

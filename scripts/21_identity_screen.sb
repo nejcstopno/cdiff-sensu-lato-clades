@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_idscreen
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128G
+#SBATCH --output=/home/nejc/cdiff_clades/idscreen_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+printf '/home/nejc/cdiff_clades/sketches/CLO_DA8493AA_AS.fa.sketch\n/home/nejc/cdiff_clades/sketches/CLO_DA8475AA_AS.fa.sketch\n/home/nejc/cdiff_clades/sketches/CLO_DA8476AA_AS.fa.sketch\n/home/nejc/cdiff_clades/sketches/MC1-4.fa.sketch\n/home/nejc/cdiff_clades/sketches/1841_TUM20227.fa.sketch\n/home/nejc/cdiff_clades/sketches/1840_TUM20226.fa.sketch\n/home/nejc/cdiff_clades/sketches/1843_TUM20838.fa.sketch\n/home/nejc/cdiff_clades/sketches/1844_TUM20839.fa.sketch\n/home/nejc/cdiff_clades/sketches/1842_TUM20350.fa.sketch\n' > ext_sketches.txt
+for f in $(cat ext_sketches.txt); do [ -f "$f" ] || echo "MISSING $f"; done
+echo "queries: $(wc -l < ext_sketches.txt)"
+skani dist --ql ext_sketches.txt --rl all_sketches.txt -t 32 -s 99 --min-af 80 -o ext_identity.tsv
+wc -l ext_identity.tsv

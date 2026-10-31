@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_genomad2
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/genomad2_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+if [ ! -d /home/nejc/miniconda3/envs/genomad_new ]; then
+  conda create -y -n genomad_new -c conda-forge -c bioconda 'genomad>=1.8' 2>&1 | tail -5
+fi
+conda activate genomad_new
+genomad --version
+cd /home/nejc/cdiff_clades
+mkdir -p genomad_out
+echo "START $(date)"
+for b in genomad_batches/batch_0*.fna; do
+  n=$(basename "$b" .fna)
+  [ -s "genomad_out/$n/${n}_summary/${n}_virus_summary.tsv" ] && { echo "skip $n"; continue; }
+  echo "--- $n $(date) ---"
+  rm -rf "genomad_out/$n"
+  genomad end-to-end --cleanup --threads 64 --splits 4 "$b" "genomad_out/$n" /volumes/homehpc/storage/DB/genomad_db 2>&1 | tail -3
+done
+echo "END $(date)"
+ls genomad_out/*/*_summary/*_virus_summary.tsv 2>/dev/null | wc -l

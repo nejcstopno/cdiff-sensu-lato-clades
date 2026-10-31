@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH -J dbcan460
+#SBATCH -p mb-cpu
+#SBATCH -c 64
+#SBATCH --mem=250G
+#SBATCH -o /home/nejc/cdiff_clades/dbcan460_%j.out
+set -eo pipefail
+cd /home/nejc/cdiff_clades
+mkdir -p dbcan460
+# concatenate all 460 proteomes, prefixing each protein id with the genome id
+if [ ! -s dbcan460/all460.faa ]; then
+  : > dbcan460/all460.faa
+  while read -r g; do
+    f="prokka460/$g/$g.faa"
+    if [ ! -s "$f" ]; then echo "MISSING $f" >&2; continue; fi
+    awk -v G="$g" '/^>/{sub(/^>/,""); split($0,a," "); print ">" G "|" a[1]; next} {print}' "$f" >> dbcan460/all460.faa
+  done < ws460_ids.txt
+fi
+grep -c '^>' dbcan460/all460.faa > dbcan460/nproteins.txt
+echo "proteins: $(cat dbcan460/nproteins.txt)"
+export PATH=/home/nejc/miniconda3/envs/dbcan/bin:$PATH
+run_dbcan CAZyme_annotation \
+  --mode protein \
+  --input_raw_data dbcan460/all460.faa \
+  --output_dir dbcan460/out \
+  --db_dir /volumes/homehpc/storage/DB/dbcan_db \
+  --methods diamond,hmm \
+  --threads 64
+echo DONE_DBCAN
+ls -la dbcan460/out

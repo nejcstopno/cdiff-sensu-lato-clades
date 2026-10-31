@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_prokka460
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=192
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/prokka460_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate prokka
+cd /home/nejc/cdiff_clades
+mkdir -p prokka460
+echo "START $(date)"; prokka --version
+run_one() {
+  p="$1"; id=$(basename "$p" .fa)
+  out="/home/nejc/cdiff_clades/prokka460/$id"
+  if [ -s "$out/$id.gff" ]; then echo "skip $id"; return 0; fi
+  prokka --outdir "$out" --prefix "$id" --locustag "$id" --kingdom Bacteria \
+         --genus Clostridioides --species difficile --gcode 11 --cpus 4 \
+         --force --quiet "$p" 2> "/home/nejc/cdiff_clades/prokka460/$id.err" || echo "FAIL $id"
+}
+export -f run_one
+export W=/home/nejc/cdiff_clades
+parallel -j 48 run_one :::: /home/nejc/.claude-science-scratch/cdiff_work/lists/working_set_460_paths.txt
+echo "END $(date)"
+ls /home/nejc/cdiff_clades/prokka460/*/*.gff 2>/dev/null | wc -l

@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_kofam_all
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=200G
+#SBATCH --output=/home/nejc/cdiff_clades/kofamall_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate panaroo
+cd /home/nejc/cdiff_clades
+python3 translate_pan.py panaroo460/pan_genome_reference.fa pan_proteins.faa
+conda activate prokka
+DB=/volumes/homehpc/storage/DB/DRAMv1
+echo "START $(date)"
+hmmsearch --cpu 64 --domtblout kofam_pan.domtbl -o /dev/null "$DB/kofam_profiles.hmm" pan_proteins.faa
+echo "END $(date)"
+wc -l kofam_pan.domtbl

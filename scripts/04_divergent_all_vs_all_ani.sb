@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_div
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=64G
+#SBATCH --output=/home/nejc/cdiff_clades/div_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+awk -v d=/home/nejc/cdiff_clades/sketches '{print d"/"$0".fa.sketch"}' /home/nejc/.claude-science-scratch/cdiff_work/lists/divergent_ids.txt > div_sketches.txt
+# add the 8 closed C. difficile references as anchors
+for g in GCF_000009205.2_ASM920v2 GCF_001077535.1_ASM107753v2 GCF_003095675.1_ASM309567v1 GCF_003095695.1_ASM309569v1 GCF_002073735.2_ASM207373v2 GCF_009362915.1_ASM936291v1 GCF_003697225.1_ASM369722v1 GCF_002080065.1_ASM208006v1; do
+  echo "/home/nejc/cdiff_clades/sketches/$g.fa.sketch" >> div_sketches.txt
+done
+echo "n = $(wc -l < div_sketches.txt)"
+skani triangle --sparse -l div_sketches.txt -t 16 -s 70 --min-af 15 -o divergent_all_vs_all.tsv
+wc -l divergent_all_vs_all.tsv

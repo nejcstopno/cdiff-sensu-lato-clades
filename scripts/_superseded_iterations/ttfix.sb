@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=ttfix
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --output=/home/nejc/cdiff_clades/ttfix_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate dating_env
+set -u
+pip install --no-cache-dir graphviz 2>&1 | tail -3
+treetime --version > /tmp/ttv.txt 2>&1 || true
+cat /tmp/ttv.txt
+python -c "import treetime; print('treetime_import_OK', treetime.version)"
+echo "DONE_TTFIX"

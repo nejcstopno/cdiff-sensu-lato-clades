@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_snptree
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/snptree_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate panaroo
+cd /home/nejc/cdiff_clades
+echo "START extract $(date)"
+python3 extract_snps.py panaroo460/core_gene_alignment.aln core_snps.fasta const_counts.txt
+echo "END extract $(date)"
+conda activate AMOA-SEQ
+echo "START iqtree $(date)"
+iqtree2 -s core_snps.fasta -m GTR+F+ASC -T 64 -B 1000 --alrt 1000 \
+        -fconst $(cat const_counts.txt) --prefix core_snp_iqtree 2>&1 | tail -10
+echo "END iqtree $(date)"
+ls -la core_snp_iqtree.treefile 2>/dev/null

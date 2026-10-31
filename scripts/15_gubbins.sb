@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --job-name=gub460
+#SBATCH --partition=mb-cpu
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=400G
+#SBATCH --output=/home/nejc/cdiff_clades/gubbins_%j.out
+set -euo pipefail
+export PATH=/home/nejc/.local/share/mamba/envs/gubbins_env/bin:$PATH
+cd /home/nejc/cdiff_clades
+mkdir -p gubbins460
+cd gubbins460
+echo "START $(date)"
+run_gubbins.py \
+  --prefix gub460 \
+  --starting-tree /home/nejc/cdiff_clades/core_fasttree.nwk \
+  --tree-builder fasttree \
+  --model GTRGAMMA \
+  --iterations 5 \
+  --threads 64 \
+  --verbose \
+  /home/nejc/cdiff_clades/panaroo460/core_gene_alignment.aln
+echo "DONE $(date)"
+ls -la

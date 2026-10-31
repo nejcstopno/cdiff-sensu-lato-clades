@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_sketch
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=240G
+#SBATCH --output=/home/nejc/cdiff_clades/sketch_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+mkdir -p /home/nejc/cdiff_clades
+GF=/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed
+awk -v d="$GF" '{print d"/"$0".fa"}' /home/nejc/.claude-science-scratch/cdiff_work/lists/qc_passed_ids.txt > /home/nejc/cdiff_clades/genome_paths.txt
+ls /home/nejc/.claude-science-scratch/cdiff_work/refpanel/*.fa >> /home/nejc/cdiff_clades/genome_paths.txt
+echo "genomes to sketch: $(wc -l < /home/nejc/cdiff_clades/genome_paths.txt)"
+echo "START $(date)"
+skani sketch -l /home/nejc/cdiff_clades/genome_paths.txt -o /home/nejc/cdiff_clades/sketches -t 64
+echo "END $(date)"
+echo "sketches: $(ls /home/nejc/cdiff_clades/sketches | wc -l)"
+du -sh /home/nejc/cdiff_clades/sketches

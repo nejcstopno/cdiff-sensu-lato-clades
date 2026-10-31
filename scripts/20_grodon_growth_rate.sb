@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J grodon2run
+#SBATCH -p mb-cpu
+#SBATCH -c 2
+#SBATCH --mem=12G
+#SBATCH -o /home/nejc/cdiff_clades/grodon2run_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u; conda activate pantools; set -u
+unset R_LIBS_USER
+Rscript --vanilla /home/nejc/cdiff_clades/grodon_run.R
+echo DONE_GRODON

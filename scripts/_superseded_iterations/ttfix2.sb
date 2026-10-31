@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=ttfix2
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --output=/home/nejc/cdiff_clades/ttfix2_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+set +u
+conda activate dating_env
+set -u
+echo "--- attempt A: supply libEGL via conda-forge ---"
+conda install -y -c conda-forge libglvnd-egl-cos7-x86_64 2>&1 | tail -3 || echo "condaEGL_failed"
+if python -c "import treetime" 2>/dev/null; then
+  echo "ATTEMPT_A_OK"
+else
+  echo "--- attempt B: pin pre-Qt treetime ---"
+  pip install --no-cache-dir "treetime==0.11.4" 2>&1 | tail -4
+  pip uninstall -y PyQt6 PyQt6-Qt6 PyQt6-sip 2>&1 | tail -2
+fi
+treetime --version > /tmp/ttv2.txt 2>&1 || true
+cat /tmp/ttv2.txt
+python -c "import treetime; print('treetime_import_OK', treetime.version)"
+echo "DONE_TTFIX2"

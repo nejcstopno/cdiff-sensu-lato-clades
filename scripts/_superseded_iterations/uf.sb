@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_uf
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=250G
+#SBATCH --dependency=afterok:17069
+#SBATCH --output=/home/nejc/cdiff_clades/uf_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+echo "START $(date)"
+python3 union_find.py derep_edges.tsv /home/nejc/.claude-science-scratch/cdiff_work/lists/qc_passed_ids.txt derep_clusters.tsv
+echo "END $(date)"
+head -3 derep_clusters.tsv; wc -l derep_clusters.tsv

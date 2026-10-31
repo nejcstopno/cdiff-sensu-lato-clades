@@ -1,0 +1,57 @@
+#!/bin/bash
+#SBATCH -J toxscan
+#SBATCH -p mb-cpu
+#SBATCH -c 48
+#SBATCH --mem=200G
+#SBATCH -o /home/nejc/cdiff_clades/toxscan_%j.out
+set -euo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate prokka
+W=/home/nejc/cdiff_clades
+T=$W/toxin
+mkdir -p $T
+cp /home/nejc/.claude-science-scratch/cdiff_work/refs/ref_toxin_proteins.faa $T/
+cd $T
+echo "STAGE concat"
+cat $W/prokka460/*/*.faa > all460.faa
+cat $W/prokka460/*/*.fna > all460.fna
+grep -c '>' all460.faa
+grep -c '>' all460.fna
+echo "STAGE cds_table"
+for f in $W/prokka460/*/*.gff; do
+  g=$(basename "$f" .gff)
+  awk -v g="$g" -F'\t' 'NF>=9 && $3=="CDS" {
+    id=""; prod=""; gene="";
+    n=split($9,a,";");
+    for(i=1;i<=n;i++){
+      if(a[i]~/^ID=/){id=substr(a[i],4)}
+      else if(a[i]~/^product=/){prod=substr(a[i],9)}
+      else if(a[i]~/^gene=/){gene=substr(a[i],6)}
+    }
+    print g"\t"$1"\t"$4"\t"$5"\t"$7"\t"id"\t"gene"\t"prod }' "$f"
+done > all460_cds.tsv
+wc -l all460_cds.tsv
+for f in $W/prokka460/*/*.gff; do
+  g=$(basename "$f" .gff)
+  awk -v g="$g" '/^##sequence-region/{print g"\t"$2"\t"$4}' "$f"
+done > contig_lengths.tsv
+wc -l contig_lengths.tsv
+echo "STAGE toxnamed"
+awk '/^>/{keep=($0 ~ /Toxin A$/ || $0 ~ /Toxin B$/)} keep' all460.faa > toxnamed.faa
+grep -c '>' toxnamed.faa
+echo "STAGE makeblastdb"
+makeblastdb -in all460.faa -dbtype prot -out db_prot > mkdb_prot.log
+makeblastdb -in all460.fna -dbtype nucl -out db_nucl > mkdb_nucl.log
+echo "STAGE blastp"
+blastp -query ref_toxin_proteins.faa -db db_prot -evalue 1e-5 -num_threads 48 \
+  -max_target_seqs 100000 \
+  -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen' \
+  -out blastp_refs_vs_460.tsv
+wc -l blastp_refs_vs_460.tsv
+echo "STAGE tblastn"
+tblastn -query ref_toxin_proteins.faa -db db_nucl -evalue 1e-5 -num_threads 48 \
+  -max_target_seqs 100000 \
+  -outfmt '6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qlen slen' \
+  -out tblastn_refs_vs_460.tsv
+wc -l tblastn_refs_vs_460.tsv
+echo "TOXSCAN_DONE_MARKER"

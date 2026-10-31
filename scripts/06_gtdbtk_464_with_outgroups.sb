@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name=gtdb464
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=250G
+#SBATCH --time=12:00:00
+#SBATCH --output=/home/nejc/cdiff_clades/gtdb464_%j.out
+set -eo pipefail
+export PERL5LIB="${PERL5LIB:-}"
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate gtdbtk-2.4.1
+export GTDBTK_DATA_PATH=/volumes/homehpc/storage/DB/gtdbtk_r226_db/release226
+cd /home/nejc/cdiff_clades
+rm -rf gtdb464_in && mkdir -p gtdb464_in
+GF=/volumes/homehpc/storage/finished_projects/NejcS/NLZOH/Cdiff_comperative_genomics/newRun/genomes_fixed
+while IFS=, read -r g rest; do [ "$g" = "genome_id" ] && continue; ln -sf "$GF/$g.fa" gtdb464_in/"$g.fa"; done < clade460.csv
+for o in GCF_002865995.1 GCF_017873185.1 GCF_019916025.1 GCF_036812735.1; do ln -sf /home/nejc/cdiff_clades/outgroups/$o.fna gtdb464_in/"OG$o.fa"; done
+echo "input genomes: $(ls gtdb464_in | wc -l)"
+echo "START $(date)"
+gtdbtk identify --genome_dir gtdb464_in --extension fa --out_dir gtdb464 --cpus 24 2>&1 | tail -10
+echo "IDENTIFY_DONE $(date)"
+gtdbtk align --identify_dir gtdb464 --out_dir gtdb464 --cpus 24 --skip_gtdb_refs 2>&1 | tail -10
+echo "END $(date)"
+ls -la gtdb464/align/

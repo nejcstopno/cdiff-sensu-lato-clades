@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=cdiff_dc13nb
+#SBATCH --partition=mb-cpu
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=128G
+#SBATCH --output=/home/nejc/cdiff_clades/dc13nb_%j.out
+set -eo pipefail
+source /home/nejc/miniconda3/etc/profile.d/conda.sh
+conda activate skani
+cd /home/nejc/cdiff_clades
+skani dist -q sketches/CLO_EA8969AA_AS.fa.sketch --rl all_sketches.txt -t 32 -s 90 --min-af 50 -o dc13_neighbours.tsv
+wc -l dc13_neighbours.tsv
+echo DONE
